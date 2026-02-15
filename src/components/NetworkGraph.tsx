@@ -431,15 +431,11 @@ export default function NetworkGraph({
       }
     });
 
-    // Labels de los nodos
+    // Labels de los nodos - todos muestran el nombre
     node
       .append("text")
-      .text((d) => {
-        if (d.name === centerName) return d.name.split(" ")[0];
-        if (d.mentions > 12) return d.name.split(" ")[0];
-        return "";
-      })
-      .attr("font-size", (d) => (d.name === centerName ? 11 : 9))
+      .text((d) => d.name.split(" ")[0])
+      .attr("font-size", (d) => (d.name === centerName ? 11 : 8))
       .attr("font-weight", (d) => (d.name === centerName ? "bold" : "normal"))
       .attr("dx", (d) => {
         if (d.name === centerName) return 0;
