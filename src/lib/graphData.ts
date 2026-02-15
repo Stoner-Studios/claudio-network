@@ -184,3 +184,50 @@ export function getRelationColor(type: string): string {
   const normalizedType = type.toLowerCase().trim();
   return relationTypeColors[normalizedType] || relationTypeColors.default;
 }
+
+// Relaciones bidireccionales (flecha doble en ambos extremos)
+// Estas relaciones son recíprocas por naturaleza
+export const bidirectionalRelations: Set<string> = new Set([
+  "amigo",
+  "amigo_familia",
+  "pareja",
+  "esposa",
+  "esposo",
+  "colega",
+  "colaborador",
+  "familiar",
+  "hermano",
+  "hermana",
+  "primo",
+  "prima",
+  "tio",
+  "tia",
+  "tío",
+  "tía",
+]);
+
+// Relaciones unidireccionales (flecha en un solo sentido)
+// source -> target: source es el sujeto, target es el objeto
+// Ejemplo: "maestro" con source=Maestro, target=Alumno significa Maestro enseña a Alumno
+export const unidirectionalRelations: Set<string> = new Set([
+  "maestro",
+  "maestro_espiritual",
+  "mentor",
+  "discipulo",
+  "alumno",
+  "estudiante",
+  "hijo",
+  "hija",
+  "padre",
+  "madre",
+  "promotor",
+  "influencia",
+  "anfitriona",
+  "referencia",
+  "conocido",
+]);
+
+export function isBidirectional(type: string): boolean {
+  const normalizedType = type.toLowerCase().trim();
+  return bidirectionalRelations.has(normalizedType);
+}

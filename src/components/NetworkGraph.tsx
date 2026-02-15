@@ -3,13 +3,14 @@
 import { useEffect, useRef, useState, useCallback } from "react";
 import * as d3 from "d3";
 import { GraphNode } from "@/types/persona";
-import { GraphData, getRelationColor } from "@/lib/graphData";
+import { GraphData, getRelationColor, isBidirectional } from "@/lib/graphData";
 
 interface NetworkGraphProps {
   data: GraphData;
   onNodeClick?: (node: GraphNode) => void;
   onNodeCenter?: (node: GraphNode) => void;
   claudioName?: string;
+  centeredNode?: string | null; // Nombre del nodo a centrar
 }
 
 interface ExtendedNode extends GraphNode {
@@ -17,6 +18,14 @@ interface ExtendedNode extends GraphNode {
   y: number;
   fx: number | null;
   fy: number | null;
+  ring?: number;
+  angle?: number;
+}
+
+interface ExtendedLink {
+  source: ExtendedNode;
+  target: ExtendedNode;
+  type: string;
 }
 
 export default function NetworkGraph({
@@ -24,15 +33,23 @@ export default function NetworkGraph({
   onNodeClick,
   onNodeCenter,
   claudioName = "Claudio Naranjo",
+  centeredNode = null,
 }: NetworkGraphProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const simulationRef = useRef<d3.Simulation<ExtendedNode, any> | null>(null);
+  const nodesRef = useRef<ExtendedNode[]>([]);
   const [dimensions, setDimensions] = useState({ width: 800, height: 600 });
 
   // Función para identificar si es Claudio
   const isClaudioNode = (name: string) =>
     name === claudioName || name === "Claudio Naranjo";
+
+  // Función para obtener el radio de un nodo
+  const getNodeRadius = (d: ExtendedNode, isCenter: boolean = false) => {
+    if (isCenter) return 28;
+    return Math.sqrt(d.mentions) * 1.5 + 8;
+  };
 
   // Actualizar dimensiones cuando cambia el contenedor
   useEffect(() => {
@@ -48,10 +65,47 @@ export default function NetworkGraph({
     return () => window.removeEventListener("resize", updateDimensions);
   }, []);
 
+  // Función para reorganizar el grafo con un nuevo centro
+  const reorganizeAroundNode = useCallback((nodeName: string) => {
+    if (!simulationRef.current || !nodesRef.current.length) return;
+
+    const { width, height } = dimensions;
+    const centerX = width / 2;
+    const centerY = height / 2;
+
+    // Fijar el nuevo centro y liberar los demás
+    nodesRef.current.forEach(n => {
+      if (n.name === nodeName || n.id === nodeName) {
+        n.fx = centerX;
+        n.fy = centerY;
+        n.x = centerX;
+        n.y = centerY;
+      } else {
+        n.fx = null;
+        n.fy = null;
+      }
+    });
+
+    // Reiniciar la simulación con más energía
+    simulationRef.current.alpha(0.8).restart();
+  }, [dimensions]);
+
+  // Reorganizar cuando cambia centeredNode
+  useEffect(() => {
+    if (centeredNode && simulationRef.current) {
+      reorganizeAroundNode(centeredNode);
+    }
+  }, [centeredNode, reorganizeAroundNode]);
+
   const drawGraph = useCallback(() => {
     if (!svgRef.current || !data.nodes.length) return;
 
     const { width, height } = dimensions;
+    const centerX = width / 2;
+    const centerY = height / 2;
+
+    // Determinar el centro actual (la persona seleccionada o Claudio por defecto)
+    const centerName = centeredNode || claudioName;
 
     // Detener simulación anterior si existe
     if (simulationRef.current) {
@@ -76,73 +130,189 @@ export default function NetworkGraph({
 
     svg.call(zoom);
 
-    // Preparar nodos con posiciones iniciales
-    const nodes: ExtendedNode[] = data.nodes.map((d) => {
-      const isClaudio = isClaudioNode(d.name);
-      return {
-        ...d,
-        x: isClaudio ? width / 2 : width / 2 + (Math.random() - 0.5) * 300,
-        y: isClaudio ? height / 2 : height / 2 + (Math.random() - 0.5) * 300,
-        fx: isClaudio ? width / 2 : null,
-        fy: isClaudio ? height / 2 : null,
-      };
-    });
+    // Determinar layout
+    const useCircularLayout = data.nodes.length <= 20;
 
-    // Preparar links con referencias a índices
-    const links = data.links
-      .map((d) => ({
-        source: nodes.findIndex((n) => n.id === d.source || n.name === d.source),
-        target: nodes.findIndex((n) => n.id === d.target || n.name === d.target),
-        type: d.type,
-      }))
-      .filter((l) => l.source !== -1 && l.target !== -1);
+    // Preparar nodos
+    let nodes: ExtendedNode[];
 
-    // Crear simulación de fuerza - configurada para estabilidad
-    const simulation = d3
-      .forceSimulation(nodes)
-      .force(
-        "link",
-        d3.forceLink(links).distance(100).strength(0.3)
-      )
-      .force("charge", d3.forceManyBody().strength(-200))
-      .force("center", d3.forceCenter(width / 2, height / 2))
-      .force("collision", d3.forceCollide().radius(40))
-      .alphaDecay(0.05) // Converge más rápido
-      .velocityDecay(0.4); // Más estable
+    if (useCircularLayout) {
+      // Layout circular concéntrico
+      const centerNodeData = data.nodes.find((n) => n.name === centerName);
+      const otherNodes = data.nodes
+        .filter((n) => n.name !== centerName)
+        .sort((a, b) => b.mentions - a.mentions);
 
-    simulationRef.current = simulation;
+      if (!centerNodeData) return;
 
-    // Dibujar links con flechas direccionales
-    // Definir marcadores de flecha para cada tipo de relación
+      const minDimension = Math.min(width, height);
+      const baseRadius = minDimension * 0.15;
+
+      nodes = [];
+
+      // Nodo central (la persona seleccionada, no siempre Claudio)
+      nodes.push({
+        ...centerNodeData,
+        x: centerX,
+        y: centerY,
+        fx: centerX,
+        fy: centerY,
+        ring: 0,
+        angle: 0,
+      });
+
+      // Distribuir en anillos (incluyendo a Claudio si no es el centro)
+      otherNodes.forEach((node, i) => {
+        const ring = i < 6 ? 1 : i < 14 ? 2 : 3;
+        const ringNodes = otherNodes.filter((_, j) =>
+          ring === 1 ? j < 6 : ring === 2 ? j >= 6 && j < 14 : j >= 14
+        );
+        const indexInRing = ringNodes.indexOf(node);
+        const ringRadius = baseRadius * (ring === 1 ? 1 : ring === 2 ? 1.7 : 2.4);
+        const angle = (indexInRing / ringNodes.length) * 2 * Math.PI - Math.PI / 2;
+
+        nodes.push({
+          ...node,
+          x: centerX + ringRadius * Math.cos(angle),
+          y: centerY + ringRadius * Math.sin(angle),
+          fx: null,
+          fy: null,
+          ring,
+          angle,
+        });
+      });
+
+    } else {
+      // Force-directed
+      nodes = data.nodes.map((d) => {
+        const isCenter = d.name === centerName;
+        return {
+          ...d,
+          x: isCenter ? width / 2 : width / 2 + (Math.random() - 0.5) * 500,
+          y: isCenter ? height / 2 : height / 2 + (Math.random() - 0.5) * 500,
+          fx: isCenter ? width / 2 : null,
+          fy: isCenter ? height / 2 : null,
+        };
+      });
+    }
+
+    // Guardar referencia a los nodos
+    nodesRef.current = nodes;
+
+    // Crear mapa de nodos para buscar por nombre
+    const nodeMap = new Map<string, ExtendedNode>();
+    nodes.forEach(n => nodeMap.set(n.name, n));
+
+    // Preparar links con referencias a objetos nodo
+    const links: ExtendedLink[] = data.links
+      .map((d) => {
+        const sourceNode = nodeMap.get(String(d.source));
+        const targetNode = nodeMap.get(String(d.target));
+        if (!sourceNode || !targetNode) return null;
+        return {
+          source: sourceNode,
+          target: targetNode,
+          type: d.type,
+        };
+      })
+      .filter((l): l is ExtendedLink => l !== null);
+
+    // Dibujar círculos de fondo si es layout circular
+    if (useCircularLayout) {
+      const minDimension = Math.min(width, height);
+      const baseRadius = minDimension * 0.15;
+      [1, 2, 3].forEach((ring) => {
+        const radius = baseRadius * (ring === 1 ? 1 : ring === 2 ? 1.7 : 2.4);
+        g.append("circle")
+          .attr("cx", centerX)
+          .attr("cy", centerY)
+          .attr("r", radius)
+          .attr("fill", "none")
+          .attr("stroke", "#e2e8f0")
+          .attr("stroke-width", 1)
+          .attr("stroke-dasharray", "4,4")
+          .attr("opacity", 0.5);
+      });
+    }
+
+    // Crear simulación solo para force-directed
+    if (!useCircularLayout) {
+      const simulation = d3
+        .forceSimulation(nodes)
+        .force(
+          "link",
+          d3.forceLink<ExtendedNode, ExtendedLink>(links)
+            .id((d) => d.name)
+            .distance((d) => {
+              const sourceRadius = getNodeRadius(d.source, d.source.name === centerName);
+              const targetRadius = getNodeRadius(d.target, d.target.name === centerName);
+              return sourceRadius + targetRadius + 40;
+            })
+            .strength(0.3)
+        )
+        .force("charge", d3.forceManyBody().strength(-250))
+        .force("center", d3.forceCenter(width / 2, height / 2))
+        .force("collision", d3.forceCollide().radius((d: any) => getNodeRadius(d, d.name === centerName) + 10))
+        .alphaDecay(0.02)
+        .velocityDecay(0.3);
+
+      simulationRef.current = simulation;
+    } else {
+      simulationRef.current = null;
+    }
+
+    // Definir marcadores de flecha
     const defs = svg.append("defs");
 
-    // Crear un marcador de flecha genérico
     defs
       .append("marker")
-      .attr("id", "arrowhead")
-      .attr("viewBox", "-0 -5 10 10")
-      .attr("refX", 20)
+      .attr("id", "arrow")
+      .attr("viewBox", "0 -4 8 8")
+      .attr("refX", 6)
       .attr("refY", 0)
       .attr("orient", "auto")
-      .attr("markerWidth", 6)
-      .attr("markerHeight", 6)
+      .attr("markerWidth", 5)
+      .attr("markerHeight", 5)
       .append("path")
-      .attr("d", "M 0,-5 L 10,0 L 0,5")
-      .attr("fill", "#9ca3af");
+      .attr("d", "M0,-3 L6,0 L0,3 Z")
+      .attr("fill", "#94a3b8");
 
+    defs
+      .append("marker")
+      .attr("id", "arrow-start")
+      .attr("viewBox", "0 -4 8 8")
+      .attr("refX", 2)
+      .attr("refY", 0)
+      .attr("orient", "auto-start-reverse")
+      .attr("markerWidth", 5)
+      .attr("markerHeight", 5)
+      .append("path")
+      .attr("d", "M6,-3 L0,0 L6,3 Z")
+      .attr("fill", "#94a3b8");
+
+    // Dibujar links
     const link = g
       .append("g")
       .selectAll("line")
       .data(links)
       .join("line")
       .attr("stroke", (d) => getRelationColor(d.type))
-      .attr("stroke-opacity", 0.5)
-      .attr("stroke-width", 1.5)
-      .attr("marker-end", "url(#arrowhead)");
+      .attr("stroke-opacity", 0.4)
+      .attr("stroke-width", 1.5);
 
-    // Etiquetas de relación (solo si hay pocos nodos para evitar saturación)
-    // Reducido a 20 nodos para evitar solapamientos
-    const showLabels = nodes.length <= 20;
+    // Añadir flechas según tipo de relación
+    link.each(function(d) {
+      const line = d3.select(this);
+      const bidirectional = isBidirectional(d.type);
+      if (bidirectional) {
+        line.attr("marker-start", "url(#arrow-start)").attr("marker-end", "url(#arrow)");
+      } else {
+        line.attr("marker-end", "url(#arrow)");
+      }
+    });
+
+    // Etiquetas de relación
+    const showLabels = nodes.length <= 30;
     let linkLabels: any = null;
 
     if (showLabels) {
@@ -153,7 +323,6 @@ export default function NetworkGraph({
         .join("g")
         .attr("pointer-events", "none");
 
-      // Fondo blanco para las etiquetas
       linkLabels
         .append("rect")
         .attr("fill", "white")
@@ -161,20 +330,17 @@ export default function NetworkGraph({
         .attr("rx", 2)
         .attr("ry", 2);
 
-      // Texto de la etiqueta
       linkLabels
         .append("text")
         .attr("font-size", 7)
         .attr("fill", "#6b7280")
         .attr("text-anchor", "middle")
         .attr("dominant-baseline", "middle")
-        .text((d: any) => {
+        .text((d: ExtendedLink) => {
           const type = d.type || "";
-          // Acortar tipos de relación largos
           return type.length > 10 ? type.substring(0, 8) + "..." : type;
         })
         .each(function(this: SVGTextElement) {
-          // Ajustar el tamaño del rectángulo de fondo
           const bbox = this.getBBox();
           const rect = (this.parentNode as SVGGElement).querySelector("rect");
           if (rect) {
@@ -192,35 +358,23 @@ export default function NetworkGraph({
       .selectAll<SVGGElement, ExtendedNode>("g")
       .data(nodes)
       .join("g")
+      .attr("transform", (d) => `translate(${d.x},${d.y})`)
       .style("cursor", "pointer");
 
     // Círculos de los nodos
     node
       .append("circle")
-      .attr("r", (d) => {
-        if (isClaudioNode(d.name)) return 30;
-        return Math.sqrt(d.mentions) * 1.5 + 6;
-      })
+      .attr("r", (d) => getNodeRadius(d, d.name === centerName))
       .attr("fill", (d) => {
-        if (isClaudioNode(d.name)) return "#f59e0b";
+        if (d.name === centerName) return "#f59e0b"; // Solo el centro es ámbar
         return d.hasBio ? "#3b82f6" : "#94a3b8";
       })
       .attr("stroke", (d) => {
-        if (isClaudioNode(d.name)) return "#fbbf24";
+        if (d.name === centerName) return "#fbbf24";
         return "#fff";
       })
-      .attr("stroke-width", (d) => (isClaudioNode(d.name) ? 3 : 2))
+      .attr("stroke-width", (d) => (d.name === centerName ? 3 : 2))
       .on("click", (_event, d) => {
-        // Centrar en el nodo pulsado
-        const svg = d3.select(svgRef.current);
-        const zoom = (svg as any).zoomBehavior;
-        if (zoom && d.x !== undefined && d.y !== undefined) {
-          const transform = d3.zoomIdentity
-            .translate(width / 2 - d.x * 1.5, height / 2 - d.y * 1.5)
-            .scale(1.5);
-          svg.transition().duration(500).call(zoom.transform, transform);
-        }
-
         if (onNodeClick) onNodeClick(d);
         if (onNodeCenter) onNodeCenter(d);
       });
@@ -229,81 +383,95 @@ export default function NetworkGraph({
     node
       .append("text")
       .text((d) => {
-        if (isClaudioNode(d.name)) return "Claudio";
-        if (d.mentions > 20) return d.name.split(" ")[0];
+        if (d.name === centerName) return d.name.split(" ")[0];
+        if (d.mentions > 12) return d.name.split(" ")[0];
         return "";
       })
-      .attr("font-size", (d) => (isClaudioNode(d.name) ? 11 : 9))
-      .attr("font-weight", (d) => (isClaudioNode(d.name) ? "bold" : "normal"))
+      .attr("font-size", (d) => (d.name === centerName ? 11 : 9))
+      .attr("font-weight", (d) => (d.name === centerName ? "bold" : "normal"))
       .attr("dx", (d) => {
-        if (isClaudioNode(d.name)) return 0;
-        return Math.sqrt(d.mentions) * 1.5 + 10;
+        if (d.name === centerName) return 0;
+        return getNodeRadius(d, false) + 4;
       })
       .attr("dy", (d) => {
-        if (isClaudioNode(d.name)) return 45;
+        if (d.name === centerName) return getNodeRadius(d, true) + 16;
         return 3;
       })
-      .attr("text-anchor", (d) => (isClaudioNode(d.name) ? "middle" : "start"))
-      .attr("fill", (d) => (isClaudioNode(d.name) ? "#f59e0b" : "#374151"))
+      .attr("text-anchor", (d) => (d.name === centerName ? "middle" : "start"))
+      .attr("fill", (d) => (d.name === centerName ? "#f59e0b" : "#374151"))
       .attr("pointer-events", "none");
 
-    // Actualizar posiciones en cada tick
-    simulation.on("tick", () => {
-      link
-        .attr("x1", (d: any) => d.source.x)
-        .attr("y1", (d: any) => d.source.y)
-        .attr("x2", (d: any) => d.target.x)
-        .attr("y2", (d: any) => d.target.y);
+    // Función para actualizar posiciones de links con flechas fuera de los círculos
+    const updateLinkPositions = () => {
+      link.attr("x1", (d: ExtendedLink) => {
+        const dx = d.target.x - d.source.x;
+        const dy = d.target.y - d.source.y;
+        const dist = Math.sqrt(dx * dx + dy * dy);
+        if (dist === 0) return d.source.x;
+        const sourceRadius = getNodeRadius(d.source, d.source.name === centerName);
+        return d.source.x + (dx / dist) * sourceRadius;
+      })
+      .attr("y1", (d: ExtendedLink) => {
+        const dx = d.target.x - d.source.x;
+        const dy = d.target.y - d.source.y;
+        const dist = Math.sqrt(dx * dx + dy * dy);
+        if (dist === 0) return d.source.y;
+        const sourceRadius = getNodeRadius(d.source, d.source.name === centerName);
+        return d.source.y + (dy / dist) * sourceRadius;
+      })
+      .attr("x2", (d: ExtendedLink) => {
+        const dx = d.target.x - d.source.x;
+        const dy = d.target.y - d.source.y;
+        const dist = Math.sqrt(dx * dx + dy * dy);
+        if (dist === 0) return d.target.x;
+        const targetRadius = getNodeRadius(d.target, d.target.name === centerName);
+        return d.target.x - (dx / dist) * targetRadius;
+      })
+      .attr("y2", (d: ExtendedLink) => {
+        const dx = d.target.x - d.source.x;
+        const dy = d.target.y - d.source.y;
+        const dist = Math.sqrt(dx * dx + dy * dy);
+        if (dist === 0) return d.target.y;
+        const targetRadius = getNodeRadius(d.target, d.target.name === centerName);
+        return d.target.y - (dy / dist) * targetRadius;
+      });
+    };
 
-      // Posicionar etiquetas de relación en el punto medio del link
+    // Actualizar posiciones
+    if (simulationRef.current) {
+      simulationRef.current.on("tick", () => {
+        updateLinkPositions();
+
+        if (linkLabels) {
+          linkLabels.attr("transform", (d: ExtendedLink) => {
+            const x = (d.source.x + d.target.x) / 2;
+            const y = (d.source.y + d.target.y) / 2;
+            return `translate(${x},${y})`;
+          });
+        }
+
+        node.attr("transform", (d) => `translate(${d.x},${d.y})`);
+      });
+    } else {
+      // Layout estático (circular)
+      updateLinkPositions();
       if (linkLabels) {
-        linkLabels.attr("transform", (d: any) => {
+        linkLabels.attr("transform", (d: ExtendedLink) => {
           const x = (d.source.x + d.target.x) / 2;
           const y = (d.source.y + d.target.y) / 2;
           return `translate(${x},${y})`;
         });
       }
+    }
 
-      node.attr("transform", (d: any) => `translate(${d.x},${d.y})`);
-    });
-
-    // Guardar referencia al zoom para los botones
+    // Guardar referencia al zoom
     (svg as any).zoomBehavior = zoom;
     (svg as any).mainGroup = g;
-
-    // Cleanup
-    return () => {
-      simulation.stop();
-    };
-  }, [data, dimensions, claudioName, onNodeClick, onNodeCenter, isClaudioNode]);
+  }, [data, dimensions, claudioName, centeredNode, onNodeClick, onNodeCenter, isClaudioNode]);
 
   useEffect(() => {
     drawGraph();
   }, [drawGraph]);
-
-  // Función para centrar en un nodo específico
-  const centerOnNode = (nodeName: string) => {
-    if (!svgRef.current) return;
-    const svg = d3.select(svgRef.current);
-    const zoom = (svg as any).zoomBehavior;
-    const g = (svg as any).mainGroup;
-    if (!zoom || !g) return;
-
-    // Buscar el nodo en los datos
-    const node = data.nodes.find(n => n.name === nodeName || n.id === nodeName);
-    if (!node) return;
-
-    // Calcular transformación para centrar
-    const { width, height } = dimensions;
-    const x = node.x || width / 2;
-    const y = node.y || height / 2;
-
-    const transform = d3.zoomIdentity
-      .translate(width / 2 - x, height / 2 - y)
-      .scale(1.5);
-
-    svg.transition().duration(500).call(zoom.transform, transform);
-  };
 
   return (
     <div ref={containerRef} className="relative w-full h-full bg-slate-50">
