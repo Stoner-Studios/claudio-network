@@ -56,7 +56,7 @@ const CLAUDIO_NODO: GraphNode = {
   type: "autor",
 };
 
-export function buildGraphData(minMentions: number = 10): GraphData {
+export function buildGraphData(minFuerza: number = 1): GraphData {
   const personas = getPersonas();
   const nodes: GraphNode[] = [];
   const links: GraphLink[] = [];
@@ -66,9 +66,9 @@ export function buildGraphData(minMentions: number = 10): GraphData {
   nodes.push(CLAUDIO_NODO);
   nodeMap.set("Claudio Naranjo", true);
 
-  // Crear nodos para personas con menciones >= minMentions (excluyendo a Claudio)
+  // Crear nodos para personas con fuerza_vinculo >= minFuerza (excluyendo a Claudio)
   const filteredPersonas = personas.filter(
-    (p) => p.num_menciones >= minMentions && p.nombre !== "Claudio Naranjo"
+    (p) => (p.fuerza_vinculo || 1) >= minFuerza && p.nombre !== "Claudio Naranjo"
   );
 
   filteredPersonas.forEach((p) => {
@@ -80,6 +80,7 @@ export function buildGraphData(minMentions: number = 10): GraphData {
       hasBio: !!p.biografia_extendida,
       type: p.tipo_relacion,
       foto_url: p.foto_url || undefined,
+      fuerza_vinculo: p.fuerza_vinculo || 1,
     });
   });
 
@@ -102,6 +103,7 @@ export function buildGraphData(minMentions: number = 10): GraphData {
       source: "Claudio Naranjo",
       target: p.nombre,
       type: p.tipo_relacion,
+      fuerza_vinculo: p.fuerza_vinculo || 1,
     });
   });
 

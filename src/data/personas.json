@@ -2,7 +2,7 @@
   "metadata": {
     "libro": "Ascenso y Descenso de la Montaña Sagrada",
     "autor": "Claudio Naranjo",
-    "total_personas": 540,
+    "total_personas": 476,
     "nota": "JSON limpio: eliminados no-personas y fusionados duplicados",
     "fecha_limpieza": "2026-02-15",
     "personas_enriquecidas": 37,
@@ -1886,58 +1886,6 @@
       "relaciones_con_otras_personas": []
     },
     {
-      "nombre": "Montaña Sagrada",
-      "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
-      "fuerza_vinculo": 3,
-      "nacionalidad": "No especificada",
-      "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 5 vez/veces",
-      "num_menciones": 5,
-      "contextos_ejemplo": [
-        "taria, casi sin verse, adorando a Dios en las piedras y los árboles y en el silencio de su meditación. Los excursionistas habían llamado al lugar «La montaña sagrada», debido a estos ermitaños que a veces veían a la distancia. Ese lugar había sido conocido de esta manera durante mucho tiempo y llega"
-      ],
-      "biografia_extendida": "",
-      "wikipedia_url": "",
-      "foto_url": "",
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
-      "relaciones_con_otras_personas": []
-    },
-    {
-      "nombre": "Divina Comedia",
-      "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
-      "fuerza_vinculo": 3,
-      "nacionalidad": "No especificada",
-      "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 5 vez/veces",
-      "num_menciones": 5,
-      "contextos_ejemplo": [
-        " las reuniones con él y su pequeño grupo de seguidores, que versaban sobre símbolos tradicionales y mitos, e incluyeron un comentario detallado de La Divina Comedia. Después de su viaje a Europa, Lola renunció a su trabajo en el Instituto de Fisiología y decidió pasar su tiempo en la clínica de Matt"
-      ],
-      "biografia_extendida": "",
-      "wikipedia_url": "",
-      "foto_url": "",
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
-      "relaciones_con_otras_personas": []
-    },
-    {
       "nombre": "Vicente Naranjo Chamoneau",
       "nombre_alternativo": [
         "Vicente Naranjo",
@@ -2295,32 +2243,6 @@
       "relaciones_con_otras_personas": []
     },
     {
-      "nombre": "Saratoga Springs",
-      "nombre_alternativo": [],
-      "relacion": "Persona mencionada",
-      "tipo_relacion": "mencionado",
-      "fuerza_vinculo": 4,
-      "nacionalidad": "No especificada",
-      "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 4 veces",
-      "num_menciones": 4,
-      "contextos_ejemplo": [
-        "cambiante. ¿Qué tengo que hacer en Saratoga Springs? Ciertamente ya no estaba"
-      ],
-      "biografia_extendida": "",
-      "wikipedia_url": "",
-      "foto_url": "",
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
-      "relaciones_con_otras_personas": []
-    },
-    {
       "nombre": "Ron Kane",
       "nombre_alternativo": [],
       "relacion": "Persona mencionada",
@@ -2568,84 +2490,6 @@
       "num_menciones": 4,
       "contextos_ejemplo": [
         "en el director del conservatorio), Nino Colli y David Rosenmann, a quien solo le"
-      ],
-      "biografia_extendida": "",
-      "wikipedia_url": "",
-      "foto_url": "",
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
-      "relaciones_con_otras_personas": []
-    },
-    {
-      "nombre": "Medio Pollo",
-      "nombre_alternativo": [],
-      "relacion": "Persona mencionada",
-      "tipo_relacion": "mencionado",
-      "fuerza_vinculo": 4,
-      "nacionalidad": "No especificada",
-      "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 4 veces",
-      "num_menciones": 4,
-      "contextos_ejemplo": [
-        "Medio Pollo se propuso conocer al Rey de España. Sentí como si esta historia hubiera"
-      ],
-      "biografia_extendida": "",
-      "wikipedia_url": "",
-      "foto_url": "",
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
-      "relaciones_con_otras_personas": []
-    },
-    {
-      "nombre": "Medicina Interna",
-      "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
-      "fuerza_vinculo": 3,
-      "nacionalidad": "No especificada",
-      "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 4 vez/veces",
-      "num_menciones": 4,
-      "contextos_ejemplo": [
-        "a relación se sostuvo por mucho más que una búsqueda de comprensión intelectual. Poco después de conocer a Carmen, me tocó asistir a las lecciones de medicina interna del doctor Alessandri en el Hospital El Salvador, justo en la vereda de la casa de Carmen, y como iría a pasar varias horas todos los"
-      ],
-      "biografia_extendida": "",
-      "wikipedia_url": "",
-      "foto_url": "",
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
-      "relaciones_con_otras_personas": []
-    },
-    {
-      "nombre": "Telegraph Ave",
-      "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
-      "fuerza_vinculo": 3,
-      "nacionalidad": "No especificada",
-      "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 4 vez/veces",
-      "num_menciones": 4,
-      "contextos_ejemplo": [
-        " de la década de los sesenta volvería a ver a Charlotte, cuando nos hicimos buenos amigos. En cuanto a Leo, me recibió calurosamente en su oficina de Telegraph Avenue, y después de haberle hablado de mi caída recordamos la sesión de LSD del año anterior. Le había tocado mi monólogo largo hacia el fi"
       ],
       "biografia_extendida": "",
       "wikipedia_url": "",
@@ -4161,32 +4005,6 @@
       "num_menciones": 2,
       "contextos_ejemplo": [
         "en Isla Negra estuvo disponible para nuestra luna de miel. Estaba cerca de la casa de"
-      ],
-      "biografia_extendida": "",
-      "wikipedia_url": "",
-      "foto_url": "",
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
-      "relaciones_con_otras_personas": []
-    },
-    {
-      "nombre": "Iglesia Unitaria",
-      "nombre_alternativo": [],
-      "relacion": "Persona mencionada",
-      "tipo_relacion": "mencionado",
-      "fuerza_vinculo": 2,
-      "nacionalidad": "No especificada",
-      "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 2 veces",
-      "num_menciones": 2,
-      "contextos_ejemplo": [
-        "una Iglesia Unitaria, de modo que cuando pasé por su puerta vi un anuncio de que al día"
       ],
       "biografia_extendida": "",
       "wikipedia_url": "",
@@ -5771,32 +5589,6 @@
       "num_menciones": 2,
       "contextos_ejemplo": [
         " un cierto conocimiento del judaísmo solo a los treinta y pocos años. Después de llegar a conocer algunas canciones jasídicas a través de un disco de Theodore Bikel, llegué a sentir una fuerte atracción hacia esta cultura; y más tarde, cuando experimenté por primera vez los efectos del LSD, me parec"
-      ],
-      "biografia_extendida": "",
-      "wikipedia_url": "",
-      "foto_url": "",
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
-      "relaciones_con_otras_personas": []
-    },
-    {
-      "nombre": "Plaza Central",
-      "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
-      "fuerza_vinculo": 2,
-      "nacionalidad": "No especificada",
-      "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 2 vez/veces",
-      "num_menciones": 2,
-      "contextos_ejemplo": [
-        "ida por Aquiles Landoff, arquitecto amigo de mis padres, quien también había diseñado la Estación de Ferrocarriles, el Club de Viña frente a la  31  \fPlaza Central (donde mi padre llegaría a pasar casi todas las noches) y el Casino Municipal, el edificio más prominente de la ciudad, que también fue "
       ],
       "biografia_extendida": "",
       "wikipedia_url": "",
@@ -8523,32 +8315,6 @@
       "relaciones_con_otras_personas": []
     },
     {
-      "nombre": "Medicina Preventiva",
-      "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
-      "fuerza_vinculo": 1,
-      "nacionalidad": "No especificada",
-      "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 1 vez/veces",
-      "num_menciones": 1,
-      "contextos_ejemplo": [
-        "óstico de males con los que no se podía hacer nada, y entonces me resultaba difícil apasionarme. El otro profesor era Benjamín Viel, quien nos enseñó Medicina Preventiva y Epidemiología. Disfruté mucho sus clases, llenas de nueva información sobre cosas que nunca había considerado, pero sobre todo r"
-      ],
-      "biografia_extendida": "",
-      "wikipedia_url": "",
-      "foto_url": "",
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
-      "relaciones_con_otras_personas": []
-    },
-    {
       "nombre": "Joseph Chilton Pierce",
       "nombre_alternativo": [],
       "relacion": "Mencionado",
@@ -9121,32 +8887,6 @@
       "relaciones_con_otras_personas": []
     },
     {
-      "nombre": "Costa Oeste",
-      "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
-      "fuerza_vinculo": 1,
-      "nacionalidad": "No especificada",
-      "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 1 vez/veces",
-      "num_menciones": 1,
-      "contextos_ejemplo": [
-        "y con Sasha Shulgin, con quien colaboraría durante los próximos años. Ya cerca del final de mi estancia, me presentaron al doctor Zeff, pionero de la Costa Oeste en el uso de LSD en psicoterapia. Me atrajeron su personalidad, sus intereses espirituales y su cultura judía, y le pregunté si me aceptar"
-      ],
-      "biografia_extendida": "",
-      "wikipedia_url": "",
-      "foto_url": "",
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
-      "relaciones_con_otras_personas": []
-    },
-    {
       "nombre": "Albert Hoffman",
       "nombre_alternativo": [],
       "relacion": "Mencionado",
@@ -9188,32 +8928,6 @@
       "num_menciones": 1,
       "contextos_ejemplo": [
         "oder leer el artículo que se exhibía tras el cristal de la vitrina. Ella me remitió a su autor —que no era otro que el curador del museo—, el célebre Richard Evan Shultes. Él me animó a estudiar los efectos psicológicos de los alcaloides del yagé (como se lo llama en Colombia) y me puso en contacto "
-      ],
-      "biografia_extendida": "",
-      "wikipedia_url": "",
-      "foto_url": "",
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
-      "relaciones_con_otras_personas": []
-    },
-    {
-      "nombre": "Museo Botánico",
-      "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
-      "fuerza_vinculo": 1,
-      "nacionalidad": "No especificada",
-      "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 1 vez/veces",
-      "num_menciones": 1,
-      "contextos_ejemplo": [
-        "ó sus vacaciones. Supongo que la idea de viajar al Putumayo, que ya estaba plantada en mi mente al ver el cuadro de los rituales en la exposición del Museo Botánico, había comenzado a tomar forma cuando el doctor Schultes me sugirió que contactara a algunos de sus conocidos en Colombia: el mencionad"
       ],
       "biografia_extendida": "",
       "wikipedia_url": "",
@@ -9422,58 +9136,6 @@
       "num_menciones": 1,
       "contextos_ejemplo": [
         "ó con un volante que todavía recuerdo como el único objeto aparte de mi maleta sobre la mesa de mi nueva habitación. Me impresionó el apoyo que tanto Erich Fromm como Suzuki Roshi le brindaban a esta mujer venida de Alemania con cuyo trabajo Goodwin estaba tan entusiasmado, ya que estaban entre las "
-      ],
-      "biografia_extendida": "",
-      "wikipedia_url": "",
-      "foto_url": "",
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
-      "relaciones_con_otras_personas": []
-    },
-    {
-      "nombre": "Oh Padre",
-      "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
-      "fuerza_vinculo": 1,
-      "nacionalidad": "No especificada",
-      "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 1 vez/veces",
-      "num_menciones": 1,
-      "contextos_ejemplo": [
-        "e Salignac de la Mothe-Fenelon, Arzobispo de Combray 1651-1715): Señor, no sé qué pedirte Tú solo sabes lo que necesito Tú me amas mejor que yo mismo Oh Padre, da a tu hijo lo que él mismo no sabe pedir No me atrevo a pedir ni cruces ni consolaciones  193  \fSimplemente me presento ante ti Abro mi co"
-      ],
-      "biografia_extendida": "",
-      "wikipedia_url": "",
-      "foto_url": "",
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
-      "relaciones_con_otras_personas": []
-    },
-    {
-      "nombre": "Kroeber Antropological Association",
-      "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
-      "fuerza_vinculo": 1,
-      "nacionalidad": "No especificada",
-      "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 1 vez/veces",
-      "num_menciones": 1,
-      "contextos_ejemplo": [
-        "o a través de su inmersión en la cultura de los indígenas shipiboconibo, y propuso que presentásemos documentos conjuntos en la próxima reunión de la Kroeber Antropological Association, que tendría lugar en un par de meses. Así lo hicimos, en presencia de un público muy estimulante y numeroso, y est"
       ],
       "biografia_extendida": "",
       "wikipedia_url": "",
@@ -11955,32 +11617,6 @@
       "relaciones_con_otras_personas": []
     },
     {
-      "nombre": "Wilshire Ave",
-      "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
-      "fuerza_vinculo": 1,
-      "nacionalidad": "No especificada",
-      "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 1 vez/veces",
-      "num_menciones": 1,
-      "contextos_ejemplo": [
-        "caron, significa «el salvaje»), y bajo ese nombre las palabras «mundos creados, mantenidos y destruidos mientras esperas». Y también una dirección en Wilshire Ave., en Los Ángeles. Nos sirvieron la cena, luego nos llevaron a nuestras habitaciones (varias camas en cada una) y, una vez que nos metimos"
-      ],
-      "biografia_extendida": "",
-      "wikipedia_url": "",
-      "foto_url": "",
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
-      "relaciones_con_otras_personas": []
-    },
-    {
       "nombre": "Harold Cumingood",
       "nombre_alternativo": [],
       "relacion": "Mencionado",
@@ -13062,32 +12698,6 @@
       "num_menciones": 1,
       "contextos_ejemplo": [
         "ala,  531  \fque formulé en un diálogo con Gordon Wasson en la conferencia sobre «Búsqueda etnobotánica de drogas psicoactivas», y vino en compañía de Martin Shwartz, el decano del Departamento de Estudios del Cercano Oriente. Reza había examinado los anuncios en un periódico local, luego había hecho"
-      ],
-      "biografia_extendida": "",
-      "wikipedia_url": "",
-      "foto_url": "",
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
-      "relaciones_con_otras_personas": []
-    },
-    {
-      "nombre": "Avestamas Gathas",
-      "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
-      "fuerza_vinculo": 1,
-      "nacionalidad": "No especificada",
-      "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 1 vez/veces",
-      "num_menciones": 1,
-      "contextos_ejemplo": [
-        "local, luego había hecho algunas llamadas telefónicas y resultó que David, que no ganaba lo suficiente por su erudición sobre el zoroastianismo y los Avestamas Gathas, esperaba ganar algo de dinero escribiendo a máquina. Armando me había ayudado con libros que no publiqué, cuando tenía ideas tan def"
       ],
       "biografia_extendida": "",
       "wikipedia_url": "",

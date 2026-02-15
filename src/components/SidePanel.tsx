@@ -15,8 +15,8 @@ interface SidePanelProps {
 export interface FilterState {
   search: string;
   tipoRelacion: string;
-  minMenciones: number;
-  maxMenciones: number;
+  minFuerza: number;
+  maxFuerza: number;
   conBio: boolean | null;
   conRelaciones: boolean | null;
 }
@@ -49,13 +49,13 @@ export default function SidePanel({
         return false;
       }
 
-      // Filtro por menciones mínimas
-      if (p.num_menciones < filters.minMenciones) {
+      // Filtro por fuerza mínima
+      if ((p.fuerza_vinculo || 1) < filters.minFuerza) {
         return false;
       }
 
-      // Filtro por menciones máximas
-      if (p.num_menciones > filters.maxMenciones) {
+      // Filtro por fuerza máxima
+      if ((p.fuerza_vinculo || 1) > filters.maxFuerza) {
         return false;
       }
 
@@ -174,28 +174,32 @@ export default function SidePanel({
           ))}
         </select>
 
-        {/* Menciones */}
+        {/* Fuerza del vínculo */}
         <div className="space-y-2">
           <label className="text-sm font-medium text-gray-800">
-            Menciones: {filters.minMenciones} - {filters.maxMenciones === 1000 ? "∞" : filters.maxMenciones}
+            Fuerza vínculo: {filters.minFuerza} - {filters.maxFuerza === 10 ? "10" : filters.maxFuerza}
           </label>
           <div className="flex gap-2">
             <input
               type="number"
               placeholder="Mín"
-              value={filters.minMenciones}
+              min="1"
+              max="10"
+              value={filters.minFuerza}
               onChange={(e) =>
-                handleFilterChange({ minMenciones: Number(e.target.value) || 1 })
+                handleFilterChange({ minFuerza: Number(e.target.value) || 1 })
               }
               className="w-1/2 px-3 py-2 border border-gray-300 rounded-lg text-sm text-gray-900 placeholder-gray-500"
             />
             <input
               type="number"
               placeholder="Máx"
-              value={filters.maxMenciones === 1000 ? "" : filters.maxMenciones}
+              min="1"
+              max="10"
+              value={filters.maxFuerza === 10 ? "" : filters.maxFuerza}
               onChange={(e) =>
                 handleFilterChange({
-                  maxMenciones: Number(e.target.value) || 1000,
+                  maxFuerza: Number(e.target.value) || 10,
                 })
               }
               className="w-1/2 px-3 py-2 border border-gray-300 rounded-lg text-sm text-gray-900 placeholder-gray-500"
@@ -250,7 +254,7 @@ export default function SidePanel({
         ) : (
           <div className="divide-y divide-gray-100">
             {filteredPersonas
-              .sort((a, b) => b.num_menciones - a.num_menciones)
+              .sort((a, b) => (b.fuerza_vinculo || 1) - (a.fuerza_vinculo || 1))
               .map((persona) => (
                 <button
                   key={persona.nombre}
@@ -272,8 +276,11 @@ export default function SidePanel({
                       )}
                     </div>
                     <div className="flex flex-col items-end gap-1 ml-2">
-                      <span className="text-sm font-bold text-blue-600">
-                        {persona.num_menciones}
+                      <span className="text-sm font-bold text-orange-600">
+                        {persona.fuerza_vinculo || 1}/10
+                      </span>
+                      <span className="text-xs text-gray-500">
+                        {persona.num_menciones} men.
                       </span>
                       <div className="flex gap-1">
                         {persona.biografia_extendida && (

@@ -16,16 +16,16 @@ export default function Home() {
   const [filters, setFilters] = useState<FilterState>({
     search: "",
     tipoRelacion: "",
-    minMenciones: 6,
-    maxMenciones: 1000,
+    minFuerza: 1,
+    maxFuerza: 10,
     conBio: null,
     conRelaciones: null,
   });
 
   // Construir datos del grafo basados en filtros
   const graphData = useMemo(() => {
-    return buildGraphData(filters.minMenciones);
-  }, [filters.minMenciones]);
+    return buildGraphData(filters.minFuerza);
+  }, [filters.minFuerza]);
 
   // Obtener tipos de relación únicos presentes en el grafo actual
   const activeRelationTypes = useMemo(() => {
@@ -65,25 +65,25 @@ export default function Home() {
         </div>
 
         <div className="flex items-center gap-2 sm:gap-3">
-          {/* Control de menciones mínimas - Oculto en móvil muy pequeño */}
+          {/* Control de fuerza mínima - Oculto en móvil muy pequeño */}
           <div className="hidden sm:flex items-center gap-2 text-sm">
-            <label className="text-gray-600 hidden md:inline">Menciones mín.:</label>
-            <label className="text-gray-600 md:hidden">Min.:</label>
+            <label className="text-gray-600 hidden md:inline">Fuerza mín.:</label>
+            <label className="text-gray-600 md:hidden">Fza.:</label>
             <input
               type="range"
               min="1"
-              max="50"
-              value={filters.minMenciones}
+              max="10"
+              value={filters.minFuerza}
               onChange={(e) =>
                 setFilters((prev) => ({
                   ...prev,
-                  minMenciones: Number(e.target.value),
+                  minFuerza: Number(e.target.value),
                 }))
               }
               className="w-16 sm:w-20"
             />
             <span className="font-medium text-blue-600 w-6">
-              {filters.minMenciones}
+              {filters.minFuerza}
             </span>
           </div>
 

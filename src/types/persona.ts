@@ -49,6 +49,7 @@ export interface GraphNode {
   hasBio: boolean;
   type: string;
   foto_url?: string;
+  fuerza_vinculo?: number;
   x?: number;
   y?: number;
   fx?: number | null;
@@ -59,4 +60,5 @@ export interface GraphLink {
   source: string;
   target: string;
   type: string;
+  fuerza_vinculo?: number;
 }

@@ -27,6 +27,7 @@ interface ExtendedLink {
   source: ExtendedNode;
   target: ExtendedNode;
   type: string;
+  fuerza_vinculo?: number;
 }
 
 export default function NetworkGraph({
@@ -205,7 +206,7 @@ export default function NetworkGraph({
     nodes.forEach(n => nodeMap.set(n.name, n));
 
     // Preparar links con referencias a objetos nodo
-    const links: ExtendedLink[] = data.links
+    const links = data.links
       .map((d) => {
         const sourceNode = nodeMap.get(String(d.source));
         const targetNode = nodeMap.get(String(d.target));
@@ -214,9 +215,15 @@ export default function NetworkGraph({
           source: sourceNode,
           target: targetNode,
           type: d.type,
+          fuerza_vinculo: d.fuerza_vinculo || 1,
         };
       })
-      .filter((l): l is ExtendedLink => l !== null);
+      .filter((l): l is {
+        source: ExtendedNode;
+        target: ExtendedNode;
+        type: string;
+        fuerza_vinculo: number;
+      } => l !== null);
 
     // Dibujar círculos de fondo si es layout circular
     if (useCircularLayout) {
@@ -309,15 +316,18 @@ export default function NetworkGraph({
       .attr("d", "M6,-3 L0,0 L6,3 Z")
       .attr("fill", "#94a3b8");
 
-    // Dibujar links
+    // Dibujar links - grosor basado en fuerza_vinculo (1-10)
     const link = g
       .append("g")
       .selectAll("line")
       .data(links)
       .join("line")
       .attr("stroke", (d) => getRelationColor(d.type))
-      .attr("stroke-opacity", 0.4)
-      .attr("stroke-width", 1.5);
+      .attr("stroke-opacity", 0.5)
+      .attr("stroke-width", (d) => {
+        const fuerza = d.fuerza_vinculo || 1;
+        return 0.5 + (fuerza / 10) * 3; // Entre 0.5 y 3.5
+      });
 
     // Añadir flechas según tipo de relación
     link.each(function(d) {
