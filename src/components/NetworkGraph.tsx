@@ -112,15 +112,33 @@ export default function NetworkGraph({
 
     simulationRef.current = simulation;
 
-    // Dibujar links
+    // Dibujar links con flechas direccionales
+    // Definir marcadores de flecha para cada tipo de relación
+    const defs = svg.append("defs");
+
+    // Crear un marcador de flecha genérico
+    defs
+      .append("marker")
+      .attr("id", "arrowhead")
+      .attr("viewBox", "-0 -5 10 10")
+      .attr("refX", 20)
+      .attr("refY", 0)
+      .attr("orient", "auto")
+      .attr("markerWidth", 6)
+      .attr("markerHeight", 6)
+      .append("path")
+      .attr("d", "M 0,-5 L 10,0 L 0,5")
+      .attr("fill", "#9ca3af");
+
     const link = g
       .append("g")
       .selectAll("line")
       .data(links)
       .join("line")
       .attr("stroke", (d) => getRelationColor(d.type))
-      .attr("stroke-opacity", 0.4)
-      .attr("stroke-width", 1.5);
+      .attr("stroke-opacity", 0.5)
+      .attr("stroke-width", 1.5)
+      .attr("marker-end", "url(#arrowhead)");
 
     // Etiquetas de relación (solo si hay pocos nodos para evitar saturación)
     // Reducido a 20 nodos para evitar solapamientos
