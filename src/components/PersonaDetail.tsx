@@ -122,6 +122,27 @@ export default function PersonaDetail({
           </div>
         )}
 
+        {/* Contextos del libro */}
+        {persona.contextos_ejemplo && persona.contextos_ejemplo.length > 0 && (
+          <div>
+            <h3 className="text-sm font-semibold text-gray-800 mb-2">
+              Menciones en el libro
+            </h3>
+            <div className="space-y-2">
+              {persona.contextos_ejemplo.map((contexto, i) => (
+                <div
+                  key={i}
+                  className="p-3 bg-amber-50 border-l-3 border-amber-400 rounded-r-lg"
+                >
+                  <p className="text-sm text-gray-700 italic leading-relaxed">
+                    &ldquo;{contexto}...&rdquo;
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
         {/* Datos biográficos */}
         {(persona.fecha_nacimiento || persona.lugar_nacimiento || persona.fecha_muerte || persona.lugar_muerte) && (
           <div>
