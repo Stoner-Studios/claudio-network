@@ -5,7 +5,7 @@
     "total_personas": 473,
     "nota": "JSON limpio: eliminados no-personas y fusionados duplicados",
     "fecha_limpieza": "2026-02-15",
-    "personas_enriquecidas": 37,
+    "personas_enriquecidas": 57,
     "fecha_enriquecimiento": "2026-02-15"
   },
   "personas": [
@@ -1998,26 +1998,28 @@
     {
       "nombre": "Aldous Huxley",
       "nombre_alternativo": [],
-      "relacion": "Escritor (influencia)",
+      "relacion": "Influencia intelectual profunda",
       "tipo_relacion": "influencia",
       "fuerza_vinculo": 6,
       "nacionalidad": "Británica",
       "origen_etnico": "Británico",
-      "profesion": "Escritor",
+      "profesion": "Escritor, filósofo",
       "ubicacion": "California, USA (últimos años)",
       "caracteristicas": [
-        "Puertas de la Percepción",
-        "pionero psicodélicos literarios"
+        "educación integral",
+        "Las puertas de la percepción",
+        "influencia intelectual"
       ],
       "epoca_relacion": "1960s (influencia literaria)",
-      "rol_en_vida_claudio": "Influencia literaria sobre psicodélicos",
+      "rol_en_vida_claudio": "Influencia intelectual determinante. Su ensayo 'La educación de un anfibio' impactó profundamente la visión educativa de Claudio, quien décadas después escribió 'Una educación integral' como desarrollo de las ideas de Huxley.",
       "num_menciones": 4,
       "contextos_ejemplo": [
-        "descubrimos nuestros intereses comunes, que incluían a Aldous Huxley, William Blake",
-        "Park Institute, en Palo Alto, donde también había participado Aldous Huxley. Recuerdo"
+        "Recientemente me había impresionado mucho la lectura de un ensayo de Aldous Huxley titulado La educación de un anfibio, donde desarrollaba la idea de que como seres multifacéticos debemos recibir una educación interesada no solo en información y capacidad intelectual, sino también en movimiento, percepción sensorial, emociones y potencial místico.",
+        "Diría que trabamos una amistad a primera vista cuando descubrimos nuestros intereses comunes, que incluían a Aldous Huxley, William Blake y los psicodélicos.",
+        "Escribí un ensayo titulado 'Una educación integral para un mundo unificado' que concebí como un desarrollo de lo esbozado por Aldous Huxley en su ensayo La educación de un anfibio."
       ],
-      "biografia_extendida": "",
-      "wikipedia_url": "",
+      "biografia_extendida": "Escritor y filósofo británico, autor de 'Un mundo feliz' y 'Las puertas de la percepción'. Su ensayo 'La educación de un anfibio' desarrollaba la idea de que como seres multifacéticos debemos recibir educación no solo intelectual, sino también en movimiento, percepción sensorial, emociones y potencial místico. Participó en investigaciones sobre creatividad en el Menlo Park Institute junto a Willis Harman.",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Aldous_Huxley",
       "foto_url": null,
       "fecha_nacimiento": "",
       "fecha_muerte": "",
@@ -2028,26 +2030,29 @@
     {
       "nombre": "Michael Harner",
       "nombre_alternativo": [],
-      "relacion": "Antropólogo",
+      "relacion": "Colega investigador en psicodélicos",
       "tipo_relacion": "colega",
       "fuerza_vinculo": 6,
       "nacionalidad": "Estadounidense",
       "origen_etnico": "Estadounidense",
-      "profesion": "Antropólogo",
+      "profesion": "Antropólogo, investigador",
       "ubicacion": "Berkeley, California",
       "caracteristicas": [
-        "especialista chamanismo",
-        "estudio comparativo harmalina-mezcalina"
+        "antropólogo",
+        "yagé",
+        "chamanismo",
+        "jíbaros",
+        "investigador"
       ],
       "epoca_relacion": "1960s",
-      "rol_en_vida_claudio": "Colega académico, conversaciones sobre psicodélicos",
+      "rol_en_vida_claudio": "Antropólogo colega con quien Claudio compartió investigaciones sobre yagé, harmalina y mezcalina. Harner había vivido con los jíbaros de Ecuador y tenido experiencias profundas con yagé. Claudio le describió sus investigaciones y mantuvieron correspondencia profesional.",
       "num_menciones": 4,
       "contextos_ejemplo": [
-        "secretaria que contestó el teléfono me dirigió al doctor Michael Harner, que no había",
-        "comparativo de la harmalina y la mezcalina, que le describí a Michael Harner, y una"
+        "La secretaria me dirigió al doctor Michael Harner, que había vivido con los jíbaros de Ecuador. Michael se había interesado mucho por el yagé mientras estudiaba el chamanismo. Tras ingerir la bebida bajo la dirección de un curandero, tuvo una rica experiencia que afectó profundamente su vida.",
+        "Ahora que regresaba a Berkeley, tenía mucho que contarle a Michael Harner. Escuchó con entusiasmo la descripción de los resultados de la investigación que había realizado en Santiago sobre harmalina y mezcalina."
       ],
-      "biografia_extendida": "",
-      "wikipedia_url": "",
+      "biografia_extendida": "Antropólogo estadounidense, doctor, director del Museo de Antropología de Lowie y docente en Berkeley. Vivió con los jíbaros de Ecuador y más tarde entre los indios shipibo-conibo del Perú. Tuvo una experiencia transformadora con yagé que afectó profundamente su vida. Participó en conversaciones televisadas con Fritz Perls, Castaneda y Michael Murphy. Claudio le describió sus investigaciones sobre harmalina y mezcalina.",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Harner",
       "foto_url": null,
       "fecha_nacimiento": "",
       "fecha_muerte": "",
@@ -2650,25 +2655,27 @@
     {
       "nombre": "Donovan Bess",
       "nombre_alternativo": [],
-      "relacion": "Amigo",
-      "tipo_relacion": "amigo",
+      "relacion": "Periodista, contacto profesional",
+      "tipo_relacion": "conocido",
       "fuerza_vinculo": 6,
       "nacionalidad": "Estadounidense",
       "origen_etnico": "Estadounidense",
-      "profesion": "No especificada",
+      "profesion": "Periodista, escritor",
       "ubicacion": "California, USA",
       "caracteristicas": [
-        "círculo Leo Zeff",
-        "experiencias significativas compartidas"
+        "periodista",
+        "Ramparts Magazine",
+        "grupo SAT",
+        "psicodélicos"
       ],
       "epoca_relacion": "1960s-1970s",
-      "rol_en_vida_claudio": "Amigo en círculo psicodélico",
+      "rol_en_vida_claudio": "Periodista del San Francisco Chronicle, miembro del primer grupo SAT (Seekers After Truth). Escribió el artículo 'In the Belly of a Serpent' sobre las experiencias psicodélicas de Leo Zeff. Claudio consideraba compartirle sus aprendizajes de Arica.",
       "num_menciones": 3,
       "contextos_ejemplo": [
-        "Donovan Bess, quien lo redactó para el artículo «In the Belly of a Serpent», publicado",
-        "escribirle al respecto a Donovan Bess y otros. Pero antes de extenderle esta oferta a mis"
+        "Lo que ocurrió fue semejante a algo que recordaba haber leído en el clásico libro de Mircea Eliade sobre el chamanismo. Leo le describió a Donovan Bess, quien lo redactó para el artículo 'In the Belly of a Serpent' publicado por Ramparts Magazine.",
+        "Ya antes de salir de Arica había compartido con un pequeño grupo de amigos lo que había aprendido. Cuando llegué a Berkeley tenía en mente escribirle al respecto a Donovan Bess y otros."
       ],
-      "biografia_extendida": "",
+      "biografia_extendida": "Periodista y editor del San Francisco Chronicle. Miembro del primer grupo SAT dirigido por Claudio Naranjo a principios de los años 1970, quizás el miembro de más edad con más de 60 años entonces. Escribió para Ramparts Magazine el artículo 'In the Belly of a Serpent' documentando las experiencias psicodélicas de Leo Zeff, incluyendo su visión de convertirse en serpiente.",
       "wikipedia_url": "",
       "foto_url": null,
       "fecha_nacimiento": "",
@@ -3580,61 +3587,64 @@
     {
       "nombre": "Alexander Lowen",
       "nombre_alternativo": [],
-      "relacion": "Creador Análisis Bioenergético",
+      "relacion": "Colega en talleres terapéuticos",
       "tipo_relacion": "colega",
       "fuerza_vinculo": 6,
       "nacionalidad": "Estadounidense",
       "origen_etnico": "Judío-Estadounidense",
-      "profesion": "Psicoterapeuta",
+      "profesion": "Médico, psicoterapeuta",
       "ubicacion": "Nueva York, Bucks County",
       "caracteristicas": [
-        "fundador bioenergética",
-        "talleres conjuntos",
-        "discípulo Reich"
+        "bioenergética",
+        "neorreichiano",
+        "Reich",
+        "terapeuta corporal"
       ],
       "epoca_relacion": "1970s",
-      "rol_en_vida_claudio": "Colega, co-facilitador talleres",
+      "rol_en_vida_claudio": "Terapeuta neorreichiano (seguidor de Wilhelm Reich) que dirigió sesiones en talleres donde participó Claudio. Claudio lo consideraba demasiado 'primadonna' y apreciaba más a Malcolm Brown.",
       "num_menciones": 2,
       "contextos_ejemplo": [
-        "Alexander Lowen. Llegué en compañía de Ginny (una de las amantes de Fritz) y de Bob"
+        "Volvé a un lugar al norte de Nueva York llamado Buck's County para realizar un taller con la participación de Alexander Lowen. Lowen dirigió algunas sesiones. Estuvo también otro neorreichiano llamado Malcolm Brown, a quien llegué a apreciar más que a Lowen, que me pareció demasiado 'primadonna'.",
+        "Estaba dando un taller de dos semanas en la Bucks County con Virginia Veach y Alexander Lowen, y Marilyn había traído a una de sus dos hijas."
       ],
-      "biografia_extendida": "",
-      "wikipedia_url": "",
+      "biografia_extendida": "Médico y psicoterapeuta estadounidense, fundador del Bioenergetic Analysis (Análisis Bioenergético). Fue alumno de Wilhelm Reich y desarrolló técnicas terapéuticas orientadas al cuerpo para liberar tensiones emocionales. Participó en talleres en Buck's County, Nueva York, junto a Claudio. Claudio lo encontró demasiado 'primadonna' en comparación con otro neorreichiano, Malcolm Brown.",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Alexander_Lowen",
       "foto_url": null,
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
+      "fecha_nacimiento": "1910-12-23",
+      "fecha_muerte": "2008-10-28",
+      "lugar_nacimiento": "Nueva York, EE.UU.",
+      "lugar_muerte": "New Canaan, Connecticut, EE.UU.",
       "relaciones_con_otras_personas": []
     },
     {
       "nombre": "Karen Horney",
       "nombre_alternativo": [],
-      "relacion": "Psicoanalista (referencia teórica)",
+      "relacion": "Influencia teórica a través de Héctor Fernández",
       "tipo_relacion": "influencia",
       "fuerza_vinculo": 7,
       "nacionalidad": "Alemana-Estadounidense",
       "origen_etnico": "Alemana",
-      "profesion": "Psicoanalista",
+      "profesion": "Psicoanalista, psiquiatra",
       "ubicacion": "Estados Unidos (histórica)",
       "caracteristicas": [
+        "psicoanálisis",
         "neo-freudiana",
-        "estudiada con Héctor",
-        "dedicatoria primer libro"
+        "influencia teórica"
       ],
       "epoca_relacion": "1950s-1960s (estudio)",
-      "rol_en_vida_claudio": "Influencia teórica importante, dedicatoria libro",
+      "rol_en_vida_claudio": "Figura clave del psicoanálisis neo-freudiano. Sus enseñanzas fueron transmitidas a Claudio a través de Héctor Fernández. Importante influencia en su primer libro de terapia Gestalt, al que le dedicó una dedicatoria.",
       "num_menciones": 2,
       "contextos_ejemplo": [
-        "Gestalt, Ann Barnett, quien me contactó después de leer la dedicatoria a Karen Horney"
+        "Pasé mucho tiempo en el Instituto de Psicología Aplicada, creado por mi amigo Héctor Fernández. Fue la cristalización de las reuniones que algunos de mis amigos y yo mantuvimos con él después de que quisimos aprender de su enfoque de Karen Horney.",
+        "Viajé a Australia para realizar un taller, invitado por Ann Barnett, quien me contactó después de leer la dedicatoria a Karen Horney de mi primer libro de terapia Gestalt."
       ],
-      "biografia_extendida": "",
-      "wikipedia_url": "",
+      "biografia_extendida": "Psicoanalista y psiquiatra germano-estadounidense, figura clave del psicoanálisis neo-freudiano. Cuestionó varias teorías freudianas tradicionales y desarrolló teorías innovadoras sobre las necesidades neuróticas y la psicología femenina. Fundó el American Institute for Psychoanalysis en Nueva York. Claudio y un grupo de amigos quisieron aprender de su enfoque a través de Héctor Fernández.",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Karen_Horney",
       "foto_url": null,
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
+      "fecha_nacimiento": "1885-09-16",
+      "fecha_muerte": "1952-12-04",
+      "lugar_nacimiento": "Blankenese, Hamburgo, Alemania",
+      "lugar_muerte": "Nueva York, EE.UU.",
       "relaciones_con_otras_personas": []
     },
     {
@@ -6109,25 +6119,27 @@
     {
       "nombre": "Jim Vargiu",
       "nombre_alternativo": [],
-      "relacion": "Amigo cercano",
+      "relacion": "Amigo cercano, colega en psicosíntesis",
       "tipo_relacion": "amigo",
       "fuerza_vinculo": 7,
-      "nacionalidad": "Italiana-Estadounidense",
+      "nacionalidad": "Estadounidense",
       "origen_etnico": "Italiano",
-      "profesion": "Terapeuta, educador",
+      "profesion": "Psicólogo, psicosíntesis",
       "ubicacion": "California, USA",
       "caracteristicas": [
-        "discípulo Assagioli",
-        "estrecha amistad",
-        "psicosíntesis"
+        "psicosíntesis",
+        "Assagioli",
+        "Venture House",
+        "amigo cercano"
       ],
       "epoca_relacion": "1970s+",
-      "rol_en_vida_claudio": "Amigo cercano, conexión con psicosíntesis",
+      "rol_en_vida_claudio": "Discípulo de Roberto Assagioli (fundador de la psicosíntesis) con quien Claudio trabó una estrecha amistad. Participó junto a Claudio en grupos de crecimiento personal en San Francisco.",
       "num_menciones": 1,
       "contextos_ejemplo": [
-        "ocasión de visitar más tarde, y Jim Vargiu, un discípulo del fundador de la psicosíntesis"
+        "No menos importante que el taller fue el encuentro de Jim Vargiu, un discípulo del fundador de la psicosíntesis (Roberto Assagioli) con quien trabaría una estrecha amistad.",
+        "Especialmente útil para mi desarrollo como psicoterapeuta fue que me invitaran a un grupo que se reunía regularmente en la Venture House de San Francisco. También asistieron Jim y Susan Vargiu, los seguidores de Assagioli."
       ],
-      "biografia_extendida": "",
+      "biografia_extendida": "Ingeniero convertido en psicólogo que dirigió el Psychosynthesis Institute of Redwood City, California. Discípulo directo de Roberto Assagioli, fundador de la psicosíntesis. Conocido por Claudio durante un taller sobre chamanismo en Esalen. Participó en conversaciones televisadas con Fritz Perls, Castaneda, Harner y Michael Murphy. Trabajó junto a su esposa Susan Vargiu en temas de crecimiento personal.",
       "wikipedia_url": "",
       "foto_url": null,
       "fecha_nacimiento": "",

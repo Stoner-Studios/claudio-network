@@ -41,6 +41,7 @@ export default function NetworkGraph({
   const svgRef = useRef<SVGSVGElement>(null);
   const simulationRef = useRef<d3.Simulation<ExtendedNode, any> | null>(null);
   const nodesRef = useRef<ExtendedNode[]>([]);
+  const zoomRef = useRef<d3.ZoomBehavior<SVGSVGElement, unknown> | null>(null);
   const [dimensions, setDimensions] = useState({ width: 800, height: 600 });
 
   // Función para identificar si es Claudio
@@ -129,6 +130,9 @@ export default function NetworkGraph({
       .on("zoom", (event) => {
         g.attr("transform", event.transform);
       });
+
+    // Guardar zoom en ref para acceso desde botones
+    zoomRef.current = zoom;
 
     svg.call(zoom);
 
@@ -512,9 +516,6 @@ export default function NetworkGraph({
       }
     }
 
-    // Guardar referencia al zoom
-    (svg as any).zoomBehavior = zoom;
-    (svg as any).mainGroup = g;
   }, [data, dimensions, claudioName, centeredNode, onNodeClick, onNodeCenter, isClaudioNode]);
 
   useEffect(() => {
@@ -534,12 +535,9 @@ export default function NetworkGraph({
       <div className="absolute bottom-4 right-4 flex flex-col gap-2">
         <button
           onClick={() => {
-            if (svgRef.current) {
+            if (svgRef.current && zoomRef.current) {
               const svg = d3.select(svgRef.current);
-              const zoom = (svg as any).zoomBehavior;
-              if (zoom) {
-                svg.transition().call(zoom.scaleBy, 1.3);
-              }
+              svg.transition().duration(300).call(zoomRef.current.scaleBy, 1.3);
             }
           }}
           className="w-10 h-10 bg-white rounded-lg shadow border border-gray-200 flex items-center justify-center text-xl font-bold text-gray-700 hover:bg-gray-50"
@@ -548,12 +546,9 @@ export default function NetworkGraph({
         </button>
         <button
           onClick={() => {
-            if (svgRef.current) {
+            if (svgRef.current && zoomRef.current) {
               const svg = d3.select(svgRef.current);
-              const zoom = (svg as any).zoomBehavior;
-              if (zoom) {
-                svg.transition().call(zoom.scaleBy, 0.7);
-              }
+              svg.transition().duration(300).call(zoomRef.current.scaleBy, 0.7);
             }
           }}
           className="w-10 h-10 bg-white rounded-lg shadow border border-gray-200 flex items-center justify-center text-xl font-bold text-gray-700 hover:bg-gray-50"
@@ -562,12 +557,9 @@ export default function NetworkGraph({
         </button>
         <button
           onClick={() => {
-            if (svgRef.current) {
+            if (svgRef.current && zoomRef.current) {
               const svg = d3.select(svgRef.current);
-              const zoom = (svg as any).zoomBehavior;
-              if (zoom) {
-                svg.transition().call(zoom.transform, d3.zoomIdentity);
-              }
+              svg.transition().duration(300).call(zoomRef.current.transform, d3.zoomIdentity);
             }
           }}
           className="w-10 h-10 bg-white rounded-lg shadow border border-gray-200 flex items-center justify-center text-xs font-medium text-gray-700 hover:bg-gray-50"
