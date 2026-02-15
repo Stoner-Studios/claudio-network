@@ -20,6 +20,7 @@ interface ExtendedNode extends GraphNode {
   fy: number | null;
   ring?: number;
   angle?: number;
+  clipId?: string;
 }
 
 interface ExtendedLink {
@@ -264,6 +265,24 @@ export default function NetworkGraph({
     // Definir marcadores de flecha
     const defs = svg.append("defs");
 
+    // Crear clipPaths y patterns para fotos
+    nodes.forEach((d, i) => {
+      if (d.foto_url) {
+        // Crear clipPath circular para cada nodo con foto
+        const clipId = `clip-${i}-${d.id.replace(/\s+/g, '-')}`;
+        defs
+          .append("clipPath")
+          .attr("id", clipId)
+          .append("circle")
+          .attr("cx", 0)
+          .attr("cy", 0)
+          .attr("r", getNodeRadius(d, d.name === centerName) - 2);
+
+        // Guardar el clipId en el nodo para usarlo después
+        (d as any).clipId = clipId;
+      }
+    });
+
     defs
       .append("marker")
       .attr("id", "arrow")
@@ -361,23 +380,46 @@ export default function NetworkGraph({
       .attr("transform", (d) => `translate(${d.x},${d.y})`)
       .style("cursor", "pointer");
 
-    // Círculos de los nodos
+    // Círculos de fondo (para el color del borde)
     node
       .append("circle")
       .attr("r", (d) => getNodeRadius(d, d.name === centerName))
       .attr("fill", (d) => {
+        if (d.foto_url) return "#e5e7eb"; // Fondo gris claro si tiene foto
         if (d.name === centerName) return "#f59e0b"; // Solo el centro es ámbar
         return d.hasBio ? "#3b82f6" : "#94a3b8";
       })
       .attr("stroke", (d) => {
         if (d.name === centerName) return "#fbbf24";
+        if (d.foto_url) {
+          // Color según tipo de relación si tiene foto
+          return d.hasBio ? "#3b82f6" : "#94a3b8";
+        }
         return "#fff";
       })
-      .attr("stroke-width", (d) => (d.name === centerName ? 3 : 2))
+      .attr("stroke-width", (d) => (d.name === centerName ? 3 : d.foto_url ? 3 : 2))
       .on("click", (_event, d) => {
         if (onNodeClick) onNodeClick(d);
         if (onNodeCenter) onNodeCenter(d);
       });
+
+    // Fotos de los nodos (si tienen)
+    node.each(function(d) {
+      if (d.foto_url && (d as any).clipId) {
+        const group = d3.select(this);
+        const radius = getNodeRadius(d, d.name === centerName);
+        group
+          .append("image")
+          .attr("href", d.foto_url)
+          .attr("x", -radius + 3)
+          .attr("y", -radius + 3)
+          .attr("width", (radius - 3) * 2)
+          .attr("height", (radius - 3) * 2)
+          .attr("clip-path", `url(#${(d as any).clipId})`)
+          .attr("preserveAspectRatio", "xMidYMid slice")
+          .style("pointer-events", "none");
+      }
+    });
 
     // Labels de los nodos
     node

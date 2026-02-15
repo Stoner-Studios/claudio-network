@@ -48,6 +48,7 @@ export interface GraphNode {
   mentions: number;
   hasBio: boolean;
   type: string;
+  foto_url?: string;
   x?: number;
   y?: number;
   fx?: number | null;

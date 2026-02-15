@@ -79,6 +79,7 @@ export function buildGraphData(minMentions: number = 10): GraphData {
       mentions: p.num_menciones,
       hasBio: !!p.biografia_extendida,
       type: p.tipo_relacion,
+      foto_url: p.foto_url || undefined,
     });
   });
 
