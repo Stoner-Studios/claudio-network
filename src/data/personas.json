@@ -2,7 +2,7 @@
   "metadata": {
     "libro": "Ascenso y Descenso de la Montaña Sagrada",
     "autor": "Claudio Naranjo",
-    "total_personas": 476,
+    "total_personas": 473,
     "nota": "JSON limpio: eliminados no-personas y fusionados duplicados",
     "fecha_limpieza": "2026-02-15",
     "personas_enriquecidas": 37,
@@ -508,25 +508,29 @@
       "nombre_alternativo": [
         "Chen Chien-ming"
       ],
-      "relacion": "Maestro de yoga tántrico",
+      "relacion": "Maestro budista tibetano",
       "tipo_relacion": "maestro",
       "fuerza_vinculo": 8,
       "nacionalidad": "China",
       "origen_etnico": "Chino",
-      "profesion": "Maestro de yoga tántrico",
-      "ubicacion": "California, USA",
+      "profesion": "Maestro budista, ermitaño",
+      "ubicacion": "Berkeley, California / Kalimpong",
       "caracteristicas": [
-        "yoga sexual",
-        "enseñanzas 4am",
-        "erudito Tripitaka"
+        "ermitaño",
+        "budismo tibetano",
+        "cuatro escuelas",
+        "ceremonia del fuego"
       ],
       "epoca_relacion": "1960s-1970s",
-      "rol_en_vida_claudio": "Maestro de prácticas tántricas, guía sexual-espiritual",
+      "rol_en_vida_claudio": "Maestro budista que vivió como ermitaño en Kalimpong. Iniciado en las cuatro grandes escuelas del budismo tibetano. Recomendó a Claudio buscar iniciación con el Karmapa.",
       "num_menciones": 29,
       "contextos_ejemplo": [
-        "No recuerdo ahora si Peter ya me había anunciado la venida de Yogi Chen a California"
+        "Conocí a Yogi Chen el mismo día de su llegada... Con el tiempo supe que Yogi Chen había vivido como ermitaño durante años en Kalimpong, donde solían visitarlo lamas tibetanos, en su paso hacia las Américas.",
+        "Cuando lo conocí más de cerca me explicó que Buda mismo se le había aparecido y le había indicado que se trasladara a Berkeley y que realizara allí la ceremonia del fuego.",
+        "Siempre me hacía una reverencia profunda al encontrarme, que me resultaba bastante educativa, pues no podía dejar de hacerle una igualmente profunda.",
+        "Nunca lo vi proponerse como un maestro para nadie y ello me resultaba algo enigmático."
       ],
-      "biografia_extendida": "Maestro de yoga tántrico chino (Chen Chien-ming). Erudito en el Tripitaka (canon budista). Enseñó yoga tántrico y prácticas sexuales tántricas en California durante los años 60-70. Impartía enseñanzas a las 4am. Figura en el desarrollo espiritual de Claudio Naranjo como guía en prácticas tántricas. Establecido en California donde atrajo a buscadores espirituales occidentales.",
+      "biografia_extendida": "Maestro budista que vivió como ermitaño durante años en Kalimpong, donde lamas tibetanos lo visitaban en su paso hacia las Américas. Fue iniciado en las cuatro grandes escuelas del budismo tibetano, aunque nunca se proponía como maestro. Buda se le había aparecido indicándole trasladarse a Berkeley y realizar la ceremonia del fuego en un lugar con conformación de loto. Sus discípulos construyeron un templo allí. Siempre caminaba con gran sonrisa y actitud relajada, haciendo reverencias profundas. Tenía principios estrictos sobre no involucrar transacciones comerciales en sus actividades.",
       "wikipedia_url": "",
       "foto_url": null,
       "fecha_nacimiento": "",
@@ -944,26 +948,28 @@
       "nombre_alternativo": [
         "Oscar Ichazo"
       ],
-      "relacion": "Maestro del Eneagrama",
+      "relacion": "Maestro espiritual, fundador de Arica School",
       "tipo_relacion": "maestro",
       "fuerza_vinculo": 10,
       "nacionalidad": "Boliviana",
       "origen_etnico": "Latinoamericano",
-      "profesion": "Maestro espiritual, fundador sistema Arica",
+      "profesion": "Maestro espiritual, fundador de escuela",
       "ubicacion": "Arica, Chile / Bolivia",
       "caracteristicas": [
         "fundador Arica",
-        "maestro Eneagrama",
-        "figura central años 60-70"
+        "protoanálisis",
+        "maestro espiritual",
+        "Khidr"
       ],
       "epoca_relacion": "1960s-1970s",
-      "rol_en_vida_claudio": "Maestro del Eneagrama, figura central desarrollo espiritual",
+      "rol_en_vida_claudio": "Fundador de la escuela de Arica. Ofreció a Claudio un entrenamiento completo en protoanálisis, mentaciones, centros superiores, chakras y lataif. Claudio viajó a Arica en 1970 para entrenar intensivamente con él.",
       "num_menciones": 12,
       "contextos_ejemplo": [
-        "ya explicaré, e incluso llegaría a preguntarme si la aparición de Óscar Ichazo en mi vida",
-        "conocer a Óscar Ichazo (a quien ya imaginé como posible maestro), respondió Shah a mi"
+        "Cuando me abrió la puerta en mi primera visita, pude ver que tenía unos cuarenta años, estaba ligeramente calvo, llevaba bigote y un jersey de cuello alto amarillo.",
+        "Me explicó que estaba allí principalmente por mí, puesto que, para él, era un líder. 'Tienes una responsabilidad. Ya que tu elección tendrá mucho efecto en otros, lo quieras o no, serás responsable más que de ti mismo.'",
+        "Cuando llegamos a la cima de El Morro, a altas horas de la noche, me dijo que había estado orando allí todas las noches en preparación para nuestra llegada. 'Sé más porque puedo ver; y a esto se refiere mi nombre Muhakkek: uno que ve.'"
       ],
-      "biografia_extendida": "Místico y maestro espiritual boliviano (1931-2020), fundador del sistema Arica y uno de los principales difusores del Eneagrama de la personalidad en Occidente. Nacido en Bolivia, afirmó haber recibido enseñanzas esotéricas desde joven. Estableció la Escuela Arica en Chile (1968), luego en EE.UU. (1971). Enseñó sistema complejo integrando psicología, filosofía, misticismo y el Eneagrama. Influyente en movimiento del Potencial Humano. Demandó a autores que difundieron el Eneagrama sin reconocer su autoría.",
+      "biografia_extendida": "Fundador de la escuela de Arica y figura fundamental en el desarrollo espiritual de Claudio. Tenía unos cuarenta años cuando Claudio lo conoció, ligeramente calvo, con bigote. Se presentaba como conectado con Khidr (arcángel) y afirmaba que su nombre Muhakkek significaba 'uno que ve'. Consideraba que la escuela era 'el sistema nervioso de la tierra'. Ofreció entrenamiento en protoanálisis, trabajo con las doce mentaciones, despertar del centro emocional superior, trabajo con el psicocatalizador personal, activación de chakras y elevación de kundalini.",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Oscar_Ichazo",
       "foto_url": null,
       "fecha_nacimiento": "1931-07-24",
@@ -1172,26 +1178,27 @@
       "nombre_alternativo": [
         "Murphy"
       ],
-      "relacion": "Co-fundador Esalen",
-      "tipo_relacion": "facilitador_institucional",
+      "relacion": "Co-fundador de Esalen Institute",
+      "tipo_relacion": "colega",
       "fuerza_vinculo": 8,
       "nacionalidad": "Estadounidense",
       "origen_etnico": "Estadounidense",
-      "profesion": "Co-fundador Esalen",
+      "profesion": "Co-fundador Esalen, escritor",
       "ubicacion": "Big Sur, California",
       "caracteristicas": [
-        "co-fundador Esalen 1962",
+        "co-fundador Esalen",
         "Potencial Humano",
-        "trabajo cercano"
+        "escritor"
       ],
       "epoca_relacion": "1960s-1970s+",
-      "rol_en_vida_claudio": "Facilitador institucional, plataforma para talleres",
+      "rol_en_vida_claudio": "Co-fundador de Esalen junto con Dick Price. Proporcionó a Claudio la oportunidad de inmersión en el Movimiento del Potencial Humano. Nombró 'Esalen en Chile' a los talleres que Claudio dirigía.",
       "num_menciones": 8,
       "contextos_ejemplo": [
-        "conversación post-taller que Fritz, Castaneda, Harner y yo tuvimos con Michael Murphy",
-        "Cuando le describí estas experiencias a Michael Murphy, en mi viaje a California,"
+        "Durante los años 1968 y 1969 dirigí numerosos talleres en el Instituto Esalen, que fue para mí lo que se llama un alma mater, no solo porque gracias a la generosa acogida de Michael Murphy y Dick Price tuve la oportunidad de una inmersión en el Movimiento del Potencial Humano.",
+        "Cuando le describí estas experiencias a Michael Murphy, en mi viaje a California, comentó alegremente: 'Caramba, podríamos llamarlo Esalen en Chile'. Así se llamó durante algún tiempo en la contraportada del catálogo de Esalen.",
+        "Esalen fue y sigue siendo un lugar de gran belleza, con su exuberante césped y arroyo boscoso con vistas al Océano Pacífico. Atrajo a una población de buscadores gitanos."
       ],
-      "biografia_extendida": "Escritor y cofundador del Instituto Esalen (n. 3 septiembre 1930). Figura clave en el Movimiento del Potencial Humano. Cofundó Esalen en 1962 con Richard Price en Big Sur, California, en propiedad de su abuela. Esalen se convirtió en centro del movimiento contracultural y del potencial humano de los años 60-70. También cofundó la Práctica Transformadora Integral (ITP). Autor de cuatro novelas incluyendo 'Golf in the Kingdom' (1972), considerado clásico de la literatura espiritual. Explorador de la consciencia y las capacidades humanas latentes. Cumplió 95 años en septiembre de 2025.",
+      "biografia_extendida": "Co-fundador del Instituto Esalen junto con Dick Price. Esalen, con su exuberante césped y arroyo boscoso con vistas al Océano Pacífico, era un lugar de gran belleza natural que atraía a una población de buscadores. Cuando Claudio le describió sus experiencias grupales psicodélicas en Chile, Michael comentó: 'Caramba, podríamos llamarlo Esalen en Chile'. Así se llamó durante algún tiempo en la contraportada del catálogo de Esalen.",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Murphy_(author)",
       "foto_url": null,
       "fecha_nacimiento": "1930-09-03",
@@ -1525,27 +1532,28 @@
       "nombre_alternativo": [
         "Leo the Lion"
       ],
-      "relacion": "Terapeuta psicodélico, mentor",
+      "relacion": "Psicólogo, facilitador psicodélico",
       "tipo_relacion": "mentor",
       "fuerza_vinculo": 9,
       "nacionalidad": "Estadounidense",
       "origen_etnico": "Estadounidense",
-      "profesion": "Psicólogo, psicoterapeuta",
-      "ubicacion": "California, USA",
+      "profesion": "Psicólogo, terapeuta psicodélica",
+      "ubicacion": "Berkeley, California",
       "caracteristicas": [
-        "pionero psicodélicos",
-        "grupos terapéuticos",
-        "urgencia reencuentro",
-        "Leo the Lion"
+        "psicólogo",
+        "psicodélicos",
+        "terapeuta",
+        "grupo experimental"
       ],
       "epoca_relacion": "1960s-1970s",
-      "rol_en_vida_claudio": "Mentor crucial en trabajo psicodélico, guía tras 'temporada en el cielo'",
+      "rol_en_vida_claudio": "Psicólogo que facilitó sesiones psicodélicas terapéuticas. Su grupo fue un lugar de crecimiento y experimentación para Claudio con harmalina, MMDA e ibogaína.",
       "num_menciones": 6,
       "contextos_ejemplo": [
-        "verdadera urgencia de reencontrarme con Leo Zeff, pues nada necesitaba tanto como",
-        "Asistí a una de las reuniones del grupo psicodélico de Leo Zeff, pero ya no recuerdo el"
+        "Cuando tuve la oportunidad de regresar a Berkeley, tenía una verdadera urgencia de reencontrarme con Leo Zeff, pues nada necesitaba tanto como recuperarme del sufrimiento en el que había entrado tras mi breve temporada en el cielo.",
+        "Fue una consecuencia natural de mi aprendizaje en el grupo de Leo, que también se había vuelto para mí un lugar de crecimiento y de experimentación anónima con los primeros fármacos: la harmalina, el MMDA y luego la ibogaína.",
+        "Asistí a una de las reuniones del grupo psicodélico de Leo Zeff, pero ya no recuerdo el contenido de mi experiencia, sino el sentimiento de que no era tan significativa como las de años anteriores."
       ],
-      "biografia_extendida": "Psicólogo y psicoterapeuta junguiano estadounidense pionero en el uso terapéutico de sustancias psicodélicas como LSD y MDMA. Introducido a la MDMA en 1977, entrenó a aproximadamente 150 terapeutas y trató a más de 4,000 pacientes con terapia asistida por MDMA. Sirvió como Teniente Coronel del Ejército de EE.UU.",
+      "biografia_extendida": "Psicólogo que facilitaba sesiones psicodélicas terapéuticas en Berkeley. Su grupo se convirtió en un lugar de crecimiento y experimentación para Claudio con fármacos como harmalina, MMDA e ibogaína. Cuando Claudio regresó a Chile tras sus experiencias psicodélicas, sentía una 'verdadera urgencia de reencontrarme con Leo Zeff' para recuperarse del sufrimiento posterior a sus experiencias. También patrocinó una conferencia de Bob Hoffman.",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Leo_Zeff",
       "foto_url": null,
       "fecha_nacimiento": "1912-05-14",
@@ -1656,26 +1664,28 @@
         "Julia Cohen"
       ],
       "relacion": "Madre",
-      "tipo_relacion": "familiar",
+      "tipo_relacion": "madre",
       "fuerza_vinculo": 10,
       "nacionalidad": "Francesa",
       "origen_etnico": "Judía",
-      "profesion": "Mecenas cultural, periodista",
+      "profesion": "Abogada, periodista, pianista",
       "ubicacion": "Santiago, Chile / Francia (origen)",
       "caracteristicas": [
         "culta",
-        "amante literatura",
-        "amante música",
-        "organizadora salón musical",
-        "feminista temprana"
+        "pianista",
+        "abogada pionera",
+        "judía",
+        "primera discípula"
       ],
       "epoca_relacion": "1932-1980s",
-      "rol_en_vida_claudio": "Figura materna, influencia cultural decisiva, conexión con mundo artístico",
+      "rol_en_vida_claudio": "Madre de Claudio, mujer culta y refinada. Una de las primeras mujeres abogadas en Chile. Tras la experiencia iluminativa de Claudio en 1970, se convirtió en su primera discípula.",
       "num_menciones": 5,
       "contextos_ejemplo": [
-        "fue. De Julia Cohen Gallerstein heredé el segundo apellido, que fue parte de mi identidad"
+        "De Julia Cohen Gallerstein heredé el segundo apellido. Durante mi infancia no tuve conciencia del judaísmo. Mucho más tarde supe que mi abuela materna Rebeca había decidido criar a sus hijos sin ninguna conciencia de su origen racial.",
+        "En ese tiempo no se concebía que una mujer estudiara Derecho. Junto con su amiga Yvonne Gandon, lograron romper con esa convención y convertirse en las primeras mujeres abogadas en Chile.",
+        "Tras la experiencia iluminativa de 1970, mi madre se convirtió en mi primera discípula."
       ],
-      "biografia_extendida": "Madre de Claudio Naranjo. Conocida por ser la anfitriona de Tótila Albert en su casa de El Retiro, Chile. Figura importante en la vida temprana de Claudio y en el ambiente cultural e intelectual que rodeó su crianza.",
+      "biografia_extendida": "De ascendencia judía, su familia tenía un prestigioso linaje que se remontaba al rey David. Estudió Derecho siendo una de las primeras mujeres abogadas en Chile junto con Yvonne Gandon. También estudió Periodismo, interesándose en los derechos de las mujeres. Era una buena pianista aficionada y estaba orientada hacia la cultura, literatura y el aprendizaje. Su madre Rebeca decidió criar a sus hijos sin conciencia de su origen judío para evitarles los sufrimientos de los pogroms rusos.",
       "wikipedia_url": "",
       "foto_url": null,
       "fecha_nacimiento": "",
@@ -1753,7 +1763,7 @@
     {
       "nombre": "Ximena",
       "nombre_alternativo": [],
-      "relacion": "Pareja o amiga cercana",
+      "relacion": "Compañera de infancia, amiga querida",
       "tipo_relacion": "pareja",
       "fuerza_vinculo": 10,
       "nacionalidad": "Chilena",
@@ -1761,14 +1771,19 @@
       "profesion": "No especificada",
       "ubicacion": "Chile",
       "caracteristicas": [
-        "temporada verano con madre",
-        "antes sueño profético Elisa"
+        "compañera de infancia",
+        "maestra de naturaleza",
+        "tragedia familiar"
       ],
       "epoca_relacion": "Juventud",
-      "rol_en_vida_claudio": "Pareja o relación cercana en juventud",
+      "rol_en_vida_claudio": "Compañera de verano en la infancia que le enseñó a pescar, cazar mariposas y apreciar la naturaleza. Su trágica muerte por ahogamiento marcó profundamente a Claudio.",
       "num_menciones": 5,
-      "contextos_ejemplo": [],
-      "biografia_extendida": "",
+      "contextos_ejemplo": [
+        "Ximena fue como una ráfaga de aire fresco en mi vida. Un poco mayor que yo, y una compañera como nunca antes había tenido, me enseñó a pescar, a cazar mariposas, a recoger piedras bellas o extrañas y a armar un insectario.",
+        "Fueron días felices a mis ocho o nueve años de edad, de una manera en que la felicidad se me haría más evidente en la distancia del recuerdo por su contraste con el resto de mi vida.",
+        "Al año siguiente de la temporada de verano con Ximena... con la noticia de que Ximena se había ahogado en un campamento de verano, y en su desesperación Elisa había intentado quitarse la vida."
+      ],
+      "biografia_extendida": "Ximena fue una figura importante en la infancia de Claudio Naranjo. Un poco mayor que él, se alojó con su familia durante un verano en Quilpué junto a su madre Elisa (amiga de Claudio Arrau). Le enseñó a pescar, cazar mariposas, recoger piedras y armar un insectario. Fueron días felices que destacaron por su contraste con el resto de su vida. Trágicamente, al año siguiente, Ximena se ahogó en un campamento de verano. Su madre Elisa intentó quitarse la vida al recibir la noticia.",
       "wikipedia_url": "",
       "foto_url": null,
       "fecha_nacimiento": "",
@@ -1950,24 +1965,28 @@
         "Vicente"
       ],
       "relacion": "Padre",
-      "tipo_relacion": "familiar",
+      "tipo_relacion": "padre",
       "fuerza_vinculo": 10,
       "nacionalidad": "Chilena",
       "origen_etnico": "Español",
       "profesion": "Tesorero Provincial",
       "ubicacion": "Valparaíso, Chile",
       "caracteristicas": [
-        "sencillo",
+        "proveedor",
         "generoso",
-        "amante música popular",
-        "bondadoso",
-        "querido por empleados"
+        "humor",
+        "simple",
+        "naranjos"
       ],
       "epoca_relacion": "1932-1970s",
-      "rol_en_vida_claudio": "Figura paterna, proveedor familiar, contraste con madre culta",
+      "rol_en_vida_claudio": "Padre de Claudio, proveedor de la familia, caracterizado por su generosidad hacia los pobres y su humor. Mantuvo una relación distante con sus hijos.",
       "num_menciones": 4,
-      "contextos_ejemplo": [],
-      "biografia_extendida": "",
+      "contextos_ejemplo": [
+        "Mi padre fue alguien a quien siempre asocié a una vida sencilla, de generosidad hacia los pobres, de goce y humor. Fue el proveedor de la familia y, en su cargo como Tesorero Provincial de Valparaíso, nada me impresionó tanto como la devoción que inspiraba entre sus empleados.",
+        "Una expresión del amor por su familia fue que en todas las casas en las que viví durante mi infancia mi padre plantara naranjos. Para mí, el aroma de los naranjos era incomparablemente delicioso.",
+        "El contraste entre mis padres se me hacía muy evidente cuando viajaba con ellos en coche y la radio estaba encendida. Mi madre elegía la música clásica y mi padre prefería la música popular."
+      ],
+      "biografia_extendida": "Chileno de origen español, vivió su infancia en ambiente humilde. Trabajó como Tesorero Provincial de Valparaíso, donde inspiraba devoción entre sus empleados. Se caracterizó por su generosidad hacia los pobres, goce y humor. En contraste con su esposa orientada a la cultura, prefería la música popular y una vida sencilla. Plantaba naranjos en todas las casas donde vivía. Padeció una enfermedad grave que requirió cirugía en Rumania.",
       "wikipedia_url": "",
       "foto_url": null,
       "fecha_nacimiento": "",
@@ -2570,25 +2589,27 @@
       "nombre_alternativo": [
         "Richard Price"
       ],
-      "relacion": "Co-fundador Esalen",
-      "tipo_relacion": "facilitador_institucional",
+      "relacion": "Co-fundador de Esalen Institute",
+      "tipo_relacion": "colega",
       "fuerza_vinculo": 8,
       "nacionalidad": "Estadounidense",
       "origen_etnico": "Estadounidense",
-      "profesion": "Co-fundador Esalen",
+      "profesion": "Co-fundador Esalen, terapeuta Gestalt",
       "ubicacion": "Big Sur, California",
       "caracteristicas": [
         "co-fundador Esalen",
-        "trabajo cercano"
+        "Gestalt",
+        "Potencial Humano"
       ],
       "epoca_relacion": "1960s-1985",
-      "rol_en_vida_claudio": "Facilitador institucional, colaboración estrecha",
+      "rol_en_vida_claudio": "Co-fundador de Esalen junto con Michael Murphy. Proporcionó a Claudio la oportunidad de inmersión en el Movimiento del Potencial Humano. Más tarde se convirtió en el gestaltista principal de Esalen.",
       "num_menciones": 3,
       "contextos_ejemplo": [
-        "Michael Murphy y Dick Price tuve la oportunidad de una inmersión en el Movimiento",
-        "de Joe Wysong y Dick Price. El primero posteriormente fue el editor del Gestalt Journal,"
+        "Durante los años 1968 y 1969 dirigí numerosos talleres en el Instituto Esalen, que fue para mí lo que se llama un alma mater, no solo porque gracias a la generosa acogida de Michael Murphy y Dick Price tuve la oportunidad de una inmersión en el Movimiento del Potencial Humano.",
+        "Hubo un tiempo en que me sentí muy honrado por el mundo oficial de la Gestalt, tal vez porque en el momento previo a que Dick Price comenzara su trabajo en Esalen fui yo uno de los tres sucesores de Fritz allí.",
+        "En retrospectiva me impresiona lo simbólico de la participación de Dick Price, que poco después se convirtió en el gestaltista principal de Esalen."
       ],
-      "biografia_extendida": "",
+      "biografia_extendida": "Co-fundador del Instituto Esalen junto con Michael Murphy. Gracias a su generosa acogida, Claudio tuvo la oportunidad de una inmersión en el Movimiento del Potencial Humano antes de que se hiciera popular. Esalen se convirtió en un 'alma mater' para Claudio, donde pudo trabajar de manera creativa y personal. Dick Price más tarde se convirtió en el gestaltista principal de Esalen.",
       "wikipedia_url": "",
       "foto_url": null,
       "fecha_nacimiento": "",
@@ -3795,32 +3816,6 @@
       "relaciones_con_otras_personas": []
     },
     {
-      "nombre": "Parque Vergara",
-      "nombre_alternativo": [],
-      "relacion": "Persona mencionada",
-      "tipo_relacion": "mencionado",
-      "fuerza_vinculo": 2,
-      "nacionalidad": "No especificada",
-      "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 2 veces",
-      "num_menciones": 2,
-      "contextos_ejemplo": [
-        "asistimos a las clases de teoría y solfeo en el bello entorno del Parque Vergara, en un"
-      ],
-      "biografia_extendida": "",
-      "wikipedia_url": "",
-      "foto_url": null,
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
-      "relaciones_con_otras_personas": []
-    },
-    {
       "nombre": "Federico Heinlein",
       "nombre_alternativo": [],
       "relacion": "Persona mencionada",
@@ -3862,32 +3857,6 @@
       "num_menciones": 2,
       "contextos_ejemplo": [
         "Perón. Poco después de su llegada, Luz lo conoció en casa de Gabriela Gildemeister"
-      ],
-      "biografia_extendida": "",
-      "wikipedia_url": "",
-      "foto_url": null,
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
-      "relaciones_con_otras_personas": []
-    },
-    {
-      "nombre": "Parque Forestal",
-      "nombre_alternativo": [],
-      "relacion": "Persona mencionada",
-      "tipo_relacion": "mencionado",
-      "fuerza_vinculo": 2,
-      "nacionalidad": "No especificada",
-      "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 2 veces",
-      "num_menciones": 2,
-      "contextos_ejemplo": [
-        "caminar unos pocos metros para llegar al hermoso Parque Forestal."
       ],
       "biografia_extendida": "",
       "wikipedia_url": "",
@@ -6412,32 +6381,6 @@
       "relaciones_con_otras_personas": []
     },
     {
-      "nombre": "Hospital Alemán",
-      "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
-      "fuerza_vinculo": 1,
-      "nacionalidad": "No especificada",
-      "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 1 vez/veces",
-      "num_menciones": 1,
-      "contextos_ejemplo": [
-        "uerto principal de Chile, donde trabajaba mi padre como tesorero de la provincia, e iría a pasar gran parte de mi infancia en el edificio contiguo al Hospital Alemán, donde fui recibido en este mundo por un obstetra inglés, el Doctor Wells, a quien mi madre había elegido como el mejor especialista e"
-      ],
-      "biografia_extendida": "",
-      "wikipedia_url": "",
-      "foto_url": null,
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
-      "relaciones_con_otras_personas": []
-    },
-    {
       "nombre": "Doctor Wells",
       "nombre_alternativo": [],
       "relacion": "Mencionado",
@@ -7978,32 +7921,6 @@
       "relaciones_con_otras_personas": []
     },
     {
-      "nombre": "Hospital El Salvador",
-      "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
-      "fuerza_vinculo": 1,
-      "nacionalidad": "No especificada",
-      "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 1 vez/veces",
-      "num_menciones": 1,
-      "contextos_ejemplo": [
-        "úsqueda de comprensión intelectual. Poco después de conocer a Carmen, me tocó asistir a las lecciones de medicina interna del doctor Alessandri en el Hospital El Salvador, justo en la vereda de la casa de Carmen, y como iría a pasar varias horas todos los días en la práctica clínica era natural que "
-      ],
-      "biografia_extendida": "",
-      "wikipedia_url": "",
-      "foto_url": null,
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
-      "relaciones_con_otras_personas": []
-    },
-    {
       "nombre": "Juventudes Comunistas",
       "nombre_alternativo": [],
       "relacion": "Mencionado",
@@ -8617,32 +8534,6 @@
       "num_menciones": 1,
       "contextos_ejemplo": [
         "clínica  157  \fpsiquiátrica fue el psicoanálisis, también lo fue la práctica de la hipnoterapia, que más específicamente derivó de mi aprendizaje con Julio Dittborn. Llegó la hora de que Cecilia fue llevada a maternidad. No fue fácil. Necesitó someterse a una cesárea. Yo estuve en el quirófano, y qu"
-      ],
-      "biografia_extendida": "",
-      "wikipedia_url": "",
-      "foto_url": null,
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
-      "relaciones_con_otras_personas": []
-    },
-    {
-      "nombre": "Massachusetts General Hospital",
-      "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
-      "fuerza_vinculo": 1,
-      "nacionalidad": "No especificada",
-      "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 1 vez/veces",
-      "num_menciones": 1,
-      "contextos_ejemplo": [
-        "s, de una visita a la Universidad de Columbus, y la oportunidad para ello se presentó cuando mi madre —por recomendación de Mumenee— se internó en el Massachusetts General Hospital de Boston con el fin de ser operada de su glaucoma. También se me encomendó recoger informaciones relevantes relativas "
       ],
       "biografia_extendida": "",
       "wikipedia_url": "",
