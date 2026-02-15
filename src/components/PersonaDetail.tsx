@@ -58,13 +58,29 @@ export default function PersonaDetail({
         {/* Header */}
         <div className="p-4 border-b border-gray-200 bg-gray-50 rounded-t-3xl sm:rounded-none">
         <div className="flex justify-between items-start gap-4">
-          <div className="flex-1 min-w-0">
-            <h2 className="text-xl font-bold text-gray-900">{persona.nombre}</h2>
-            {persona.nombre_alternativo && persona.nombre_alternativo.length > 0 && (
-              <p className="text-sm text-gray-600 mt-1">
-                También conocido como: {persona.nombre_alternativo.join(", ")}
-              </p>
+          <div className="flex items-center gap-3 flex-1 min-w-0">
+            {/* Foto de perfil */}
+            {persona.foto_url ? (
+              <img
+                src={persona.foto_url}
+                alt={persona.nombre}
+                className="w-16 h-16 rounded-full object-cover flex-shrink-0 border-2 border-gray-200"
+              />
+            ) : (
+              <div className="w-16 h-16 rounded-full bg-gray-200 flex items-center justify-center flex-shrink-0">
+                <span className="text-2xl font-bold text-gray-400">
+                  {persona.nombre.charAt(0)}
+                </span>
+              </div>
             )}
+            <div className="flex-1 min-w-0">
+              <h2 className="text-xl font-bold text-gray-900">{persona.nombre}</h2>
+              {persona.nombre_alternativo && persona.nombre_alternativo.length > 0 && (
+                <p className="text-sm text-gray-600 mt-1">
+                  También conocido como: {persona.nombre_alternativo.join(", ")}
+                </p>
+              )}
+            </div>
           </div>
           <button
             onClick={onClose}
