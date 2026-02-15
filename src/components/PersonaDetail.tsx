@@ -7,19 +7,56 @@ interface PersonaDetailProps {
   onClose: () => void;
 }
 
+// Helper function to calculate age at death
+function calculateAge(birth: string, death: string): number | null {
+  try {
+    const birthYear = parseInt(birth.split('-')[0]);
+    const deathYear = parseInt(death.split('-')[0]);
+    if (isNaN(birthYear) || isNaN(deathYear)) return null;
+    return deathYear - birthYear;
+  } catch {
+    return null;
+  }
+}
+
+// Helper to format date for display
+function formatDate(dateStr: string): string {
+  if (!dateStr) return '';
+  if (dateStr.length === 4) return dateStr;
+
+  try {
+    const parts = dateStr.split('-');
+    if (parts.length === 3) {
+      const [year, month, day] = parts;
+      const months = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'];
+      return `${parseInt(day)} ${months[parseInt(month) - 1]} ${year}`;
+    }
+    return dateStr;
+  } catch {
+    return dateStr;
+  }
+}
+
 export default function PersonaDetail({
   persona,
   onClose,
 }: PersonaDetailProps) {
   if (!persona) return null;
 
-  return (
-    <div className="fixed inset-y-0 right-0 w-full sm:w-96 bg-white shadow-2xl z-50 flex flex-col border-l border-gray-200">
-      {/* Overlay para móvil */}
-      <div className="sm:hidden fixed inset-0 bg-black/50 -z-10" onClick={onClose} />
+  // Calculate age at death if we have both dates
+  const ageAtDeath = persona.fecha_nacimiento && persona.fecha_muerte
+    ? calculateAge(persona.fecha_nacimiento, persona.fecha_muerte)
+    : null;
 
-      {/* Header */}
-      <div className="p-4 border-b border-gray-200 bg-gray-50">
+  return (
+    <>
+      {/* Overlay para móvil - negro translúcido elegante */}
+      <div className="sm:hidden fixed inset-0 bg-black/60 backdrop-blur-sm z-40" onClick={onClose} />
+
+      {/* Panel */}
+      <div className="fixed inset-0 sm:inset-y-0 sm:right-0 sm:w-96 bg-white shadow-2xl z-50 flex flex-col sm:border-l border-gray-200 rounded-t-3xl sm:rounded-none">
+        {/* Header */}
+        <div className="p-4 border-b border-gray-200 bg-gray-50 rounded-t-3xl sm:rounded-none">
         <div className="flex justify-between items-start gap-4">
           <div className="flex-1 min-w-0">
             <h2 className="text-xl font-bold text-gray-900">{persona.nombre}</h2>
@@ -88,12 +125,17 @@ export default function PersonaDetail({
         {/* Datos biográficos */}
         {(persona.fecha_nacimiento || persona.lugar_nacimiento || persona.fecha_muerte || persona.lugar_muerte) && (
           <div>
-            <h3 className="text-sm font-semibold text-gray-800 mb-2">Datos biográficos</h3>
+            <h3 className="text-sm font-semibold text-gray-800 mb-2">
+              Datos biográficos
+              {ageAtDeath !== null && (
+                <span className="ml-2 text-orange-600 font-normal">({ageAtDeath} años)</span>
+              )}
+            </h3>
             <div className="space-y-3">
               {persona.fecha_nacimiento && (
                 <div className="bg-gray-50 rounded-lg p-3">
                   <span className="text-sm font-medium text-gray-700">Nacimiento</span>
-                  <p className="text-sm text-gray-900 font-medium">{persona.fecha_nacimiento}</p>
+                  <p className="text-sm text-gray-900 font-medium">{formatDate(persona.fecha_nacimiento)}</p>
                   {persona.lugar_nacimiento && (
                     <p className="text-sm text-gray-700">{persona.lugar_nacimiento}</p>
                   )}
@@ -102,7 +144,7 @@ export default function PersonaDetail({
               {persona.fecha_muerte && (
                 <div className="bg-gray-50 rounded-lg p-3">
                   <span className="text-sm font-medium text-gray-700">Fallecimiento</span>
-                  <p className="text-sm text-gray-900 font-medium">{persona.fecha_muerte}</p>
+                  <p className="text-sm text-gray-900 font-medium">{formatDate(persona.fecha_muerte)}</p>
                   {persona.lugar_muerte && (
                     <p className="text-sm text-gray-700">{persona.lugar_muerte}</p>
                   )}
@@ -176,7 +218,8 @@ export default function PersonaDetail({
             </a>
           </div>
         )}
+        </div>
       </div>
-    </div>
+    </>
   );
 }

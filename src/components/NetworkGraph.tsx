@@ -8,6 +8,7 @@ import { GraphData, getRelationColor } from "@/lib/graphData";
 interface NetworkGraphProps {
   data: GraphData;
   onNodeClick?: (node: GraphNode) => void;
+  onNodeCenter?: (node: GraphNode) => void;
   claudioName?: string;
 }
 
@@ -21,6 +22,7 @@ interface ExtendedNode extends GraphNode {
 export default function NetworkGraph({
   data,
   onNodeClick,
+  onNodeCenter,
   claudioName = "Claudio Naranjo",
 }: NetworkGraphProps) {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -121,23 +123,48 @@ export default function NetworkGraph({
       .attr("stroke-width", 1.5);
 
     // Etiquetas de relación (solo si hay pocos nodos para evitar saturación)
-    const showLabels = nodes.length <= 30;
+    // Reducido a 20 nodos para evitar solapamientos
+    const showLabels = nodes.length <= 20;
     let linkLabels: any = null;
 
     if (showLabels) {
       linkLabels = g
         .append("g")
-        .selectAll("text")
+        .selectAll("g")
         .data(links)
-        .join("text")
-        .attr("font-size", 8)
+        .join("g")
+        .attr("pointer-events", "none");
+
+      // Fondo blanco para las etiquetas
+      linkLabels
+        .append("rect")
+        .attr("fill", "white")
+        .attr("fill-opacity", 0.9)
+        .attr("rx", 2)
+        .attr("ry", 2);
+
+      // Texto de la etiqueta
+      linkLabels
+        .append("text")
+        .attr("font-size", 7)
         .attr("fill", "#6b7280")
         .attr("text-anchor", "middle")
-        .attr("pointer-events", "none")
+        .attr("dominant-baseline", "middle")
         .text((d: any) => {
           const type = d.type || "";
           // Acortar tipos de relación largos
-          return type.length > 12 ? type.substring(0, 10) + "..." : type;
+          return type.length > 10 ? type.substring(0, 8) + "..." : type;
+        })
+        .each(function(this: SVGTextElement) {
+          // Ajustar el tamaño del rectángulo de fondo
+          const bbox = this.getBBox();
+          const rect = (this.parentNode as SVGGElement).querySelector("rect");
+          if (rect) {
+            rect.setAttribute("x", String(bbox.x - 2));
+            rect.setAttribute("y", String(bbox.y - 1));
+            rect.setAttribute("width", String(bbox.width + 4));
+            rect.setAttribute("height", String(bbox.height + 2));
+          }
         });
     }
 
@@ -166,7 +193,18 @@ export default function NetworkGraph({
       })
       .attr("stroke-width", (d) => (isClaudioNode(d.name) ? 3 : 2))
       .on("click", (_event, d) => {
+        // Centrar en el nodo pulsado
+        const svg = d3.select(svgRef.current);
+        const zoom = (svg as any).zoomBehavior;
+        if (zoom && d.x !== undefined && d.y !== undefined) {
+          const transform = d3.zoomIdentity
+            .translate(width / 2 - d.x * 1.5, height / 2 - d.y * 1.5)
+            .scale(1.5);
+          svg.transition().duration(500).call(zoom.transform, transform);
+        }
+
         if (onNodeClick) onNodeClick(d);
+        if (onNodeCenter) onNodeCenter(d);
       });
 
     // Labels de los nodos
@@ -201,9 +239,11 @@ export default function NetworkGraph({
 
       // Posicionar etiquetas de relación en el punto medio del link
       if (linkLabels) {
-        linkLabels
-          .attr("x", (d: any) => (d.source.x + d.target.x) / 2)
-          .attr("y", (d: any) => (d.source.y + d.target.y) / 2);
+        linkLabels.attr("transform", (d: any) => {
+          const x = (d.source.x + d.target.x) / 2;
+          const y = (d.source.y + d.target.y) / 2;
+          return `translate(${x},${y})`;
+        });
       }
 
       node.attr("transform", (d: any) => `translate(${d.x},${d.y})`);
@@ -217,7 +257,7 @@ export default function NetworkGraph({
     return () => {
       simulation.stop();
     };
-  }, [data, dimensions, claudioName, onNodeClick, isClaudioNode]);
+  }, [data, dimensions, claudioName, onNodeClick, onNodeCenter, isClaudioNode]);
 
   useEffect(() => {
     drawGraph();

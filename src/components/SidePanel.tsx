@@ -97,11 +97,14 @@ export default function SidePanel({
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 sm:inset-y-0 sm:right-0 sm:w-96 bg-white shadow-2xl z-50 flex flex-col border-l border-gray-200">
-      {/* Overlay para móvil */}
-      <div className="sm:hidden fixed inset-0 bg-black/50 -z-10" onClick={onClose} />
-      {/* Header */}
-      <div className="p-4 border-b border-gray-200 bg-gray-50">
+    <>
+      {/* Overlay para móvil - negro translúcido elegante */}
+      <div className="sm:hidden fixed inset-0 bg-black/60 backdrop-blur-sm z-40" onClick={onClose} />
+
+      {/* Panel */}
+      <div className="fixed inset-0 sm:inset-y-0 sm:right-0 sm:w-96 bg-white shadow-2xl z-50 flex flex-col sm:border-l border-gray-200 rounded-t-3xl sm:rounded-none">
+        {/* Header */}
+        <div className="p-4 border-b border-gray-200 bg-gray-50 rounded-t-3xl sm:rounded-none">
         <div className="flex justify-between items-center">
           <h2 className="text-lg font-bold text-gray-900">Personas</h2>
           <button
@@ -129,7 +132,7 @@ export default function SidePanel({
             <span className="text-gray-700 ml-1">con rel.</span>
           </div>
         </div>
-      </div>
+        </div>
 
       {/* Filtros */}
       <div className="p-4 border-b border-gray-200 space-y-3">
@@ -286,7 +289,8 @@ export default function SidePanel({
               ))}
           </div>
         )}
+        </div>
       </div>
-    </div>
+    </>
   );
 }
