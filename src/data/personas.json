@@ -10,6 +10,58 @@
   },
   "personas": [
     {
+      "nombre": "Lily",
+      "nombre_alternativo": [],
+      "relacion": "Pareja, consideró casarse con ella",
+      "tipo_relacion": "pareja",
+      "fuerza_vinculo": 10,
+      "nacionalidad": "No especificada",
+      "origen_etnico": "No especificado",
+      "profesion": "No especificada",
+      "ubicacion": "No especificada",
+      "caracteristicas": ["relación significativa", "consideró matrimonio"],
+      "epoca_relacion": "No especificada",
+      "rol_en_vida_claudio": "Pareja sentimental con quien consideró casarse",
+      "num_menciones": 1,
+      "contextos_ejemplo": [
+        "Otra interpretación de que Rinpoche me mantuviese alejado se refería a mi decisión de casarme con Lily"
+      ],
+      "biografia_extendida": "Pareja de Claudio Naranjo con quien consideró seriamente casarse. La relación fue lo suficientemente significativa como para consultar con su maestro espiritual Rinpoche sobre el matrimonio.",
+      "wikipedia_url": "",
+      "foto_url": null,
+      "fecha_nacimiento": "",
+      "fecha_muerte": "",
+      "lugar_nacimiento": "",
+      "lugar_muerte": "",
+      "relaciones_con_otras_personas": []
+    },
+    {
+      "nombre": "Catalina",
+      "nombre_alternativo": [],
+      "relacion": "Pareja, madre de su hija",
+      "tipo_relacion": "pareja",
+      "fuerza_vinculo": 10,
+      "nacionalidad": "Chilena",
+      "origen_etnico": "Chileno",
+      "profesion": "No especificada",
+      "ubicacion": "Santiago, Chile",
+      "caracteristicas": ["madre de hija de Claudio", "convivencia en Santiago"],
+      "epoca_relacion": "Década de 1960s",
+      "rol_en_vida_claudio": "Pareja sentimental, madre de su hija (Mama)",
+      "num_menciones": 2,
+      "contextos_ejemplo": [
+        "Luego me iba a Santiago con Catalina y nuestra hija de dos años"
+      ],
+      "biografia_extendida": "Pareja de Claudio Naranjo durante la década de 1960s en Chile. Madre de su hija conocida como 'Mama'. Vivían juntos en Santiago y viajaron a Arica juntos durante el período en que Claudio participaba en las actividades del grupo de Gurdjieff con Tótila Albert.",
+      "wikipedia_url": "",
+      "foto_url": null,
+      "fecha_nacimiento": "",
+      "fecha_muerte": "",
+      "lugar_nacimiento": "",
+      "lugar_muerte": "",
+      "relaciones_con_otras_personas": []
+    },
+    {
       "nombre": "Tótila Albert",
       "nombre_alternativo": [
         "Tótila",
