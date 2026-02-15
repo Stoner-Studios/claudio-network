@@ -1,10 +1,12 @@
 "use client";
 
 import { Persona } from "@/types/persona";
+import { getData } from "@/lib/graphData";
 
 interface PersonaDetailProps {
   persona: Persona | null;
   onClose: () => void;
+  onNavigateToPersona?: (persona: Persona) => void;
 }
 
 // Helper function to calculate age at death
@@ -40,8 +42,27 @@ function formatDate(dateStr: string): string {
 export default function PersonaDetail({
   persona,
   onClose,
+  onNavigateToPersona,
 }: PersonaDetailProps) {
   if (!persona) return null;
+
+  const data = getData();
+
+  // Find persona by name for navigation
+  const findPersonaByName = (name: string): Persona | undefined => {
+    return data.personas.find(p =>
+      p.nombre === name ||
+      p.nombre_alternativo?.includes(name)
+    );
+  };
+
+  // Handle clicking on a related person
+  const handleRelationClick = (relationName: string) => {
+    const relatedPersona = findPersonaByName(relationName);
+    if (relatedPersona && onNavigateToPersona) {
+      onNavigateToPersona(relatedPersona);
+    }
+  };
 
   // Calculate age at death if we have both dates
   const ageAtDeath = persona.fecha_nacimiento && persona.fecha_muerte
@@ -216,25 +237,47 @@ export default function PersonaDetail({
           </div>
         )}
 
-        {/* Relaciones */}
+        {/* Relaciones clicables */}
         {persona.relaciones_con_otras_personas && persona.relaciones_con_otras_personas.length > 0 && (
           <div>
             <h3 className="text-sm font-semibold text-gray-800 mb-2">
               Relaciones ({persona.relaciones_con_otras_personas.length})
             </h3>
             <div className="space-y-2">
-              {persona.relaciones_con_otras_personas.map((rel, i) => (
-                <div
-                  key={i}
-                  className="p-3 bg-gray-50 rounded-lg"
-                >
-                  <p className="text-sm font-medium text-gray-900">{rel.nombre}</p>
-                  <p className="text-xs text-gray-600">{rel.tipo}</p>
-                  {rel.descripcion && (
-                    <p className="text-xs text-gray-700 mt-1">{rel.descripcion}</p>
-                  )}
-                </div>
-              ))}
+              {persona.relaciones_con_otras_personas.map((rel, i) => {
+                const relatedPersona = findPersonaByName(rel.nombre);
+                const isClickable = relatedPersona && onNavigateToPersona;
+
+                return (
+                  <button
+                    key={i}
+                    onClick={() => isClickable && handleRelationClick(rel.nombre)}
+                    disabled={!isClickable}
+                    className={`w-full p-3 rounded-lg text-left transition-colors ${
+                      isClickable
+                        ? 'bg-gray-50 hover:bg-blue-50 cursor-pointer'
+                        : 'bg-gray-50 cursor-default'
+                    }`}
+                  >
+                    <div className="flex items-center justify-between">
+                      <div className="flex-1">
+                        <p className={`text-sm font-medium ${isClickable ? 'text-blue-700' : 'text-gray-900'}`}>
+                          {rel.nombre}
+                          {isClickable && (
+                            <svg className="inline-block w-4 h-4 ml-1 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                            </svg>
+                          )}
+                        </p>
+                        <p className="text-xs text-gray-600">{rel.tipo}</p>
+                        {rel.descripcion && (
+                          <p className="text-xs text-gray-700 mt-1">{rel.descripcion}</p>
+                        )}
+                      </div>
+                    </div>
+                  </button>
+                );
+              })}
             </div>
           </div>
         )}

@@ -56,7 +56,25 @@ const CLAUDIO_NODO: GraphNode = {
   type: "autor",
 };
 
-export function buildGraphData(minFuerza: number = 1): GraphData {
+export interface GraphFilters {
+  search?: string;
+  tipoRelacion?: string;
+  minFuerza?: number;
+  maxFuerza?: number;
+  conBio?: boolean | null;
+  conRelaciones?: boolean | null;
+}
+
+export function buildGraphData(filters: GraphFilters = {}): GraphData {
+  const {
+    search = "",
+    tipoRelacion = "",
+    minFuerza = 1,
+    maxFuerza = 10,
+    conBio = null,
+    conRelaciones = null,
+  } = filters;
+
   const personas = getPersonas();
   const nodes: GraphNode[] = [];
   const links: GraphLink[] = [];
@@ -66,10 +84,38 @@ export function buildGraphData(minFuerza: number = 1): GraphData {
   nodes.push(CLAUDIO_NODO);
   nodeMap.set("Claudio Naranjo", true);
 
-  // Crear nodos para personas con fuerza_vinculo >= minFuerza (excluyendo a Claudio)
-  const filteredPersonas = personas.filter(
-    (p) => (p.fuerza_vinculo || 1) >= minFuerza && p.nombre !== "Claudio Naranjo"
-  );
+  // Filtrar personas según todos los criterios
+  const filteredPersonas = personas.filter((p) => {
+    // Excluir a Claudio
+    if (p.nombre === "Claudio Naranjo") return false;
+
+    // Filtro de búsqueda por nombre o profesión
+    if (search) {
+      const searchLower = search.toLowerCase();
+      const matchesName = p.nombre.toLowerCase().includes(searchLower);
+      const matchesProfesion = p.profesion?.toLowerCase().includes(searchLower);
+      if (!matchesName && !matchesProfesion) return false;
+    }
+
+    // Filtro por tipo de relación
+    if (tipoRelacion && p.tipo_relacion !== tipoRelacion) return false;
+
+    // Filtro por fuerza mínima
+    if ((p.fuerza_vinculo || 1) < minFuerza) return false;
+
+    // Filtro por fuerza máxima
+    if ((p.fuerza_vinculo || 1) > maxFuerza) return false;
+
+    // Filtro por biografía
+    if (conBio === true && !p.biografia_extendida) return false;
+
+    // Filtro por relaciones
+    if (conRelaciones === true && (!p.relaciones_con_otras_personas || p.relaciones_con_otras_personas.length === 0)) {
+      return false;
+    }
+
+    return true;
+  });
 
   filteredPersonas.forEach((p) => {
     nodeMap.set(p.nombre, true);

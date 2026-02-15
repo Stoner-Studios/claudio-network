@@ -19,7 +19,10 @@
       "origen_etnico": "No especificado",
       "profesion": "No especificada",
       "ubicacion": "No especificada",
-      "caracteristicas": ["relación significativa", "consideró matrimonio"],
+      "caracteristicas": [
+        "relación significativa",
+        "consideró matrimonio"
+      ],
       "epoca_relacion": "No especificada",
       "rol_en_vida_claudio": "Pareja sentimental con quien consideró casarse",
       "num_menciones": 1,
@@ -45,7 +48,10 @@
       "origen_etnico": "Chileno",
       "profesion": "No especificada",
       "ubicacion": "Santiago, Chile",
-      "caracteristicas": ["madre de hija de Claudio", "convivencia en Santiago"],
+      "caracteristicas": [
+        "madre de hija de Claudio",
+        "convivencia en Santiago"
+      ],
       "epoca_relacion": "Década de 1960s",
       "rol_en_vida_claudio": "Pareja sentimental, madre de su hija (Mama)",
       "num_menciones": 2,
@@ -68,7 +74,7 @@
         "Totila Albert"
       ],
       "relacion": "Maestro espiritual principal",
-      "tipo_relacion": "maestro_espiritual",
+      "tipo_relacion": "maestro",
       "fuerza_vinculo": 10,
       "nacionalidad": "Alemana",
       "origen_etnico": "Alemán",
@@ -161,7 +167,7 @@
         "Tarthang Rinpoche"
       ],
       "relacion": "Lama tibetano",
-      "tipo_relacion": "maestro_espiritual",
+      "tipo_relacion": "maestro",
       "fuerza_vinculo": 7,
       "nacionalidad": "Tibetana",
       "origen_etnico": "Tibetano",
@@ -242,7 +248,7 @@
         "G.I. Gurdjieff"
       ],
       "relacion": "Maestro espiritual (vía Tótila)",
-      "tipo_relacion": "maestro_espiritual",
+      "tipo_relacion": "maestro",
       "fuerza_vinculo": 9,
       "nacionalidad": "Armenio-Griega",
       "origen_etnico": "Armenio-Griego",
@@ -503,7 +509,7 @@
         "Chen Chien-ming"
       ],
       "relacion": "Maestro de yoga tántrico",
-      "tipo_relacion": "maestro_espiritual",
+      "tipo_relacion": "maestro",
       "fuerza_vinculo": 8,
       "nacionalidad": "China",
       "origen_etnico": "Chino",
@@ -630,7 +636,7 @@
       "nombre": "Idries Shah",
       "nombre_alternativo": [],
       "relacion": "Maestro sufí (contacto epistolar)",
-      "tipo_relacion": "maestro_espiritual",
+      "tipo_relacion": "maestro",
       "fuerza_vinculo": 7,
       "nacionalidad": "Afgana-Británica",
       "origen_etnico": "Afgano",
@@ -679,7 +685,7 @@
         "Don Juan"
       ],
       "relacion": "Chamán yaqui (contacto indirecto)",
-      "tipo_relacion": "maestro_espiritual",
+      "tipo_relacion": "maestro",
       "fuerza_vinculo": 5,
       "nacionalidad": "Mexicana",
       "origen_etnico": "Yaqui",
@@ -832,7 +838,7 @@
         "Frederick Perls"
       ],
       "relacion": "Maestro de Terapia Gestalt",
-      "tipo_relacion": "mentor_profesional",
+      "tipo_relacion": "mentor",
       "fuerza_vinculo": 10,
       "nacionalidad": "Alemana-Estadounidense",
       "origen_etnico": "Judío-Alemán",
@@ -939,7 +945,7 @@
         "Oscar Ichazo"
       ],
       "relacion": "Maestro del Eneagrama",
-      "tipo_relacion": "maestro_espiritual",
+      "tipo_relacion": "maestro",
       "fuerza_vinculo": 10,
       "nacionalidad": "Boliviana",
       "origen_etnico": "Latinoamericano",
@@ -1332,7 +1338,7 @@
       "nombre": "Meher Baba",
       "nombre_alternativo": [],
       "relacion": "Maestro espiritual (referencia)",
-      "tipo_relacion": "maestro_espiritual",
+      "tipo_relacion": "maestro",
       "fuerza_vinculo": 3,
       "nacionalidad": "India",
       "origen_etnico": "Persa-Indio",
@@ -1486,7 +1492,7 @@
         "James Simkin"
       ],
       "relacion": "Terapeuta Gestalt, terapeuta personal",
-      "tipo_relacion": "mentor_profesional",
+      "tipo_relacion": "mentor",
       "fuerza_vinculo": 9,
       "nacionalidad": "Estadounidense",
       "origen_etnico": "Estadounidense",
@@ -1520,7 +1526,7 @@
         "Leo the Lion"
       ],
       "relacion": "Terapeuta psicodélico, mentor",
-      "tipo_relacion": "mentor_profesional",
+      "tipo_relacion": "mentor",
       "fuerza_vinculo": 9,
       "nacionalidad": "Estadounidense",
       "origen_etnico": "Estadounidense",
@@ -2528,7 +2534,9 @@
     },
     {
       "nombre": "David Rosenmann-Taub",
-      "nombre_alternativo": ["David Rosenmann"],
+      "nombre_alternativo": [
+        "David Rosenmann"
+      ],
       "relacion": "Mentor, guía espiritual, amigo cercano",
       "tipo_relacion": "mentor",
       "fuerza_vinculo": 10,
@@ -2536,7 +2544,12 @@
       "origen_etnico": "Chileno",
       "profesion": "Poeta, compositor, pianista",
       "ubicacion": "Santiago de Chile",
-      "caracteristicas": ["poeta", "compositor", "pianista", "mentor espiritual"],
+      "caracteristicas": [
+        "poeta",
+        "compositor",
+        "pianista",
+        "mentor espiritual"
+      ],
       "epoca_relacion": "1940s-1950s",
       "rol_en_vida_claudio": "Mentor y guía espiritual de máxima importancia para Claudio Naranjo. Figura clave en su desarrollo personal e intelectual durante su juventud en Chile.",
       "num_menciones": 4,
@@ -4017,22 +4030,30 @@
     },
     {
       "nombre": "Cecilia Bruna",
-      "nombre_alternativo": [],
-      "relacion": "Persona mencionada",
-      "tipo_relacion": "mencionado",
-      "fuerza_vinculo": 2,
-      "nacionalidad": "No especificada",
-      "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 2 veces",
-      "num_menciones": 2,
-      "contextos_ejemplo": [
-        "manera indirecta al nacimiento de mi hijo, porque cuando conocí a Cecilia Bruna ella"
+      "nombre_alternativo": [
+        "Cici"
       ],
-      "biografia_extendida": "",
+      "relacion": "Esposa, madre de su hijo",
+      "tipo_relacion": "pareja",
+      "fuerza_vinculo": 10,
+      "nacionalidad": "Chilena",
+      "origen_etnico": "Chileno",
+      "profesion": "Artista, grabados",
+      "ubicacion": "Chile",
+      "caracteristicas": [
+        "sentido del humor",
+        "locuaz",
+        "hijo en común"
+      ],
+      "epoca_relacion": "Década de 1950s",
+      "rol_en_vida_claudio": "Esposa durante su juventud en Chile, madre de su primer hijo",
+      "num_menciones": 15,
+      "contextos_ejemplo": [
+        "Me pareció apropiado mudarme de la casa de mi madre cuando me casé con Cecilia Bruna",
+        "nuestra relación también se sexualizó, lo que trajo consigo sus inevitables complicaciones emocionales",
+        "cuando me casé con Cecilia Bruna... me atreví a proponerle que pasáramos algunas semanas juntos en El Retiro"
+      ],
+      "biografia_extendida": "Esposa de Claudio Naranjo durante su juventud en Chile. Madre de su primer hijo. Hija de Cecilia Sierra. Conocida cariñosamente como 'Cici'. Claudio la describió como alguien con un don para describir las cosas comunes de manera divertida, convirtiendo lo ordinario en extraordinario. Tuvo una relación previa con Sergio y perdió un bebé antes de conocer a Claudio.",
       "wikipedia_url": "",
       "foto_url": null,
       "fecha_nacimiento": "",
@@ -6002,7 +6023,7 @@
       "nombre": "Haridas Chaudhuri",
       "nombre_alternativo": [],
       "relacion": "Fundador CIAS (referencia)",
-      "tipo_relacion": "maestro_espiritual",
+      "tipo_relacion": "maestro",
       "fuerza_vinculo": 4,
       "nacionalidad": "India",
       "origen_etnico": "Indio",
@@ -7927,21 +7948,27 @@
     {
       "nombre": "Carmen Balmaceda",
       "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
-      "fuerza_vinculo": 1,
-      "nacionalidad": "No especificada",
-      "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 1 vez/veces",
-      "num_menciones": 1,
-      "contextos_ejemplo": [
-        "no habría surgido de nuestra cercanía física en el Conservatorio. La circunstancia precipitante de nuestro reencuentro fue que una amiga de mi madre, Carmen Balmaceda, quien, sabiendo de su entusiasmo por el joven poeta tan celebrado, ofreció presentárselo y reapareció así en nuestra casa. Mi amista"
+      "relacion": "Pareja, guía intelectual y espiritual",
+      "tipo_relacion": "pareja",
+      "fuerza_vinculo": 10,
+      "nacionalidad": "Chilena",
+      "origen_etnico": "Chileno",
+      "profesion": "Profesora de estética, filósofa",
+      "ubicacion": "Santiago, Chile",
+      "caracteristicas": [
+        "profesora universidad",
+        "intelectual",
+        "mayor que Claudio"
       ],
-      "biografia_extendida": "",
+      "epoca_relacion": "Década de 1950s",
+      "rol_en_vida_claudio": "Pareja sentimental, guía intelectual, introdujo a Dostoyevski, Huxley, Kafka y Hesse",
+      "num_menciones": 20,
+      "contextos_ejemplo": [
+        "Carmen entró en mi vida el mismo día que David... nuestra relación también se sexualizó",
+        "Apreciaba profundamente a Carmen... ella llegó a amarme apasionadamente",
+        "Carmen fue el canal de muchas influencias, entre las cuales quizás la más importante fue la de Dostoyevski"
+      ],
+      "biografia_extendida": "Profesora de estética en la Universidad Católica de Chile y filósofa. Amiga de la madre de Claudio. Fue una relación amorosa significativa durante la juventud de Claudio, quien la describió como una 'Diotima' o mujer sabia. Ella le introdujo a grandes autores como Dostoyevski, Huxley, Kafka y Hesse. Quería tener un hijo con Claudio y consideraban casarse, pero la madre de Claudio se opuso debido a la diferencia de edad y problemas de visión de Carmen. Influyó en el primer proceso terapéutico de Claudio al ayudarle a ver su excesiva obediencia materna.",
       "wikipedia_url": "",
       "foto_url": null,
       "fecha_nacimiento": "",
@@ -12666,7 +12693,10 @@
       "origen_etnico": "No especificado",
       "profesion": "Psicóloga, terapeuta",
       "ubicacion": "Belo Horizonte, Brasil",
-      "caracteristicas": ["codirectora centro investigaciones", "anfitriona"],
+      "caracteristicas": [
+        "codirectora centro investigaciones",
+        "anfitriona"
+      ],
       "epoca_relacion": "Década de 1970s",
       "rol_en_vida_claudio": "Pareja sentimental, organizadora de talleres en Brasil",
       "num_menciones": 1,
@@ -12894,7 +12924,7 @@
       "nombre": "Pancho Sierra",
       "nombre_alternativo": [],
       "relacion": "Figura espiritual",
-      "tipo_relacion": "maestro_espiritual",
+      "tipo_relacion": "maestro",
       "fuerza_vinculo": 3,
       "nacionalidad": "No especificada",
       "origen_etnico": "No especificado",
@@ -12923,7 +12953,7 @@
         "Durckheim"
       ],
       "relacion": "Maestro espiritual alemán",
-      "tipo_relacion": "maestro_espiritual",
+      "tipo_relacion": "maestro",
       "fuerza_vinculo": 5,
       "nacionalidad": "Alemana",
       "origen_etnico": "Alemán",
@@ -12951,7 +12981,7 @@
       "nombre": "Chris Griscom",
       "nombre_alternativo": [],
       "relacion": "Maestra espiritual",
-      "tipo_relacion": "maestro_espiritual",
+      "tipo_relacion": "maestro",
       "fuerza_vinculo": 3,
       "nacionalidad": "Estadounidense",
       "origen_etnico": "Estadounidense",

@@ -4,7 +4,7 @@ import { useState, useMemo, useCallback } from "react";
 import NetworkGraph from "@/components/NetworkGraph";
 import PersonaDetail from "@/components/PersonaDetail";
 import SidePanel, { FilterState } from "@/components/SidePanel";
-import { getData, buildGraphData, getRelationTypes, relationTypeColors } from "@/lib/graphData";
+import { getData, buildGraphData, getRelationTypes, relationTypeColors, GraphFilters } from "@/lib/graphData";
 import { Persona, GraphNode } from "@/types/persona";
 
 export default function Home() {
@@ -24,8 +24,15 @@ export default function Home() {
 
   // Construir datos del grafo basados en filtros
   const graphData = useMemo(() => {
-    return buildGraphData(filters.minFuerza);
-  }, [filters.minFuerza]);
+    return buildGraphData({
+      search: filters.search,
+      tipoRelacion: filters.tipoRelacion,
+      minFuerza: filters.minFuerza,
+      maxFuerza: filters.maxFuerza,
+      conBio: filters.conBio,
+      conRelaciones: filters.conRelaciones,
+    });
+  }, [filters]);
 
   // Obtener tipos de relación únicos presentes en el grafo actual
   const activeRelationTypes = useMemo(() => {
@@ -65,10 +72,9 @@ export default function Home() {
         </div>
 
         <div className="flex items-center gap-2 sm:gap-3">
-          {/* Control de fuerza mínima - Oculto en móvil muy pequeño */}
-          <div className="hidden sm:flex items-center gap-2 text-sm">
-            <label className="text-gray-600 hidden md:inline">Fuerza mín.:</label>
-            <label className="text-gray-600 md:hidden">Fza.:</label>
+          {/* Control de fuerza mínima - Visible en todos los tamaños */}
+          <div className="flex items-center gap-2 text-sm">
+            <label className="text-gray-600 text-xs sm:text-sm">Fza:</label>
             <input
               type="range"
               min="1"
@@ -80,9 +86,9 @@ export default function Home() {
                   minFuerza: Number(e.target.value),
                 }))
               }
-              className="w-16 sm:w-20"
+              className="w-12 sm:w-20"
             />
-            <span className="font-medium text-blue-600 w-6">
+            <span className="font-medium text-blue-600 w-4 text-xs sm:w-6 sm:text-sm">
               {filters.minFuerza}
             </span>
           </div>
@@ -186,27 +192,21 @@ export default function Home() {
           )}
         </div>
 
-        {/* Stats flotantes - Versión compacta en móvil */}
-        <div className="absolute bottom-16 sm:bottom-4 left-2 sm:left-4 bg-white/95 backdrop-blur-sm rounded-lg shadow p-2 sm:p-3 z-20 border border-gray-200">
+        {/* Stats flotantes - Compacto en todos los tamaños */}
+        <div className="absolute bottom-4 left-2 sm:left-4 bg-white/95 backdrop-blur-sm rounded-lg shadow p-2 sm:p-3 z-20 border border-gray-200">
           <div className="flex gap-2 sm:gap-4 text-xs">
-            <div className="text-center px-1 sm:px-2">
-              <p className="font-bold text-base sm:text-lg text-gray-900">{data.personas.length}</p>
+            <div className="text-center px-1">
+              <p className="font-bold text-sm sm:text-lg text-gray-900">{data.personas.length}</p>
               <p className="text-gray-500 hidden sm:block">Personas</p>
             </div>
-            <div className="text-center px-1 sm:px-2">
-              <p className="font-bold text-base sm:text-lg text-blue-600">
+            <div className="text-center px-1">
+              <p className="font-bold text-sm sm:text-lg text-blue-600">
                 {data.personas.filter((p) => p.biografia_extendida).length}
               </p>
               <p className="text-gray-500 hidden sm:block">Con bio</p>
             </div>
-            <div className="text-center px-1 sm:px-2">
-              <p className="font-bold text-base sm:text-lg text-green-600">
-                {data.personas.filter((p) => p.relaciones_con_otras_personas?.length > 0).length}
-              </p>
-              <p className="text-gray-500 hidden sm:block">Con rel.</p>
-            </div>
-            <div className="text-center px-1 sm:px-2">
-              <p className="font-bold text-base sm:text-lg text-purple-600">{graphData.nodes.length}</p>
+            <div className="text-center px-1">
+              <p className="font-bold text-sm sm:text-lg text-purple-600">{graphData.nodes.length}</p>
               <p className="text-gray-500 hidden sm:block">En grafo</p>
             </div>
           </div>
@@ -236,6 +236,10 @@ export default function Home() {
         <PersonaDetail
           persona={selectedPersona}
           onClose={() => setSelectedPersona(null)}
+          onNavigateToPersona={(persona) => {
+            setSelectedPersona(persona);
+            setCenteredNodeName(persona.nombre);
+          }}
         />
       )}
     </div>
