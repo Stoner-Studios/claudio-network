@@ -16,7 +16,7 @@ export default function Home() {
   const [filters, setFilters] = useState<FilterState>({
     search: "",
     tipoRelacion: "",
-    minFuerza: 1,
+    minFuerza: 5,
     maxFuerza: 10,
     conBio: null,
     conRelaciones: null,
