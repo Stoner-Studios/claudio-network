@@ -73,9 +73,9 @@ export default function Home() {
 
         <div className="flex items-center gap-2 sm:gap-3">
           {/* Buscador de personas */}
-          <div className="relative">
+          <div className="relative flex items-center">
             <svg
-              className="absolute left-2.5 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-500 pointer-events-none"
+              className="absolute left-2.5 w-4 h-4 text-gray-400 pointer-events-none flex-shrink-0"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -84,7 +84,7 @@ export default function Home() {
             </svg>
             <input
               type="text"
-              placeholder="Buscar..."
+              placeholder="Buscar"
               value={filters.search}
               onChange={(e) =>
                 setFilters((prev) => ({
@@ -92,7 +92,8 @@ export default function Home() {
                   search: e.target.value,
                 }))
               }
-              className="w-24 sm:w-40 px-2 sm:px-3 py-1.5 pl-9 border border-gray-300 rounded-lg text-sm text-gray-900 placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              style={{ paddingLeft: '28px' }}
+              className="w-24 sm:w-36 h-8 border border-gray-300 rounded-md text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
 
