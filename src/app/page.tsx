@@ -60,8 +60,8 @@ export default function Home() {
 
   return (
     <div className="h-screen w-screen overflow-hidden flex flex-col bg-slate-100">
-      {/* Header minimalista - Responsive */}
-      <header className="bg-white border-b border-gray-200 px-3 sm:px-4 py-2 sm:py-3 flex items-center justify-between z-30">
+      {/* Header minimalista - Responsive - Always visible */}
+      <header className="bg-white border-b border-gray-200 px-3 sm:px-4 py-2 sm:py-3 flex items-center justify-between z-[60] relative">
         <div className="flex items-center gap-2 sm:gap-4">
           <h1 className="text-lg sm:text-xl font-bold text-gray-900">
             Claudio Network
@@ -73,8 +73,8 @@ export default function Home() {
 
         <div className="flex items-center gap-2 sm:gap-3">
           {/* Control de fuerza mínima - Visible en todos los tamaños */}
-          <div className="flex items-center gap-2 text-sm">
-            <label className="text-gray-600 text-xs sm:text-sm">Fza:</label>
+          <div className="flex items-center gap-1 sm:gap-2 text-sm">
+            <label className="text-gray-600 text-xs sm:text-sm font-medium">Fza:</label>
             <input
               type="range"
               min="1"
@@ -86,22 +86,47 @@ export default function Home() {
                   minFuerza: Number(e.target.value),
                 }))
               }
-              className="w-12 sm:w-20"
+              className="w-16 sm:w-20 h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-blue-600"
             />
-            <span className="font-medium text-blue-600 w-4 text-xs sm:w-6 sm:text-sm">
-              {filters.minFuerza}
-            </span>
+            <input
+              type="number"
+              min="1"
+              max="10"
+              value={filters.minFuerza}
+              onChange={(e) =>
+                setFilters((prev) => ({
+                  ...prev,
+                  minFuerza: Math.min(10, Math.max(1, Number(e.target.value) || 1)),
+                }))
+              }
+              className="w-10 sm:w-12 px-1 sm:px-2 py-1 border border-gray-300 rounded text-center font-bold text-blue-600 text-sm"
+            />
           </div>
 
-          {/* Botón para abrir panel */}
+          {/* Botón toggle para panel */}
           <button
-            onClick={() => setIsPanelOpen(true)}
-            className="flex items-center gap-1 sm:gap-2 px-3 sm:px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
+            onClick={() => setIsPanelOpen(!isPanelOpen)}
+            className={`flex items-center gap-1 sm:gap-2 px-3 sm:px-4 py-2 rounded-lg transition-colors text-sm font-medium ${
+              isPanelOpen
+                ? "bg-red-500 text-white hover:bg-red-600"
+                : "bg-blue-600 text-white hover:bg-blue-700"
+            }`}
           >
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h7" />
-            </svg>
-            <span className="hidden sm:inline">Listado</span>
+            {isPanelOpen ? (
+              <>
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+                <span className="hidden sm:inline">Cerrar</span>
+              </>
+            ) : (
+              <>
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h7" />
+                </svg>
+                <span className="hidden sm:inline">Listado</span>
+              </>
+            )}
           </button>
         </div>
       </header>
