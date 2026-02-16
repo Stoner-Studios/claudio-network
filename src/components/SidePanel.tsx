@@ -35,13 +35,30 @@ export default function SidePanel({
   const filteredPersonas = useMemo(() => {
     const personas = getPersonas();
     return personas.filter((p) => {
-      // Filtro de búsqueda
-      if (
-        filters.search &&
-        !p.nombre.toLowerCase().includes(filters.search.toLowerCase()) &&
-        !p.profesion?.toLowerCase().includes(filters.search.toLowerCase())
-      ) {
-        return false;
+      // Filtro de búsqueda en TODOS los campos de texto
+      if (filters.search) {
+        const searchLower = filters.search.toLowerCase();
+        const searchFields = [
+          p.nombre,
+          p.profesion,
+          p.nacionalidad,
+          p.relacion,
+          p.tipo_relacion,
+          p.ubicacion,
+          p.rol_en_vida_claudio,
+          p.biografia_extendida,
+          ...(p.caracteristicas || []),
+          ...(p.contextos_ejemplo || []),
+          ...(p.nombre_alternativo || []),
+        ].filter(Boolean);
+
+        const matchesAnyField = searchFields.some(field =>
+          field?.toLowerCase().includes(searchLower)
+        );
+
+        if (!matchesAnyField) {
+          return false;
+        }
       }
 
       // Filtro por tipo de relación

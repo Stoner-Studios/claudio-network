@@ -225,7 +225,6 @@ export default function Home() {
         onSelectPersona={(persona) => {
           setSelectedPersona(persona);
           setCenteredNodeName(persona.nombre);
-          setIsPanelOpen(false);
         }}
         onFilterChange={handleFilterChange}
         filters={filters}
