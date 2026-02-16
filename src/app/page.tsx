@@ -72,6 +72,30 @@ export default function Home() {
         </div>
 
         <div className="flex items-center gap-2 sm:gap-3">
+          {/* Buscador de personas */}
+          <div className="relative">
+            <svg
+              className="absolute left-2.5 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-500 pointer-events-none"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+            <input
+              type="text"
+              placeholder="Buscar..."
+              value={filters.search}
+              onChange={(e) =>
+                setFilters((prev) => ({
+                  ...prev,
+                  search: e.target.value,
+                }))
+              }
+              className="w-24 sm:w-40 px-2 sm:px-3 py-1.5 pl-9 border border-gray-300 rounded-lg text-sm text-gray-900 placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+            />
+          </div>
+
           {/* Control de fuerza mínima - Visible en todos los tamaños */}
           <div className="flex items-center gap-1 sm:gap-2 text-sm">
             <label className="text-gray-600 text-xs sm:text-sm font-medium">Fza:</label>

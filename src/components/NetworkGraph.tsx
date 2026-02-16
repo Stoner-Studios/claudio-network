@@ -74,7 +74,8 @@ export default function NetworkGraph({
 
     const { width, height } = dimensions;
     const centerX = width / 2;
-    const centerY = height / 2;
+    // Ajustar centerY para compensar el header (57px) - centrar más arriba
+    const centerY = (height / 2) - 30;
 
     // Fijar el nuevo centro y liberar los demás
     nodesRef.current.forEach(n => {
@@ -105,10 +106,24 @@ export default function NetworkGraph({
 
     const { width, height } = dimensions;
     const centerX = width / 2;
-    const centerY = height / 2;
+    // Ajustar centerY para compensar el header - centrar visualmente más arriba
+    const centerY = (height / 2) - 30;
 
-    // Determinar el centro actual (la persona seleccionada o Claudio por defecto)
-    const centerName = centeredNode || claudioName;
+    // Determinar el centro actual - debe estar en los nodos filtrados
+    // Prioridad: centeredNode > primer nodo con más menciones > Claudio
+    let centerName = claudioName;
+    const centeredNodeExists = data.nodes.some(n => n.name === centeredNode || n.id === centeredNode);
+    const claudioExists = data.nodes.some(n => n.name === claudioName || n.id === claudioName);
+
+    if (centeredNode && centeredNodeExists) {
+      centerName = centeredNode;
+    } else if (!claudioExists) {
+      // Si Claudio no está en los resultados, usar el nodo con más menciones
+      const sortedNodes = [...data.nodes].sort((a, b) => (b.mentions || 0) - (a.mentions || 0));
+      if (sortedNodes.length > 0) {
+        centerName = sortedNodes[0].name || sortedNodes[0].id;
+      }
+    }
 
     // Detener simulación anterior si existe
     if (simulationRef.current) {

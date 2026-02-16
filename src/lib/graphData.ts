@@ -54,6 +54,7 @@ const CLAUDIO_NODO: GraphNode = {
   mentions: 999, // Valor alto para que siempre sea visible
   hasBio: true,
   type: "autor",
+  foto_url: "/images/personas/Claudio_Naranjo.jpg",
 };
 
 export interface GraphFilters {
@@ -80,21 +81,42 @@ export function buildGraphData(filters: GraphFilters = {}): GraphData {
   const links: GraphLink[] = [];
   const nodeMap = new Map<string, boolean>();
 
+  // Determinar si hay búsqueda activa
+  const hasActiveSearch = search && search.trim().length > 0;
+
   // Siempre incluir a Claudio como nodo central
+  // - Sin búsqueda: es el centro del grafo
+  // - Con búsqueda: sirve como conector para mostrar las líneas de relación
   nodes.push(CLAUDIO_NODO);
   nodeMap.set("Claudio Naranjo", true);
 
   // Filtrar personas según todos los criterios
   const filteredPersonas = personas.filter((p) => {
-    // Excluir a Claudio
+    // Excluir a Claudio del filtrado normal (ya se añadió arriba si corresponde)
     if (p.nombre === "Claudio Naranjo") return false;
 
-    // Filtro de búsqueda por nombre o profesión
-    if (search) {
+    // Filtro de búsqueda en TODOS los campos de texto (igual que SidePanel)
+    if (hasActiveSearch) {
       const searchLower = search.toLowerCase();
-      const matchesName = p.nombre.toLowerCase().includes(searchLower);
-      const matchesProfesion = p.profesion?.toLowerCase().includes(searchLower);
-      if (!matchesName && !matchesProfesion) return false;
+      const searchFields = [
+        p.nombre,
+        p.profesion,
+        p.nacionalidad,
+        p.relacion,
+        p.tipo_relacion,
+        p.ubicacion,
+        p.rol_en_vida_claudio,
+        p.biografia_extendida,
+        ...(p.caracteristicas || []),
+        ...(p.contextos_ejemplo || []),
+        ...(p.nombre_alternativo || []),
+      ].filter(Boolean);
+
+      const matchesAnyField = searchFields.some(field =>
+        field?.toLowerCase().includes(searchLower)
+      );
+
+      if (!matchesAnyField) return false;
     }
 
     // Filtro por tipo de relación
