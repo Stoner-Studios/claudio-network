@@ -1286,7 +1286,9 @@
     },
     {
       "nombre": "Paco Peñarrubia",
-      "nombre_alternativo": ["Francisco Peñarrubia"],
+      "nombre_alternativo": [
+        "Francisco Peñarrubia"
+      ],
       "relacion": "Colaborador europeo cercano",
       "tipo_relacion": "discipulo",
       "fuerza_vinculo": 8,
@@ -6385,7 +6387,9 @@
     },
     {
       "nombre": "Gustavo Becerra",
-      "nombre_alternativo": ["Gustavo Becerra-Schmidt"],
+      "nombre_alternativo": [
+        "Gustavo Becerra-Schmidt"
+      ],
       "relacion": "Amigo, ayudante de profesor",
       "tipo_relacion": "amigo",
       "fuerza_vinculo": 1,
@@ -6506,7 +6510,9 @@
     },
     {
       "nombre": "Mischa Elman",
-      "nombre_alternativo": ["Mikhail Elman"],
+      "nombre_alternativo": [
+        "Mikhail Elman"
+      ],
       "relacion": "Amigo de la madre",
       "tipo_relacion": "mencionado",
       "fuerza_vinculo": 1,
@@ -6686,7 +6692,9 @@
     },
     {
       "nombre": "James Jeans",
-      "nombre_alternativo": ["Sir James Hopwood Jeans"],
+      "nombre_alternativo": [
+        "Sir James Hopwood Jeans"
+      ],
       "relacion": "Influencia intelectual",
       "tipo_relacion": "influencia",
       "fuerza_vinculo": 1,
@@ -6717,7 +6725,9 @@
     },
     {
       "nombre": "Dione Fortune",
-      "nombre_alternativo": ["Violet Mary Firth Evans"],
+      "nombre_alternativo": [
+        "Violet Mary Firth Evans"
+      ],
       "relacion": "Influencia espiritual",
       "tipo_relacion": "influencia",
       "fuerza_vinculo": 1,
@@ -6747,7 +6757,9 @@
     },
     {
       "nombre": "Federico Albert",
-      "nombre_alternativo": ["Friedrich Albert"],
+      "nombre_alternativo": [
+        "Friedrich Albert"
+      ],
       "relacion": "Padre de amiga",
       "tipo_relacion": "mencionado",
       "fuerza_vinculo": 1,
@@ -6808,21 +6820,24 @@
     {
       "nombre": "Carlos Villanueva",
       "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
+      "relacion": "Amigo de la familia",
+      "tipo_relacion": "amigo_familia",
       "fuerza_vinculo": 1,
-      "nacionalidad": "No especificada",
+      "nacionalidad": "Chilena",
       "origen_etnico": "No especificado",
       "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 1 vez/veces",
+      "ubicacion": "Santiago, Chile",
+      "caracteristicas": [
+        "introdujo a la madre de Claudio a la obra de Gurdjieff",
+        "viajó a Europa con su esposa Luz"
+      ],
+      "epoca_relacion": "Infancia/Juventud de Claudio",
+      "rol_en_vida_claudio": "Introdujo al círculo familiar a las enseñanzas de Gurdjieff",
       "num_menciones": 1,
       "contextos_ejemplo": [
-        "esitaba empujar, y no se interponía en que yo como buscador sediento me interesara en muchos caminos.  110  \f3 LEYENDO A GURDJIEFF  En algún momento, Carlos Villanueva y su esposa Luz también se mudaron a Santiago y así volvieron a formar parte de nuestro entorno social. En una de sus visitas a mi m"
+        "En algún momento, Carlos Villanueva y su esposa Luz también se mudaron a Santiago y así volvieron a formar parte de nuestro entorno social. En una de sus visitas a mi madre le habían hablado con gran entusiasmo sobre lo que habían escuchado, en un reciente viaje a Europa, de los Relatos de Belcebú a su nieto de Gurdjieff."
       ],
-      "biografia_extendida": "",
+      "biografia_extendida": "Carlos Villanueva fue un amigo de la familia de Claudio Naranjo que, junto con su esposa Luz, formaba parte del círculo social de la madre de Claudio. Después de mudarse a Santiago, reanudaron su relación con la familia. Su importancia en la vida de Claudio radica en que, tras un viaje a Europa, Carlos y su esposa Luz hablaron con gran entusiasmo a la madre de Claudio sobre 'Relatos de Belcebú a su nieto' de G.I. Gurdjieff, lo que eventualmente llevó a Claudio a interesarse por las enseñanzas del Cuarto Camino y la obra de Gurdjieff.",
       "wikipedia_url": "",
       "foto_url": null,
       "fecha_nacimiento": "",
@@ -6834,21 +6849,24 @@
     {
       "nombre": "David García",
       "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
+      "relacion": "Compañero de colegio",
+      "tipo_relacion": "amigo",
       "fuerza_vinculo": 1,
-      "nacionalidad": "No especificada",
+      "nacionalidad": "Chilena",
       "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 1 vez/veces",
+      "profesion": "Estudiante",
+      "ubicacion": "Santiago, Chile",
+      "caracteristicas": [
+        "compañero de colegio",
+        "interesado en las enseñanzas de Gurdjieff"
+      ],
+      "epoca_relacion": "Adolescencia",
+      "rol_en_vida_claudio": "Catalizador del interés de Claudio en Gurdjieff",
       "num_menciones": 1,
       "contextos_ejemplo": [
-        "magino que pasaron años antes de que yo lo abriese. Me parece que el estímulo para comenzar a leerlo fue la visita de un compañero de colegio llamado David García, que estaba en una clase superior a la mía. Para entonces ya había leído parte de Fragmentos de una enseñanza desconocida. En busca de lo"
+        "Me parece que el estímulo para comenzar a leerlo fue la visita de un compañero de colegio llamado David García, que estaba en una clase superior a la mía. Para entonces ya había leído parte de Fragmentos de una enseñanza desconocida. En busca de lo milagroso de Ouspensky."
       ],
-      "biografia_extendida": "",
+      "biografia_extendida": "David García fue un compañero de colegio de Claudio Naranjo, en una clase superior a la suya. Su importancia radica en que fue el catalizador directo que motivó a Claudio a comenzar a leer 'Relatos de Belcebú a su nieto' de Gurdjieff. David ya había leído parte de 'Fragmentos de una enseñanza desconocida. En busca de lo milagroso' de P.D. Ouspensky, obra que expone las enseñanzas de Gurdjieff, por lo que sus explicaciones no eran completamente nuevas para Claudio. Este encuentro marcó el inicio del profundo interés de Claudio Naranjo por el Cuarto Camino y las enseñanzas de G.I. Gurdjieff.",
       "wikipedia_url": "",
       "foto_url": null,
       "fecha_nacimiento": "",
@@ -6860,21 +6878,25 @@
     {
       "nombre": "Hans Loewe",
       "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
+      "relacion": "Músico admirado",
+      "tipo_relacion": "referencia",
       "fuerza_vinculo": 1,
-      "nacionalidad": "No especificada",
+      "nacionalidad": "Chileno-Alemán",
       "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 1 vez/veces",
+      "profesion": "Músico (violonchelo, corno francés)",
+      "ubicacion": "Santiago, Chile",
+      "caracteristicas": [
+        "músico de la Orquesta Sinfónica Nacional",
+        "tocaba violonchelo y corno francés",
+        "hombre dulce"
+      ],
+      "epoca_relacion": "Infancia/Juventud",
+      "rol_en_vida_claudio": "Figura musical apreciada durante la infancia",
       "num_menciones": 1,
       "contextos_ejemplo": [
-        " ocasiones me sentía libre de situarme detrás de alguno de los músicos mientras seguía la música escrita al mismo tiempo que la escuchaba. Me gustaba Hans Loewe, un hombre gordo y dulce que tocaba el violonchelo, a quien después de mudarnos a Santiago vería tocar el corno francés en los conciertos d"
+        "Debo haber asistido a muchos ensayos de su cuarteto, y en esas ocasiones me sentía libre de situarme detrás de alguno de los músicos mientras seguía la música escrita al mismo tiempo que la escuchaba. Me gustaba Hans Loewe, un hombre gordo y dulce que tocaba el violonchelo, a quien después de mudarnos a Santiago vería tocar el corno francés en los conciertos de la Orquesta Sinfónica Nacional."
       ],
-      "biografia_extendida": "",
+      "biografia_extendida": "Hans Loewe fue un músico chileno-alemán que formó parte de un cuarteto de cámara y posteriormente de la Orquesta Sinfónica Nacional de Chile. Claudio Naranjo asistió a numerosos ensayos del cuarteto durante su infancia, donde observaba a los músicos seguir las partituras mientras tocaban. Loewe, descrito como un 'hombre gordo y dulce', tocaba el violonchelo en el cuarteto y posteriormente el corno francés en la orquesta sinfónica. Su partida, décadas más tarde por cáncer, fue profundamente lamentada por Claudio, quien sentía una conexión especial con él aunque nunca le había hablado directamente.",
       "wikipedia_url": "",
       "foto_url": null,
       "fecha_nacimiento": "",
@@ -6886,21 +6908,24 @@
     {
       "nombre": "Anton Wilner",
       "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
+      "relacion": "Pedagogo musical (maestro de Freddy Wang)",
+      "tipo_relacion": "referencia",
       "fuerza_vinculo": 1,
-      "nacionalidad": "No especificada",
+      "nacionalidad": "Austríaca",
       "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 1 vez/veces",
+      "profesion": "Pedagogo musical, profesor de violín",
+      "ubicacion": "Viena, Austria",
+      "caracteristicas": [
+        "famoso pedagogo musical vienés",
+        "formó a niños prodigio"
+      ],
+      "epoca_relacion": "Pre-natal (maestro de Freddy Wang)",
+      "rol_en_vida_claudio": "Maestro del violinista Freddy Wang",
       "num_menciones": 1,
       "contextos_ejemplo": [
-        "ozart a quien mi madre prefería tocar. Freddy había sido un niño prodigio en Viena, donde había sido instruido por un famoso pedagogo musical llamado Anton Wilner. Pero con el ascenso del nazismo buscó refugio en Inglaterra, y más tarde emigró a Chile; estoy seguro de que fue el mejor violinista de "
+        "Freddy había sido un niño prodigio en Viena, donde había sido instruido por un famoso pedagogo musical llamado Anton Wilner. Pero con el ascenso del nazismo buscó refugio en Inglaterra, y más tarde emigró a Chile."
       ],
-      "biografia_extendida": "",
+      "biografia_extendida": "Anton Wilner fue un famoso pedagogo musical vienés conocido por su trabajo con niños prodigio. Fue el maestro de Freddy Wang, quien se convirtió en un violinista excepcional bajo su tutela en Viena. Tras el ascenso del nazismo, Freddy Wang huyó a Inglaterra y posteriormente emigró a Chile, donde se convirtió en el mejor violinista del país y amigo de la madre de Claudio Naranjo. Wilner representa la tradición musical vienesa de formación de talentos excepcionales que se dispersó por el mundo debido a la persecución nazi.",
       "wikipedia_url": "",
       "foto_url": null,
       "fecha_nacimiento": "",
@@ -6943,48 +6968,57 @@
     },
     {
       "nombre": "Nikolái Chernyshevski",
-      "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
+      "nombre_alternativo": [
+        "Nikolai Chernyshevsky"
+      ],
+      "relacion": "Filósofo mencionado",
+      "tipo_relacion": "referencia",
       "fuerza_vinculo": 1,
-      "nacionalidad": "No especificada",
+      "nacionalidad": "Rusa",
       "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 1 vez/veces",
+      "profesion": "Filósofo, crítico literario, revolucionario",
+      "ubicacion": "Rusia",
+      "caracteristicas": [
+        "filósofo revolucionario ruso",
+        "autor de ¿Qué hacer?",
+        "influyó en Lenin"
+      ],
+      "epoca_relacion": "Viaje a Europa (Festival de la Juventud)",
+      "rol_en_vida_claudio": "Referencia intelectual mencionada por pasajero rumano",
       "num_menciones": 1,
       "contextos_ejemplo": [
-        "encia en Bruselas. Había sido un militante bolchevique antes de abandonar su país. Fue un placer escucharlo explicar a Marx, Lenin y especialmente de Nikolái Chernyshevski. Creo que gran parte de la confianza que sentí en lo que decía derivó del hecho de que recibí sus palabras en el contexto de lo "
+        "La influencia más interesante a bordo fue la de un viejo rumano que viajaba con su familia desde Argentina a su residencia en Bruselas. Había sido un militante bolchevique antes de abandonar su país. Fue un placer escucharlo explicar a Marx, Lenin y especialmente de Nikolái Chernyshevski."
       ],
-      "biografia_extendida": "",
-      "wikipedia_url": "",
+      "biografia_extendida": "Nikolái Gavrilovich Chernyshevski (1828-1889) fue un filósofo revolucionario ruso, crítico literario y periodista. Escribió la influyente novela '¿Qué hacer?' (1863) mientras estaba preso en la Fortaleza de Pedro y Pablo. Esta obra, que promovía el egoísmo racional y la emancipación femenina, inspiró a generaciones de revolucionarios rusos, incluyendo a Lenin, quien más tarde escribiría una obra con el mismo título. Chernyshevski defendía el materialismo filosófico y las ideas socialistas utópicas. Fue exiliado a Siberia en 1864 tras ser declarado culpable de actividades subversivas. Claudio Naranjo escuchó sobre él durante un viaje en barco de un ex-militante bolchevique rumano que explicaba las ideas marxistas.",
+      "wikipedia_url": "https://es.wikipedia.org/wiki/Nikol%C3%A1i_Chernyshevski",
       "foto_url": null,
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
+      "fecha_nacimiento": "1828-07-12",
+      "fecha_muerte": "1889-10-17",
+      "lugar_nacimiento": "Saratov, Rusia",
+      "lugar_muerte": "Saratov, Rusia",
       "relaciones_con_otras_personas": []
     },
     {
       "nombre": "Pi Ling",
       "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
+      "relacion": "Conocida en Festival de la Juventud",
+      "tipo_relacion": "conocido",
       "fuerza_vinculo": 1,
-      "nacionalidad": "No especificada",
+      "nacionalidad": "China",
       "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 1 vez/veces",
+      "profesion": "Delegada juvenil",
+      "ubicacion": "China",
+      "caracteristicas": [
+        "delegada china en Festival de la Juventud",
+        "desconocía a Lao Tse"
+      ],
+      "epoca_relacion": "Festival Mundial de la Juventud (Moscú 1957)",
+      "rol_en_vida_claudio": "Breve encuentro durante festival internacional",
       "num_menciones": 1,
       "contextos_ejemplo": [
-        "rme jardín. Naturalmente, me interesó visitar a aquellos que venían de China, y tuve la oportunidad de hablar durante un tiempo con una chica llamada Pi Ling, a quien le conté que esperaba viajar a su país en un futuro cercano, pues nada me interesaba tanto como aprender más acerca del taoísmo. Pero"
+        "Naturalmente, me interesó visitar a aquellos que venían de China, y tuve la oportunidad de hablar durante un tiempo con una chica llamada Pi Ling, a quien le conté que esperaba viajar a su país en un futuro cercano, pues nada me interesaba tanto como aprender más acerca del taoísmo. Pero cuando mencioné a Lao Tse me sorprendió que no supiera de inmediato a quién me refería."
       ],
-      "biografia_extendida": "",
+      "biografia_extendida": "Pi Ling fue una joven delegada china que Claudio Naranjo conoció durante el Festival Mundial de la Juventud celebrado en Moscú en 1957. En un encuentro en un enorme jardín donde se reunieron delegaciones de todos los países, Claudio conversó con ella expresando su deseo de viajar a China para aprender sobre el taoísmo. Sin embargo, quedó sorprendido cuando al mencionar a Lao Tse, el legendario fundador del taoísmo, ella no supo reconocer el nombre inmediatamente, exclamando finalmente: '¡Ah, Lao-Tzu, un viejo filósofo!'. Este encuentro ilustra el impacto de la Revolución Cultural china en el conocimiento de las tradiciones espirituales ancestrales.",
       "wikipedia_url": "",
       "foto_url": null,
       "fecha_nacimiento": "",
@@ -6995,48 +7029,59 @@
     },
     {
       "nombre": "Lao Tse",
-      "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
+      "nombre_alternativo": [
+        "Laozi",
+        "Lao Tzu"
+      ],
+      "relacion": "Filósofo de interés",
+      "tipo_relacion": "influencia",
       "fuerza_vinculo": 1,
-      "nacionalidad": "No especificada",
+      "nacionalidad": "China",
       "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 1 vez/veces",
+      "profesion": "Filósofo, escritor",
+      "ubicacion": "Antigua China",
+      "caracteristicas": [
+        "fundador del taoísmo",
+        "autor del Tao Te Ching",
+        "figura legendaria"
+      ],
+      "epoca_relacion": "Interés permanente",
+      "rol_en_vida_claudio": "Influencia filosófica y espiritual",
       "num_menciones": 1,
       "contextos_ejemplo": [
-        " conté que esperaba viajar a su país en un futuro cercano, pues nada me interesaba tanto como aprender más acerca del taoísmo. Pero cuando mencioné a Lao Tse me sorprendió que no supiera de inmediato a quién me refería. Finalmente pareció darse cuenta y exclamó: «¡Ah, Lao-Tzu, un viejo filósofo!». C"
+        "Nada me interesaba tanto como aprender más acerca del taoísmo. Pero cuando mencioné a Lao Tse me sorprendió que no supiera de inmediato a quién me refería. Finalmente pareció darse cuenta y exclamó: «¡Ah, Lao-Tzu, un viejo filósofo!»."
       ],
-      "biografia_extendida": "",
-      "wikipedia_url": "",
+      "biografia_extendida": "Lao Tse (siglo VI a.C., fechas tradicionales 604-531 a.C.) es una figura semi-legendaria de la antigua China, considerado el fundador del taoísmo y autor del Tao Te Ching (Libro del Camino y la Virtud), uno de los textos más influyentes de la filosofía china. Según la tradición, fue contemporáneo de Confucio y trabajó como archivista en la corte de la dinastía Zhou. Se dice que abandonó la civilización hacia el oeste montando un búfalo, y que antes de partir escribió el Tao Te Ching a petición de un guardián de la frontera. Su filosofía enfatiza el wu-wei (no-acción o acción sin esfuerzo), la simplicidad, la naturalidad y la armonía con el Tao (el Camino universal). Claudio Naranjo sentía un profundo interés por el taoísmo y mencionó a Lao Tse como parte de su búsqueda espiritual.",
+      "wikipedia_url": "https://es.wikipedia.org/wiki/Lao_Tse",
       "foto_url": null,
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
+      "fecha_nacimiento": "-604",
+      "fecha_muerte": "-531",
+      "lugar_nacimiento": "Henan, China",
+      "lugar_muerte": "No especificado",
       "relaciones_con_otras_personas": []
     },
     {
       "nombre": "Soni Morel",
       "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
+      "relacion": "Compañero de escuela",
+      "tipo_relacion": "amigo",
       "fuerza_vinculo": 1,
-      "nacionalidad": "No especificada",
+      "nacionalidad": "Chilena",
       "origen_etnico": "No especificado",
       "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 1 vez/veces",
+      "ubicacion": "París, Francia / Santiago, Chile",
+      "caracteristicas": [
+        "compañero de escuela secundaria",
+        "hijo de familia rica",
+        "vivía en Hotel Bonaparte"
+      ],
+      "epoca_relacion": "Juventud (viaje a París)",
+      "rol_en_vida_claudio": "Anfitrión durante estadía en París",
       "num_menciones": 1,
       "contextos_ejemplo": [
-        "umana y estimulación por el interés de las tiendas. Estuve allí casi un mes debido al inesperado encuentro con un compañero de la escuela secundaria, Soni Morel, cuyo padre rico le permitía vivir en un departamento en el Hotel Bonaparte, que me invitó a compartir. En París visité a André Breton y a "
+        "Estuve allí casi un mes debido al inesperado encuentro con un compañero de la escuela secundaria, Soni Morel, cuyo padre rico le permitía vivir en un departamento en el Hotel Bonaparte, que me invitó a compartir. En París visité a André Breton y a Elisa Bindhoff."
       ],
-      "biografia_extendida": "",
+      "biografia_extendida": "Soni Morel fue un compañero de la escuela secundaria de Claudio Naranjo, proveniente de una familia adinerada. Durante un viaje de Claudio a París, se reencontraron inesperadamente. El padre rico de Soni le permitía vivir en un departamento en el prestigioso Hotel Bonaparte del barrio Faubourg Saint-Germain, muy cerca del Boulevard Saint-Michel. Soni invitó a Claudio a compartir su departamento, lo que permitió a Claudio permanecer casi un mes en París. Durante esa estadía, Claudio visitó a André Breton, fundador del surrealismo, y a Elisa Bindhoff. También discutieron sobre libros, aunque sus gustos literarios diferían.",
       "wikipedia_url": "",
       "foto_url": null,
       "fecha_nacimiento": "",
@@ -7126,21 +7171,21 @@
     {
       "nombre": "Armando Roa",
       "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
+      "relacion": "Profesor de psiquiatría (no elegido)",
+      "tipo_relacion": "referencia",
       "fuerza_vinculo": 1,
-      "nacionalidad": "No especificada",
+      "nacionalidad": "Chilena",
       "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 1 vez/veces",
+      "profesion": "Psiquiatra, profesor universitario",
+      "ubicacion": "Santiago, Chile",
+      "caracteristicas": ["enfoque fenomenológico", "enfoque existencialista", "catedrático de psiquiatría"],
+      "epoca_relacion": "Época universitaria",
+      "rol_en_vida_claudio": "Una de las tres opciones de cátedra de psiquiatría",
       "num_menciones": 1,
       "contextos_ejemplo": [
-        "ría. La opción que se nos presentaba era entre tres profesores que trabajaban en diferentes hospitales: Agustín Tellez, con un énfasis kraepeliniano; Armando Roa, cuyo principal interés estaba en la fenomenología y el existencialismo; y finalmente se encontraba la cátedra de Ignacio Matte, un psicoa"
+        "La opción que se nos presentaba era entre tres profesores que trabajaban en diferentes hospitales: Agustín Tellez, con un énfasis kraepeliniano; Armando Roa, cuyo principal interés estaba en la fenomenología y el existencialismo; y finalmente se encontraba la cátedra de Ignacio Matte, un psicoanalista."
       ],
-      "biografia_extendida": "",
+      "biografia_extendida": "Armando Roa fue un psiquiatra chileno y profesor universitario que ofrecía una de las tres cátedras de psiquiatría disponibles en la Universidad de Chile. Su enfoque se distinguía por enfatizar la fenomenología y el existencialismo, corrientes filosóficas que influyeron profundamente en la psiquiatría del siglo XX. A diferencia de Agustín Téllez (enfoque kraepeliniano) e Ignacio Matte-Blanco (psicoanálisis), Roa representaba la tradición fenomenológica-existencial en psiquiatría. Aunque Claudio Naranjo finalmente optó por la cátedra de Matte-Blanco, la existencia de estas tres opciones reflejaba la diversidad de enfoques psiquiátricos disponibles en Chile en aquella época.",
       "wikipedia_url": "",
       "foto_url": null,
       "fecha_nacimiento": "",
@@ -7152,21 +7197,21 @@
     {
       "nombre": "Carlos Maríani",
       "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
+      "relacion": "Amigo en la clínica psiquiátrica",
+      "tipo_relacion": "amigo",
       "fuerza_vinculo": 1,
-      "nacionalidad": "No especificada",
+      "nacionalidad": "Chilena",
       "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 1 vez/veces",
+      "profesion": "Médico, psiquiatra",
+      "ubicacion": "Santiago, Chile",
+      "caracteristicas": ["persona problemática según la clínica", "perdió una pierna en accidente", "sabiduría personal"],
+      "epoca_relacion": "Época universitaria (clínica de Matte)",
+      "rol_en_vida_claudio": "Verdadera amistad en la clínica psiquiátrica",
       "num_menciones": 1,
       "contextos_ejemplo": [
-        " psicoanálisis y las personas parecían relacionarse más íntimamente que en otros lugares, solo hube de establecer una verdadera amistad con el doctor Carlos Maríani, a quien se consideraba en la clínica como una persona problemática. Maríani había perdido una pierna cuando un vehículo lo aplastó y s"
+        "Solo hube de establecer una verdadera amistad con el doctor Carlos Maríani, a quien se consideraba en la clínica como una persona problemática. Maríani había perdido una pierna cuando un vehículo lo aplastó y siempre sufría de dolores por el mal ajuste de su prótesis. Poco a poco me fue contando su vida y hablaba como si tuviera algo muy personal que enseñar."
       ],
-      "biografia_extendida": "",
+      "biografia_extendida": "Carlos Maríani fue un médico y psiquiatra chileno que trabajaba en la clínica de Ignacio Matte-Blanco. Considerado una persona problemática por sus colegas, estableció la única verdadera amistad que Claudio Naranjo desarrolló en ese ambiente. Maríani había perdido una pierna en un accidente vehicular y sufría constantes dolores debido al mal ajuste de su prótesis. Con el tiempo, fue compartiendo su vida con Claudio y hablaba con la autoridad de alguien que tiene algo muy personal que enseñar. A través de Maríani, Claudio conoció al doctor Carlos Dittborn, especialista en hipnoterapia. Esta amistad demostró a Claudio que la sabiduría puede venir de personas que otros consideran problemáticas.",
       "wikipedia_url": "",
       "foto_url": null,
       "fecha_nacimiento": "",
@@ -7178,21 +7223,21 @@
     {
       "nombre": "Carlos Dittborn",
       "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
+      "relacion": "Hipnoterapeuta conocido a través de Maríani",
+      "tipo_relacion": "referencia",
       "fuerza_vinculo": 1,
-      "nacionalidad": "No especificada",
+      "nacionalidad": "Chilena",
       "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 1 vez/veces",
+      "profesion": "Médico, hipnoterapeuta",
+      "ubicacion": "Santiago, Chile",
+      "caracteristicas": ["especialista en hipnoterapia", "conocía los trabajos de Milton Erickson", "facilitaba experiencias regresivas"],
+      "epoca_relacion": "Época universitaria",
+      "rol_en_vida_claudio": "Exposición a técnicas hipnoterapéuticas avanzadas",
       "num_menciones": 1,
       "contextos_ejemplo": [
-        "d —a quien yo consideraba una santa porque creía en el juicio de David— le pareció una persona muy cuestionable. A través de Maríani conocí al doctor Carlos Dittborn, que se había especializado en la hipnoterapia y que ya conocía en la década del cincuenta los trabajos de Milton Erickson. Lo vi cond"
+        "A través de Maríani conocí al doctor Carlos Dittborn, que se había especializado en la hipnoterapia y que ya conocía en la década del cincuenta los trabajos de Milton Erickson. Lo vi conducir muchas sesiones en las que demostraba una gran habilidad para llevar a las personas a experiencias regresivas, durante las cuales les ayudaba a aceptar las cosas que no habían podido perdonar."
       ],
-      "biografia_extendida": "",
+      "biografia_extendida": "Carlos Dittborn fue un médico chileno especializado en hipnoterapia, precursor en Chile de las técnicas desarrolladas por Milton Erickson, el famoso psiquiatra estadounidense conocido por su enfoque de hipnosis clínica y terapia breve. Dittborn ya conocía los trabajos de Erickson en la década de 1950, cuando estas técnicas eran aún poco difundidas fuera de Estados Unidos. Claudio Naranjo lo conoció a través de su amigo Carlos Maríani y presenció numerosas sesiones donde Dittborn demostraba gran habilidad para inducir experiencias regresivas en los pacientes, ayudándolos a procesar y aceptar situaciones no perdonadas. Esta exposición temprana a la hipnoterapia influyó en el posterior interés de Claudio por las técnicas terapéuticas innovadoras.",
       "wikipedia_url": "",
       "foto_url": null,
       "fecha_nacimiento": "",
@@ -7204,21 +7249,21 @@
     {
       "nombre": "Edith Fischer",
       "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
+      "relacion": "Amiga, estudiante de medicina",
+      "tipo_relacion": "amigo",
       "fuerza_vinculo": 1,
-      "nacionalidad": "No especificada",
+      "nacionalidad": "Chilena",
       "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 1 vez/veces",
+      "profesion": "Estudiante de medicina",
+      "ubicacion": "Santiago, Chile",
+      "caracteristicas": ["estudiante de la Escuela Moderna", "gran amiga de Claudio", "compañera de Otto Kernberg"],
+      "epoca_relacion": "Época universitaria",
+      "rol_en_vida_claudio": "Amiga cercana durante estudios de medicina",
       "num_menciones": 1,
       "contextos_ejemplo": [
-        "so de todos. Nadie fue tan esclarecedor para mí respecto de la situación terapéutica. Originalmente lo había conocido como el amante de mi gran amiga Edith Fischer, también estudiante de la  138  \fEscuela Moderna (con quien más tarde se casaría), y en aquel tiempo me impresionó mucho su comprensión "
+        "Nadie fue tan esclarecedor para mí respecto de la situación terapéutica. Originalmente lo había conocido como el amante de mi gran amiga Edith Fischer, también estudiante de la Escuela Moderna (con quien más tarde se casaría), y en aquel tiempo me impresionó mucho su comprensión."
       ],
-      "biografia_extendida": "",
+      "biografia_extendida": "Edith Fischer fue una estudiante de medicina chilena de la Escuela Moderna y gran amiga de Claudio Naranjo durante sus años universitarios. Fue a través de ella que Claudio conoció a Otto Kernberg, quien era su amante en aquel entonces y con quien más tarde se casaría. Claudio describe a Edith como una amiga cercana, y su relación con ella le permitió conocer al que consideraría 'el más informado y talentoso' de todos en la clínica de Matte-Blanco. Esta conexión fue significativa para el desarrollo profesional de Claudio en el ámbito psiquiátrico.",
       "wikipedia_url": "",
       "foto_url": null,
       "fecha_nacimiento": "",
@@ -7230,21 +7275,21 @@
     {
       "nombre": "Benjamín Viel",
       "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
+      "relacion": "Profesor universitario",
+      "tipo_relacion": "mentor",
       "fuerza_vinculo": 1,
-      "nacionalidad": "No especificada",
+      "nacionalidad": "Chilena",
       "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 1 vez/veces",
+      "profesion": "Médico, profesor de Medicina Preventiva y Epidemiología",
+      "ubicacion": "Santiago, Chile",
+      "caracteristicas": ["profesor de medicina", "gran claridad intelectual", "preocupación social"],
+      "epoca_relacion": "Época universitaria (medicina)",
+      "rol_en_vida_claudio": "Profesor destacado en la escuela de medicina",
       "num_menciones": 1,
       "contextos_ejemplo": [
-        "principalmente el arte del diagnóstico de males con los que no se podía hacer nada, y entonces me resultaba difícil apasionarme. El otro profesor era Benjamín Viel, quien nos enseñó Medicina Preventiva y Epidemiología. Disfruté mucho sus clases, llenas de nueva información sobre cosas que nunca habí"
+        "El otro profesor era Benjamín Viel, quien nos enseñó Medicina Preventiva y Epidemiología. Disfruté mucho sus clases, llenas de nueva información sobre cosas que nunca había considerado, pero sobre todo recuerdo lo mucho que me gustaba como persona. Se combinaban en él una gran claridad y una preocupación social."
       ],
-      "biografia_extendida": "",
+      "biografia_extendida": "Benjamín Viel fue un médico y profesor chileno que enseñó Medicina Preventiva y Epidemiología en la Escuela de Medicina de la Universidad de Chile. Claudio Naranjo recuerda sus clases con especial aprecio, destacando la combinación de gran claridad intelectual y una profunda preocupación social. A diferencia de la neurología de la época, que Claudio encontraba limitada al diagnóstico sin posibilidades de tratamiento, las clases de Viel le resultaban estimulantes por la nueva información y, especialmente, por la calidad humana del profesor. Su enfoque de la medicina desde una perspectiva preventiva y social dejó una impresión duradera en Claudio.",
       "wikipedia_url": "",
       "foto_url": null,
       "fecha_nacimiento": "",
@@ -7255,54 +7300,54 @@
     },
     {
       "nombre": "Joseph Chilton Pierce",
-      "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
+      "nombre_alternativo": ["Joseph Chilton Pearce"],
+      "relacion": "Autor de interés",
+      "tipo_relacion": "influencia",
       "fuerza_vinculo": 1,
-      "nacionalidad": "No especificada",
+      "nacionalidad": "Estadounidense",
       "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 1 vez/veces",
+      "profesion": "Escritor, conferenciante",
+      "ubicacion": "Estados Unidos",
+      "caracteristicas": ["autor sobre desarrollo humano", "visionario de la pubertad como crisis", "escritor sobre conciencia"],
+      "epoca_relacion": "Lectura posterior",
+      "rol_en_vida_claudio": "Autor que influyó en su comprensión del desarrollo humano",
       "num_menciones": 1,
       "contextos_ejemplo": [
-        "uiente debe haberse completado una determinada tarea para que la vida en su próxima estación tenga un fundamento adecuado? Mucho más tarde, al leer a Joseph Chilton Pierce, me sorprendió su visión de la pubertad como un tiempo de crisis que se debe a que el desarrollo de la persona ha sido parcialme"
+        "Mucho más tarde, al leer a Joseph Chilton Pierce, me sorprendió su visión de la pubertad como un tiempo de crisis que se debe a que el desarrollo de la persona ha sido parcialmente bloqueado y no se ha completado de acuerdo con el plan evolutivo."
       ],
-      "biografia_extendida": "",
+      "biografia_extendida": "Joseph Chilton Pearce (1926-2014) fue un escritor y conferenciante estadounidense conocido por sus obras sobre el desarrollo humano, la conciencia y la educación. Entre sus libros más influyentes se encuentran 'The Crack in the Cosmic Egg' (1971), 'Magical Child' (1977) y 'Evolution's End' (1992). Pearce desarrolló una visión del desarrollo humano que enfatizaba la importancia de las etapas evolutivas naturales, argumentando que la pubertad es un momento de crisis porque el desarrollo previo ha sido bloqueado por las restricciones culturales y educativas. Claudio Naranjo encontró en las ideas de Pearce una validación de sus propias observaciones sobre el desarrollo humano y las crisis de transición.",
       "wikipedia_url": "",
       "foto_url": null,
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
+      "fecha_nacimiento": "1926",
+      "fecha_muerte": "2014",
       "lugar_nacimiento": "",
       "lugar_muerte": "",
       "relaciones_con_otras_personas": []
     },
     {
       "nombre": "Ricardo Latcham",
-      "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
+      "nombre_alternativo": ["Ricardo E. Latcham"],
+      "relacion": "Erudito mencionado",
+      "tipo_relacion": "referencia",
       "fuerza_vinculo": 1,
-      "nacionalidad": "No especificada",
+      "nacionalidad": "Chileno-Británica",
       "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 1 vez/veces",
+      "profesion": "Antropólogo, etnólogo, periodista",
+      "ubicacion": "Chile",
+      "caracteristicas": ["erudito chileno", "investigador del lenguaje europeo temprano", "antropólogo pionero"],
+      "epoca_relacion": "Época universitaria",
+      "rol_en_vida_claudio": "Referencia académica en curso de mitología",
       "num_menciones": 1,
       "contextos_ejemplo": [
-        "Grecia, con referencias especiales a una cultura europea arcaica prearia, y con especial énfasis en las investigaciones de un erudito chileno llamado Ricardo Latcham, que se había interesado en el lenguaje europeo temprano, que parecía haberse extendido de oeste a este. Particularmente me interesó u"
+        "El pensamiento mitológico como reflejo de los acontecimientos históricos en las ciudades-estados arcaicas de Grecia, con referencias especiales a una cultura europea arcaica prearia, y con especial énfasis en las investigaciones de un erudito chileno llamado Ricardo Latcham, que se había interesado en el lenguaje europeo temprano, que parecía haberse extendido de oeste a este."
       ],
-      "biografia_extendida": "",
+      "biografia_extendida": "Ricardo Latcham (1869-1947) fue un destacado antropólogo, etnólogo y periodista chileno de origen británico. Nacido en Bristol, Inglaterra, emigró a Chile donde desarrolló su carrera académica. Es considerado uno de los pioneros de la antropología científica en Chile, realizando extensos estudios sobre los pueblos indígenas, particularmente los mapuches. Sus investigaciones abarcaron la agricultura precolombina, los animales domésticos de América prehispánica, y las organizaciones sociales y creencias religiosas de los antiguos araucanos. Claudio Naranjo escuchó sobre él en un curso de Antonioletti, donde se mencionaron sus investigaciones sobre el lenguaje europeo temprano y las culturas arcaicas prearias.",
       "wikipedia_url": "",
       "foto_url": null,
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
+      "fecha_nacimiento": "1869",
+      "fecha_muerte": "1947",
+      "lugar_nacimiento": "Bristol, Inglaterra",
+      "lugar_muerte": "Santiago, Chile",
       "relaciones_con_otras_personas": []
     },
     {
@@ -7360,79 +7405,79 @@
     {
       "nombre": "Dorival Caymmi",
       "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
+      "relacion": "Compositor admirado",
+      "tipo_relacion": "referencia",
       "fuerza_vinculo": 1,
-      "nacionalidad": "No especificada",
+      "nacionalidad": "Brasileña",
       "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 1 vez/veces",
+      "profesion": "Cantante, compositor",
+      "ubicacion": "Salvador, Bahía, Brasil",
+      "caracteristicas": ["compositor brasileño", "música de Bahía", "sutiles armonías", "patrones rítmicos complejos"],
+      "epoca_relacion": "Referencia musical",
+      "rol_en_vida_claudio": "Compositor cuyas canciones admiraba",
       "num_menciones": 1,
       "contextos_ejemplo": [
-        "cuenta de lo maravillosamente que tocaba la guitarra. Ella había estado en Bahía, donde había escuchado varias canciones brasileñas (especialmente de Dorival Caymmi), y me sorprendió su capacidad de reproducir sus sutiles armonías y sus complejos patrones rítmicos. Al regresar a Santiago comenzó a a"
+        "Ella había estado en Bahía, donde había escuchado varias canciones brasileñas (especialmente de Dorival Caymmi), y me sorprendió su capacidad de reproducir sus sutiles armonías y sus complejos patrones rítmicos."
       ],
-      "biografia_extendida": "",
-      "wikipedia_url": "",
+      "biografia_extendida": "Dorival Caymmi (1914-2008) fue un célebre cantante y compositor brasileño nacido en Salvador, Bahía. Es considerado uno de los artistas más importantes de la música popular brasileña, conocido por sus composiciones que celebran la cultura bahiana, las comunidades de pescadores y las tradiciones afrobrasileñas. Entre sus canciones más famosas se encuentran 'O Que É Que a Baiana Tem?', 'A Jangada Voltou Só', 'Marina' y 'Saudade da Bahia'. Su música combina samba, baião y otros ritmos brasileños con un estilo único y distintivo. Claudio Naranjo conoció su música a través de Cecilia, quien tras una estadía en Bahía aprendió a reproducir las sutiles armonías y complejos patrones rítmicos de las canciones de Caymmi.",
+      "wikipedia_url": "https://es.wikipedia.org/wiki/Dorival_Caymmi",
       "foto_url": null,
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
+      "fecha_nacimiento": "1914-04-29",
+      "fecha_muerte": "2008-08-16",
+      "lugar_nacimiento": "Salvador, Bahía, Brasil",
+      "lugar_muerte": "Río de Janeiro, Brasil",
       "relaciones_con_otras_personas": []
     },
     {
       "nombre": "Nemesio Antúnez",
       "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
+      "relacion": "Maestro de grabado (de Cecilia)",
+      "tipo_relacion": "referencia",
       "fuerza_vinculo": 1,
-      "nacionalidad": "No especificada",
+      "nacionalidad": "Chilena",
       "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 1 vez/veces",
+      "profesion": "Pintor, grabador",
+      "ubicacion": "Santiago, Chile",
+      "caracteristicas": ["pintor chileno", "grabador", "director del Museo de Arte Contemporáneo"],
+      "epoca_relacion": "Época de matrimonio con Cecilia",
+      "rol_en_vida_claudio": "Maestro de grabado de su esposa Cecilia",
       "num_menciones": 1,
       "contextos_ejemplo": [
-        "u capacidad de reproducir sus sutiles armonías y sus complejos patrones rítmicos. Al regresar a Santiago comenzó a asistir a un taller de grabado con Nemesio Antúnez, y nuevamente tuve la oportunidad de observar su gran talento. No pasó mucho tiempo desde nuestro regreso a Santiago hasta que me dijo"
+        "Al regresar a Santiago comenzó a asistir a un taller de grabado con Nemesio Antúnez, y nuevamente tuve la oportunidad de observar su gran talento."
       ],
-      "biografia_extendida": "",
-      "wikipedia_url": "",
+      "biografia_extendida": "Nemesio Antúnez (1918-1988) fue un destacado pintor y grabador chileno, considerado uno de los principales exponentes del arte visual en Chile durante el siglo XX. Fundó el Taller 99 en 1956, un espacio de experimentación gráfica que se convirtió en un centro de referencia para el grabado en Latinoamérica. Fue director del Museo de Arte Contemporáneo de la Universidad de Chile. Su obra se caracteriza por un estilo figurativo con influencias surrealistas y una profunda reflexión sobre la condición humana. En el libro, se menciona que Cecilia, la primera esposa de Claudio Naranjo, asistió a su taller de grabado donde demostró gran talento artístico.",
+      "wikipedia_url": "https://es.wikipedia.org/wiki/Nemesio_Ant%C3%BAnez",
       "foto_url": null,
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
+      "fecha_nacimiento": "1918-12-04",
+      "fecha_muerte": "1988-05-03",
+      "lugar_nacimiento": "Santiago, Chile",
+      "lugar_muerte": "Santiago, Chile",
       "relaciones_con_otras_personas": []
     },
     {
       "nombre": "Alfonso Leng",
       "nombre_alternativo": [],
-      "relacion": "Mencionado",
-      "tipo_relacion": "mencionado",
+      "relacion": "Dueño de casa de Isla Negra",
+      "tipo_relacion": "amigo_familia",
       "fuerza_vinculo": 1,
-      "nacionalidad": "No especificada",
+      "nacionalidad": "Chilena",
       "origen_etnico": "No especificado",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Mencionado 1 vez/veces",
+      "profesion": "Compositor, odontólogo",
+      "ubicacion": "Santiago / Isla Negra, Chile",
+      "caracteristicas": ["compositor chileno", "odontólogo", "amigo de la familia", "vecino de Pablo Neruda"],
+      "epoca_relacion": "Luna de miel de Claudio",
+      "rol_en_vida_claudio": "Proporcionó casa para luna de miel",
       "num_menciones": 1,
       "contextos_ejemplo": [
-        " más notable fue el regalo que me hizo mi padre de su pequeño Fiat, con una breve nota para que recordase ponerle aceite, agua y gasolina. La casa de Alfonso Leng en Isla Negra estuvo disponible para nuestra luna de miel. Estaba cerca de la casa de Pablo Neruda, a quien vimos con frecuencia durante "
+        "La casa de Alfonso Leng en Isla Negra estuvo disponible para nuestra luna de miel. Estaba cerca de la casa de Pablo Neruda, a quien vimos con frecuencia durante nuestra estancia."
       ],
-      "biografia_extendida": "",
-      "wikipedia_url": "",
+      "biografia_extendida": "Alfonso Leng (1894-1974) fue un destacado compositor y odontólogo chileno, considerado uno de los fundadores del nacionalismo musical en Chile. Su obra más conocida es 'La Muerte de Alsino' (1922), poema sinfónico basado en la obra de Antonio Machado. Leng combinó su carrera médica como odontólogo con una prolífica producción musical, incluyendo obras orquestales, piano y cámara. Poseía una casa en Isla Negra, cerca de la famosa residencia de Pablo Neruda, que puso a disposición de Claudio Naranjo y Cecilia para su luna de miel. Este gesto refleja la red de relaciones sociales y artísticas que conectaba a las familias intelectuales chilenas de la época.",
+      "wikipedia_url": "https://es.wikipedia.org/wiki/Alfonso_Leng",
       "foto_url": null,
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
+      "fecha_nacimiento": "1894-02-04",
+      "fecha_muerte": "1974-11-11",
+      "lugar_nacimiento": "Santiago, Chile",
+      "lugar_muerte": "Santiago, Chile",
       "relaciones_con_otras_personas": []
     },
     {
@@ -7623,7 +7668,9 @@
     },
     {
       "nombre": "Paul Tillich",
-      "nombre_alternativo": ["Paul Johannes Tillich"],
+      "nombre_alternativo": [
+        "Paul Johannes Tillich"
+      ],
       "relacion": "Profesor en Harvard",
       "tipo_relacion": "maestro",
       "fuerza_vinculo": 1,
@@ -7913,7 +7960,9 @@
     },
     {
       "nombre": "Raymond Cattell",
-      "nombre_alternativo": ["Raymond Bernard Cattell"],
+      "nombre_alternativo": [
+        "Raymond Bernard Cattell"
+      ],
       "relacion": "Mentor académico",
       "tipo_relacion": "maestro",
       "fuerza_vinculo": 1,
@@ -8232,7 +8281,10 @@
     },
     {
       "nombre": "Kahlil Gibran",
-      "nombre_alternativo": ["Gibran Kahlil Gibran", "Jubran Khalil Jubran"],
+      "nombre_alternativo": [
+        "Gibran Kahlil Gibran",
+        "Jubran Khalil Jubran"
+      ],
       "relacion": "Influencia literaria",
       "tipo_relacion": "referencia",
       "fuerza_vinculo": 1,
@@ -8684,7 +8736,9 @@
     },
     {
       "nombre": "Nyanaponika Thera",
-      "nombre_alternativo": ["Siegmund Feniger"],
+      "nombre_alternativo": [
+        "Siegmund Feniger"
+      ],
       "relacion": "Referencia teórica",
       "tipo_relacion": "referencia",
       "fuerza_vinculo": 1,
@@ -9104,7 +9158,9 @@
     },
     {
       "nombre": "Stanley Kripner",
-      "nombre_alternativo": ["Stanley Krippner"],
+      "nombre_alternativo": [
+        "Stanley Krippner"
+      ],
       "relacion": "Colega en psicología transpersonal",
       "tipo_relacion": "colega",
       "fuerza_vinculo": 1,
@@ -9134,7 +9190,9 @@
     },
     {
       "nombre": "Elmer Green",
-      "nombre_alternativo": ["Elmer E. Green"],
+      "nombre_alternativo": [
+        "Elmer E. Green"
+      ],
       "relacion": "Mencionado",
       "tipo_relacion": "mencionado",
       "fuerza_vinculo": 1,
@@ -9165,7 +9223,9 @@
     },
     {
       "nombre": "Helen Bonny",
-      "nombre_alternativo": ["Helen Lindquist Bonny"],
+      "nombre_alternativo": [
+        "Helen Lindquist Bonny"
+      ],
       "relacion": "Mencionado",
       "tipo_relacion": "mencionado",
       "fuerza_vinculo": 1,
@@ -9222,7 +9282,10 @@
     },
     {
       "nombre": "Joseph Moreno",
-      "nombre_alternativo": ["Jacob Levy Moreno", "J.L. Moreno"],
+      "nombre_alternativo": [
+        "Jacob Levy Moreno",
+        "J.L. Moreno"
+      ],
       "relacion": "Mencionado",
       "tipo_relacion": "mencionado",
       "fuerza_vinculo": 1,
@@ -10033,7 +10096,10 @@
     },
     {
       "nombre": "Dilgo Khyentse Rinpoche",
-      "nombre_alternativo": ["Tashi Paljor", "Dilgo Khyentse Tashi Paljor"],
+      "nombre_alternativo": [
+        "Tashi Paljor",
+        "Dilgo Khyentse Tashi Paljor"
+      ],
       "relacion": "Maestro budista visitante",
       "tipo_relacion": "maestro_espiritual",
       "fuerza_vinculo": 1,
@@ -10193,7 +10259,10 @@
     },
     {
       "nombre": "Zalman Schachter",
-      "nombre_alternativo": ["Zalman Schachter-Shalomi", "Reb Zalman"],
+      "nombre_alternativo": [
+        "Zalman Schachter-Shalomi",
+        "Reb Zalman"
+      ],
       "relacion": "Maestro visitante en SAT",
       "tipo_relacion": "maestro",
       "fuerza_vinculo": 1,
@@ -10743,7 +10812,10 @@
     },
     {
       "nombre": "Buckminster Fuller",
-      "nombre_alternativo": ["Richard Buckminster Fuller", "Bucky Fuller"],
+      "nombre_alternativo": [
+        "Richard Buckminster Fuller",
+        "Bucky Fuller"
+      ],
       "relacion": "Referencia",
       "tipo_relacion": "referencia",
       "fuerza_vinculo": 1,
@@ -10929,7 +11001,10 @@
     },
     {
       "nombre": "Raimundo Panikar",
-      "nombre_alternativo": ["Raimon Panikkar", "Raimundo Panikkar i Alemany"],
+      "nombre_alternativo": [
+        "Raimon Panikkar",
+        "Raimundo Panikkar i Alemany"
+      ],
       "relacion": "Conocido en congresos",
       "tipo_relacion": "conocido",
       "fuerza_vinculo": 1,
@@ -10989,7 +11064,9 @@
     },
     {
       "nombre": "Barbara Marx Hubbard",
-      "nombre_alternativo": ["Barbara Marx"],
+      "nombre_alternativo": [
+        "Barbara Marx"
+      ],
       "relacion": "Conocida en círculos de futurología",
       "tipo_relacion": "conocido",
       "fuerza_vinculo": 1,
@@ -11019,7 +11096,9 @@
     },
     {
       "nombre": "Daniel Ellsberg",
-      "nombre_alternativo": ["Dan Ellsberg"],
+      "nombre_alternativo": [
+        "Dan Ellsberg"
+      ],
       "relacion": "Conocido en círculos de activismo",
       "tipo_relacion": "conocido",
       "fuerza_vinculo": 1,
@@ -11127,7 +11206,9 @@
     },
     {
       "nombre": "Kalu Rinpoche",
-      "nombre_alternativo": ["Kyabje Kalu Rinpoche"],
+      "nombre_alternativo": [
+        "Kyabje Kalu Rinpoche"
+      ],
       "relacion": "Maestro visitante (patrocinador)",
       "tipo_relacion": "maestro_espiritual",
       "fuerza_vinculo": 1,
@@ -11235,7 +11316,9 @@
     },
     {
       "nombre": "Marcel Marceau",
-      "nombre_alternativo": ["Marcel Mangel"],
+      "nombre_alternativo": [
+        "Marcel Mangel"
+      ],
       "relacion": "Evento cultural compartido",
       "tipo_relacion": "conocido",
       "fuerza_vinculo": 1,
@@ -11652,280 +11735,6 @@
         "ódulo colaboraron por las tardes varios gestaltistas italianos que habían estado asistiendo desde el año anterior al programa, y también le propuse a Ramón Resino un taller en el que combinase su experiencia como director de teatro con la Gestalt y con su comprensión de los eneatipos. Puse en marcha"
       ],
       "biografia_extendida": "",
-      "wikipedia_url": "",
-      "foto_url": null,
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
-      "relaciones_con_otras_personas": []
-    },
-    {
-      "nombre": "Francisco 'Pancho' Sierra",
-      "nombre_alternativo": [],
-      "relacion": "Figura espiritual",
-      "tipo_relacion": "mentor",
-      "fuerza_vinculo": 3,
-      "nacionalidad": "Chile",
-      "origen_etnico": "No especificado",
-      "profesion": "Figura espiritual",
-      "ubicacion": "No especificada",
-      "caracteristicas": [
-        "mencionado en búsquedas espirituales"
-      ],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Figura espiritual periférica",
-      "num_menciones": 0,
-      "contextos_ejemplo": [],
-      "biografia_extendida": "Mencionado como mentor en el libro de Claudio Naranjo. Figura importante en el desarrollo espiritual de Naranjo durante su estadía en Chile. Posiblemente relacionado con círculos de espiritualidad o terapia en Chile.",
-      "wikipedia_url": "",
-      "foto_url": null,
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
-      "relaciones_con_otras_personas": []
-    },
-    {
-      "nombre": "Karlfried Graf Dürckheim",
-      "nombre_alternativo": [
-        "Dürckheim",
-        "Durckheim"
-      ],
-      "relacion": "Maestro espiritual alemán",
-      "tipo_relacion": "mentor",
-      "fuerza_vinculo": 5,
-      "nacionalidad": "Alemania",
-      "origen_etnico": "Alemán",
-      "profesion": "Diplomático, psicoterapeuta, maestro Zen",
-      "ubicacion": "Alemania",
-      "caracteristicas": [
-        "psicólogo",
-        "maestro zen",
-        "influencia europea"
-      ],
-      "epoca_relacion": "1960s-1970s",
-      "rol_en_vida_claudio": "Influencia espiritual europea",
-      "num_menciones": 0,
-      "contextos_ejemplo": [],
-      "biografia_extendida": "Karl Friedrich Alfred Heinrich Ferdinand Maria Graf Eckbrecht von Dürckheim-Montmartin (1896-1988) fue un diplomático, psicoterapeuta y maestro Zen alemán. Pasó ocho años en Japón antes de la Segunda Guerra Mundial, donde se profundizó en la práctica Zen. Desarrolló la 'Terapia Iniciática', integrando elementos del Zen, la psicología profunda y la filosofía existencial.",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Karlfried_Graf_D%C3%BCrckheim",
-      "foto_url": "/images/personas/Karlfried_Graf_Dürckheim.jpg",
-      "fecha_nacimiento": "1896",
-      "fecha_muerte": "1988",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
-      "relaciones_con_otras_personas": []
-    },
-    {
-      "nombre": "Chris Griscom",
-      "nombre_alternativo": [],
-      "relacion": "Maestra espiritual",
-      "tipo_relacion": "mentor",
-      "fuerza_vinculo": 3,
-      "nacionalidad": "Estadounidense",
-      "origen_etnico": "Estadounidense",
-      "profesion": "Maestra espiritual",
-      "ubicacion": "Estados Unidos",
-      "caracteristicas": [
-        "maestra espiritual",
-        "New Age"
-      ],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Contacto espiritual",
-      "num_menciones": 0,
-      "contextos_ejemplo": [],
-      "biografia_extendida": "Chris Griscom es una autora y maestra espiritual estadounidense. Fundadora de The Light Institute en Galisteo, Nuevo México, y creadora del proceso de 'Concious Breathwork'. Ha escrito numerosos libros sobre sanación, espiritualidad y conciencia. Su trabajo integra técnicas de respiración, meditación y terapia.",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Chris_Griscom",
-      "foto_url": null,
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
-      "relaciones_con_otras_personas": []
-    },
-    {
-      "nombre": "Abraham Maslow",
-      "nombre_alternativo": [],
-      "relacion": "Contemporáneo e influencia en psicología humanista",
-      "tipo_relacion": "influencia",
-      "fuerza_vinculo": 6,
-      "nacionalidad": "Estadounidense",
-      "origen_etnico": "Judío-Estadounidense",
-      "profesion": "Psicólogo",
-      "ubicacion": "Estados Unidos",
-      "caracteristicas": [
-        "psicología humanista",
-        "psicología transpersonal",
-        "jerarquía de necesidades"
-      ],
-      "epoca_relacion": "1960s (influencia)",
-      "rol_en_vida_claudio": "Figura fundadora de la psicología humanista y transpersonal. Contemporáneo en el movimiento de potencial humano. Creador de la jerarquía de necesidades.",
-      "num_menciones": 0,
-      "contextos_ejemplo": [],
-      "biografia_extendida": "Psicólogo estadounidense considerado uno de los fundadores de la psicología humanista y transpersonal. Creó la famosa 'jerarquía de necesidades de Maslow' y fue cofundador del Journal of Humanistic Psychology en 1958. Caracterizó la psicología transpersonal como la 'cuarta fuerza' de la psicología. Se movió en los mismos círculos de la psicología humanista que Naranjo, con Esalen Institute como lugar de encuentro clave.",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Abraham_Maslow",
-      "foto_url": "/images/personas/Abraham_Maslow.jpg",
-      "fecha_nacimiento": "1908-04-01",
-      "fecha_muerte": "1970-06-08",
-      "lugar_nacimiento": "Brooklyn, Nueva York, EE.UU.",
-      "lugar_muerte": "Menlo Park, California, EE.UU.",
-      "relaciones_con_otras_personas": []
-    },
-    {
-      "nombre": "Virginia Satir",
-      "nombre_alternativo": [],
-      "relacion": "Terapeuta familiar (referencia)",
-      "tipo_relacion": "colega",
-      "fuerza_vinculo": 4,
-      "nacionalidad": "Estadounidense",
-      "origen_etnico": "Estadounidense",
-      "profesion": "Terapeuta familiar",
-      "ubicacion": "Esalen, California",
-      "caracteristicas": [
-        "pionera terapia familiar",
-        "figura Esalen"
-      ],
-      "epoca_relacion": "1960s-1970s",
-      "rol_en_vida_claudio": "Colega en Esalen, movimiento Potencial Humano",
-      "num_menciones": 0,
-      "contextos_ejemplo": [],
-      "biografia_extendida": "Virginia Satir (1916-1988) fue una pionera estadounidense de la terapia familiar y autora. Conocida como la 'Madre de la Terapia Familiar', desarrolló el modelo de terapia familiar conjunta. Autora de 'Conjoint Family Therapy' (1964) y 'Peoplemaking'. Su enfoque enfatizaba la autoestima, la comunicación y la transformación personal. Figura clave en el movimiento del potencial humano en Esalen Institute.",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Virginia_Satir",
-      "foto_url": "/images/personas/Virginia_Satir.jpg",
-      "fecha_nacimiento": "1916-06-26",
-      "fecha_muerte": "1988-09-10",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
-      "relaciones_con_otras_personas": []
-    },
-    {
-      "nombre": "Arnaldo Rascovsky",
-      "nombre_alternativo": [],
-      "relacion": "Psicoanalista argentino",
-      "tipo_relacion": "colega",
-      "fuerza_vinculo": 4,
-      "nacionalidad": "Argentina",
-      "origen_etnico": "Argentino",
-      "profesion": "Psicoanalista",
-      "ubicacion": "Buenos Aires, Argentina",
-      "caracteristicas": [
-        "fundador APA",
-        "prominente psicoanalista"
-      ],
-      "epoca_relacion": "1960s-1970s",
-      "rol_en_vida_claudio": "Colega en contexto latinoamericano",
-      "num_menciones": 0,
-      "contextos_ejemplo": [],
-      "biografia_extendida": "Arnaldo Rascovsky (1907-1995) fue un psicoanalista argentino, pionero del psicoanálisis en Latinoamérica. Miembro fundador de la Asociación Psicoanalítica Argentina (APA). Desarrolló teorías sobre la psicología prenatal y el psicoanálisis de niños. Autor de numerosos libros incluyendo 'El psicoanálisis en niños'. Figura influyente en el desarrollo del psicoanálisis en el Cono Sur.",
-      "wikipedia_url": "https://es.wikipedia.org/wiki/Arnaldo_Rascovsky",
-      "foto_url": "/images/personas/Arnaldo_Rascovsky.jpg",
-      "fecha_nacimiento": "1907",
-      "fecha_muerte": "1995",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
-      "relaciones_con_otras_personas": []
-    },
-    {
-      "nombre": "Hernán Corte",
-      "nombre_alternativo": [],
-      "relacion": "Amigo de la familia, facilitador crucial",
-      "tipo_relacion": "amigo_familia",
-      "fuerza_vinculo": 8,
-      "nacionalidad": "Chilena",
-      "origen_etnico": "Chileno",
-      "profesion": "No especificada",
-      "ubicacion": "Chile",
-      "caracteristicas": [
-        "trajo Tótila a casa Julia",
-        "1939-1940",
-        "facilitador encuentro crucial"
-      ],
-      "epoca_relacion": "1939-1940",
-      "rol_en_vida_claudio": "Facilitador del encuentro más importante: Tótila Albert",
-      "num_menciones": 0,
-      "contextos_ejemplo": [],
-      "biografia_extendida": "Amigo chileno que desempeñó un papel crucial en la vida de Claudio Naranjo al facilitar el encuentro entre Tótila Albert y Julia Cohen (madre de Claudio) en 1939-1940. Este encuentro fue determinante para la introducción de Claudio al Cuarto Camino de Gurdjieff a través de Tótila Albert, quien se convertiría en su maestro espiritual fundamental.",
-      "wikipedia_url": "",
-      "foto_url": null,
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
-      "relaciones_con_otras_personas": []
-    },
-    {
-      "nombre": "Fernando Allende",
-      "nombre_alternativo": [],
-      "relacion": "Conocido en Chile",
-      "tipo_relacion": "conocido",
-      "fuerza_vinculo": 3,
-      "nacionalidad": "Chilena",
-      "origen_etnico": "Chileno",
-      "profesion": "No especificada",
-      "ubicacion": "Chile",
-      "caracteristicas": [
-        "contexto chileno"
-      ],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Conocido en contexto chileno",
-      "num_menciones": 0,
-      "contextos_ejemplo": [],
-      "biografia_extendida": "Figura mencionada en el contexto de Claudio Naranjo. Posiblemente relacionado con círculos culturales, artísticos o terapéuticos en Chile o Estados Unidos. Nombre común que puede referirse a varias personas.",
-      "wikipedia_url": "",
-      "foto_url": null,
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
-      "relaciones_con_otras_personas": []
-    },
-    {
-      "nombre": "Susan Hanson",
-      "nombre_alternativo": [],
-      "relacion": "Conocida",
-      "tipo_relacion": "conocido",
-      "fuerza_vinculo": 3,
-      "nacionalidad": "Estadounidense (probable)",
-      "origen_etnico": "Estadounidense (probable)",
-      "profesion": "No especificada",
-      "ubicacion": "No especificada",
-      "caracteristicas": [
-        "mencionada en contexto vida Claudio"
-      ],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Conocida periférica",
-      "num_menciones": 0,
-      "contextos_ejemplo": [],
-      "biografia_extendida": "Figura mencionada como conocida de Claudio Naranjo, posiblemente relacionada con círculos terapéuticos o académicos en Estados Unidos.",
-      "wikipedia_url": "",
-      "foto_url": null,
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
-      "relaciones_con_otras_personas": []
-    },
-    {
-      "nombre": "Ramón González",
-      "nombre_alternativo": [
-        "Ramón Ganzáles"
-      ],
-      "relacion": "Conocido",
-      "tipo_relacion": "conocido",
-      "fuerza_vinculo": 3,
-      "nacionalidad": "Chilena o Latinoamericana",
-      "origen_etnico": "Latinoamericano",
-      "profesion": "No especificada",
-      "ubicacion": "Chile o Latinoamérica",
-      "caracteristicas": [
-        "contexto chileno/latinoamericano"
-      ],
-      "epoca_relacion": "No especificada",
-      "rol_en_vida_claudio": "Conocido en contexto latinoamericano",
-      "num_menciones": 0,
-      "contextos_ejemplo": [],
-      "biografia_extendida": "Figura chilena mencionada como conocido de Claudio Naranjo, posiblemente relacionada con círculos culturales o sociales en Chile.",
       "wikipedia_url": "",
       "foto_url": null,
       "fecha_nacimiento": "",
