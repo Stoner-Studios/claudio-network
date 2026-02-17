@@ -115,11 +115,11 @@ export default function SidePanel({
 
   return (
     <>
-      {/* Overlay para móvil - negro translúcido elegante */}
-      <div className="sm:hidden fixed inset-0 bg-black/60 backdrop-blur-sm z-40" onClick={onClose} />
+      {/* Overlay para móvil - negro translúcido elegante - no cubre el header */}
+      <div className="sm:hidden fixed inset-0 top-[52px] bg-black/60 backdrop-blur-sm z-40" onClick={onClose} />
 
-      {/* Panel - starts below header on desktop */}
-      <div className="fixed inset-0 sm:top-[57px] sm:bottom-0 sm:right-0 sm:w-96 bg-white shadow-2xl z-50 flex flex-col sm:border-l border-gray-200 rounded-t-3xl sm:rounded-none">
+      {/* Panel - starts below header on both mobile and desktop */}
+      <div className="fixed top-[52px] sm:top-[57px] bottom-0 right-0 w-full sm:w-96 bg-white shadow-2xl z-50 flex flex-col border-l border-gray-200 rounded-t-3xl sm:rounded-none">
         {/* Header */}
         <div className="p-4 border-b border-gray-200 bg-gray-50 rounded-t-3xl sm:rounded-none">
         <div className="flex justify-between items-center">
