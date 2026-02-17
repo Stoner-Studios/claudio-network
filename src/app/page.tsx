@@ -189,15 +189,11 @@ export default function Home() {
               <div className="space-y-2 text-sm">
                 <div className="flex items-center gap-2">
                   <div className="w-4 h-4 rounded-full bg-amber-500 border-2 border-amber-300" />
-                  <span className="text-gray-800 font-medium">Centro</span>
+                  <span className="text-gray-800 font-medium">Centro (Claudio Naranjo)</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <div className="w-3 h-3 rounded-full bg-blue-500" />
-                  <span className="text-gray-700">Con biografía</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <div className="w-3 h-3 rounded-full bg-gray-400" />
-                  <span className="text-gray-700">Sin biografía</span>
+                  <span className="text-gray-700">Persona en la red</span>
                 </div>
               </div>
 
@@ -248,12 +244,6 @@ export default function Home() {
             <div className="text-center px-1">
               <p className="font-bold text-sm sm:text-lg text-gray-900">{data.personas.length}</p>
               <p className="text-gray-500 hidden sm:block">Personas</p>
-            </div>
-            <div className="text-center px-1">
-              <p className="font-bold text-sm sm:text-lg text-blue-600">
-                {data.personas.filter((p) => p.biografia_extendida).length}
-              </p>
-              <p className="text-gray-500 hidden sm:block">Con bio</p>
             </div>
             <div className="text-center px-1">
               <p className="font-bold text-sm sm:text-lg text-purple-600">{graphData.nodes.length}</p>

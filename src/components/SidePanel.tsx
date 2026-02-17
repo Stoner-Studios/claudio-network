@@ -141,10 +141,6 @@ export default function SidePanel({
             <span className="text-gray-700 ml-1">total</span>
           </div>
           <div className="bg-white px-3 py-2 rounded-lg border">
-            <span className="font-bold text-blue-600">{stats.withBio}</span>
-            <span className="text-gray-700 ml-1">con bio</span>
-          </div>
-          <div className="bg-white px-3 py-2 rounded-lg border">
             <span className="font-bold text-green-600">{stats.withRelations}</span>
             <span className="text-gray-700 ml-1">con rel.</span>
           </div>
@@ -224,29 +220,15 @@ export default function SidePanel({
           </div>
         </div>
 
-        {/* Toggle filters */}
+        {/* Toggle filter - Solo con relaciones */}
         <div className="flex gap-2">
-          <button
-            onClick={() =>
-              handleFilterChange({
-                conBio: filters.conBio === true ? null : true,
-              })
-            }
-            className={`flex-1 py-2 px-3 rounded-lg text-sm font-medium transition-colors ${
-              filters.conBio === true
-                ? "bg-blue-600 text-white"
-                : "bg-gray-100 text-gray-800 hover:bg-gray-200"
-            }`}
-          >
-            Solo con biografía
-          </button>
           <button
             onClick={() =>
               handleFilterChange({
                 conRelaciones: filters.conRelaciones === true ? null : true,
               })
             }
-            className={`flex-1 py-2 px-3 rounded-lg text-sm font-medium transition-colors ${
+            className={`w-full py-2 px-3 rounded-lg text-sm font-medium transition-colors ${
               filters.conRelaciones === true
                 ? "bg-green-600 text-white"
                 : "bg-gray-100 text-gray-800 hover:bg-gray-200"
@@ -300,9 +282,6 @@ export default function SidePanel({
                         {persona.num_menciones} men.
                       </span>
                       <div className="flex gap-1">
-                        {persona.biografia_extendida && (
-                          <span className="w-2.5 h-2.5 bg-blue-500 rounded-full" title="Tiene biografía" />
-                        )}
                         {persona.relaciones_con_otras_personas?.length > 0 && (
                           <span className="w-2.5 h-2.5 bg-green-500 rounded-full" title="Tiene relaciones" />
                         )}
