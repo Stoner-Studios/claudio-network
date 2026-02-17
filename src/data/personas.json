@@ -5708,7 +5708,11 @@
       "origen_etnico": "Judío",
       "profesion": "No especificada",
       "ubicacion": "No especificada",
-      "caracteristicas": ["Familia judía", "Genealogía davídica", "Ceremonia familiar anual"],
+      "caracteristicas": [
+        "Familia judía",
+        "Genealogía davídica",
+        "Ceremonia familiar anual"
+      ],
       "epoca_relacion": "Antes de nacimiento de Claudio",
       "rol_en_vida_claudio": "Bisabuela materna, ancestro con linaje judío preservado",
       "num_menciones": 1,
@@ -5734,7 +5738,10 @@
       "origen_etnico": "Inglés",
       "profesion": "Médico obstetra",
       "ubicacion": "Valparaíso, Chile",
-      "caracteristicas": ["obstetra inglés", "mejor especialista"],
+      "caracteristicas": [
+        "obstetra inglés",
+        "mejor especialista"
+      ],
       "epoca_relacion": "1932",
       "rol_en_vida_claudio": "Obstetra inglés que recibió a Claudio Naranjo al nacer en el Hospital Alemán de Valparaíso",
       "num_menciones": 1,
@@ -5760,7 +5767,10 @@
       "origen_etnico": "Chileno",
       "profesion": "No especificada",
       "ubicacion": "Chile",
-      "caracteristicas": ["se sentía aristócrata", "casa de mármol"],
+      "caracteristicas": [
+        "se sentía aristócrata",
+        "casa de mármol"
+      ],
       "epoca_relacion": "Infancia de Claudio",
       "rol_en_vida_claudio": "Marido de la tía de Claudio, persona con pretensiones aristocráticas",
       "num_menciones": 1,
@@ -5786,7 +5796,10 @@
       "origen_etnico": "No especificado",
       "profesion": "Escritora, investigadora de filosofías orientales",
       "ubicacion": "Nueva York, EE.UU.",
-      "caracteristicas": ["seguidora de Nicholas Roerich", "escritora sobre India"],
+      "caracteristicas": [
+        "seguidora de Nicholas Roerich",
+        "escritora sobre India"
+      ],
       "epoca_relacion": "Década de 1930s-1940s",
       "rol_en_vida_claudio": "Amiga de la familia que influyó en los intereses espirituales a través de su conexión con Nicholas Roerich y sus escritos sobre filosofías de la India",
       "num_menciones": 1,
@@ -5842,7 +5855,10 @@
       "origen_etnico": "Inglés",
       "profesion": "Educador, director de escuela",
       "ubicacion": "Chile",
-      "caracteristicas": ["se parecía a Albert Schweitzer", "figura intimidante"],
+      "caracteristicas": [
+        "se parecía a Albert Schweitzer",
+        "figura intimidante"
+      ],
       "epoca_relacion": "Infancia de Claudio",
       "rol_en_vida_claudio": "Director de la escuela a la que asistió Claudio durante su infancia, figura intimidante que no gustaba de él",
       "num_menciones": 1,
@@ -6050,7 +6066,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Médico, psiquiatra, profesor universitario",
       "ubicacion": "Chile",
-      "caracteristicas": ["Gran talento", "Profesor de medicina", "Diagnóstico clínico"],
+      "caracteristicas": [
+        "Gran talento",
+        "Profesor de medicina",
+        "Diagnóstico clínico"
+      ],
       "epoca_relacion": "Década de 1960s",
       "rol_en_vida_claudio": "Joven profesor de medicina a quien Claudio admiraba, diagnosticó y hospitalizó a un paciente",
       "num_menciones": 1,
@@ -6215,7 +6235,9 @@
     },
     {
       "nombre": "Luis Harss",
-      "nombre_alternativo": ["Luisito"],
+      "nombre_alternativo": [
+        "Luisito"
+      ],
       "relacion": "Amigo de infancia, hijo de amigos de la familia",
       "tipo_relacion": "amigo",
       "fuerza_vinculo": 1,
@@ -6223,7 +6245,10 @@
       "origen_etnico": "Chileno",
       "profesion": "Escritor, autor",
       "ubicacion": "Chile / Nueva York",
-      "caracteristicas": ["amigo de infancia", "autor de varios libros"],
+      "caracteristicas": [
+        "amigo de infancia",
+        "autor de varios libros"
+      ],
       "epoca_relacion": "Infancia de Claudio (1930s)",
       "rol_en_vida_claudio": "Compañero de juegos de infancia, hijo de amigos de la familia que regresaron de Nueva York",
       "num_menciones": 1,
@@ -6369,7 +6394,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Músico",
       "ubicacion": "Chile",
-      "caracteristicas": ["Músico", "Grupo juvenil", "Chile"],
+      "caracteristicas": [
+        "Músico",
+        "Grupo juvenil",
+        "Chile"
+      ],
       "epoca_relacion": "Juventud de Claudio",
       "rol_en_vida_claudio": "Formaba parte del grupo musical al que Claudio asistía en su juventud, junto con Carlos Botto y David Rosenmann",
       "num_menciones": 1,
@@ -6501,7 +6530,7 @@
       ],
       "biografia_extendida": "Erich Kleiber (1890-1956) fue un renombrado director de orquesta austriaco, considerado uno de los más grandes del siglo XX. Fue director de la Ópera Estatal de Berlín hasta 1935, cuando renunció en protesta por las políticas nazis. Posteriormente se estableció en América del Sur, donde tuvo una influencia significativa en la vida musical de Argentina y Chile. Kleiber fue homenajeado por el gobierno de Chile y la universidad en una ceremonia que el joven Claudio Naranjo, de aproximadamente seis años, presenció. Naranjo describe esta experiencia como algo nunca antes visto, donde hombres vestidos de negro escuchaban en un ambiente solemne. Kleiber fue padre del también famoso director Carlos Kleiber. Su legado incluye grabaciones legendarias de Beethoven, Mozart y otros compositores, y se le recuerda por su integridad artística y su rechazo a comprometer sus principios.",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Erich_Kleiber",
-      "foto_url": null,
+      "foto_url": "/images/personas/Erich_Kleiber.jpg",
       "fecha_nacimiento": "1890-08-05",
       "fecha_muerte": "1956-01-27",
       "lugar_nacimiento": "Viena, Austria",
@@ -6533,7 +6562,7 @@
       ],
       "biografia_extendida": "Mischa Elman (1891-1967) fue un célebre violinista ruso-estadounidense, considerado uno de los más grandes virtuosos del violín del siglo XX. Nacido en Ucrania en el seno de una familia judía, mostró talento prodigioso desde niño. Estudió en el Conservatorio de San Petersburgo con Leopold Auer, maestro de Jascha Heifetz. Emigró a Estados Unidos en 1911 donde desarrolló una brillante carrera concertística. Elman era conocido por su tono cálido y expresivo, y por su amplia discografía. Era amigo de la madre de Claudio Naranjo y visitaba su casa en Viña del Mar durante sus giras por Sudamérica. El ambiente musical de élite que rodeaba la familia Naranjo, con figuras como Elman, Heifetz, Arrau y Kleiber, influyó profundamente en el posterior desarrollo artístico y cultural de Claudio.",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Mischa_Elman",
-      "foto_url": null,
+      "foto_url": "/images/personas/Mischa_Elman.jpg",
       "fecha_nacimiento": "1891-01-20",
       "fecha_muerte": "1967-04-05",
       "lugar_nacimiento": "Talnoye, Ucrania",
@@ -6563,7 +6592,7 @@
       ],
       "biografia_extendida": "Alexis Carrel (1873-1944) fue un cirujano y biólogo francés, Premio Nobel de Medicina en 1912 por sus trabajos sobre sutura vascular y trasplante de órganos. Pionero en cirugía cardiovascular, desarrolló técnicas que sentaron las bases de la cirugía moderna. Su libro 'El hombre, un desconocido' (1935) fue un bestseller internacional que exploraba los misterios de la biología humana y la posibilidad de mejorar la raza humana. La obra tuvo gran influencia en lectores jóvenes como Claudio Naranjo, quienes buscaban comprender la naturaleza humana tanto desde la ciencia como desde una perspectiva más amplia. Controversial por sus opiniones sobre eugenesia y su asociación con el régimen de Vichy durante la Segunda Guerra Mundial, Carrel representa sin embargo el intento de unir la ciencia médica con una visión más holística del ser humano.",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Alexis_Carrel",
-      "foto_url": null,
+      "foto_url": "/images/personas/Alexis_Carrel.jpg",
       "fecha_nacimiento": "1873-06-28",
       "fecha_muerte": "1944-11-05",
       "lugar_nacimiento": "Sainte-Foy-lès-Lyon, Francia",
@@ -6716,7 +6745,7 @@
       ],
       "biografia_extendida": "Sir James Hopwood Jeans (1877-1946) fue un físico, astrónomo y matemático británico que hizo contribuciones fundamentales a la física teórica y la cosmología. Es conocido por el 'fenómeno de Jeans' en la teoría cinética de gases y por la 'inestabilidad de Jeans' que explica la formación de estrellas. Sus libros de divulgación científica, como 'The Mysterious Universe' (1930), fueron muy influyentes y plantearon preguntas profundas sobre la relación entre la física moderna, la filosofía y la religión. El joven Claudio Naranjo leía a Jeans junto con Eddington y De Broglie, buscando respuestas a las 'grandes preguntas' que la educación formal universitaria no abordaba. Esta búsqueda de significado más allá de la mera técnica científica anticiparía el posterior interés de Naranjo por la espiritualidad y la psicología transpersonal.",
       "wikipedia_url": "https://en.wikipedia.org/wiki/James_Jeans",
-      "foto_url": null,
+      "foto_url": "/images/personas/James_Jeans.jpg",
       "fecha_nacimiento": "1877-09-11",
       "fecha_muerte": "1946-09-16",
       "lugar_nacimiento": "Ormskirk, Lancashire, Inglaterra",
@@ -7100,7 +7129,9 @@
       "origen_etnico": "N/A",
       "profesion": "N/A - Libro",
       "ubicacion": "N/A",
-      "caracteristicas": ["ERROR: no es una persona"],
+      "caracteristicas": [
+        "ERROR: no es una persona"
+      ],
       "epoca_relacion": "N/A",
       "rol_en_vida_claudio": "NO ES PERSONA - Esta entrada debe eliminarse. Es parte del título del libro 'Les Yeux d'Ezéchiel sont ouverts' de Raymond Abellio que Claudio discutió con un amigo.",
       "num_menciones": 1,
@@ -7118,7 +7149,9 @@
     },
     {
       "nombre": "Anniela Jaffé",
-      "nombre_alternativo": ["Aniela Jaffé"],
+      "nombre_alternativo": [
+        "Aniela Jaffé"
+      ],
       "relacion": "Analista junguiana, colega en Suiza",
       "tipo_relacion": "colega",
       "fuerza_vinculo": 1,
@@ -7126,7 +7159,10 @@
       "origen_etnico": "Judío-alemán",
       "profesion": "Psicoanalista junguiana, escritora",
       "ubicacion": "Zúrich, Suiza",
-      "caracteristicas": ["secretaria de Carl Jung", "editora de 'Recuerdos, Sueños, Pensamientos'"],
+      "caracteristicas": [
+        "secretaria de Carl Jung",
+        "editora de 'Recuerdos, Sueños, Pensamientos'"
+      ],
       "epoca_relacion": "Década de 1950s-1960s",
       "rol_en_vida_claudio": "Analista junguiana con quien Claudio se reunió durante sus viajes, parte del círculo de analistas en Zúrich",
       "num_menciones": 1,
@@ -7144,7 +7180,9 @@
     },
     {
       "nombre": "Agustín Tellez",
-      "nombre_alternativo": ["Agustín Téllez"],
+      "nombre_alternativo": [
+        "Agustín Téllez"
+      ],
       "relacion": "Profesor de psiquiatría, opción de cátedra",
       "tipo_relacion": "mentor",
       "fuerza_vinculo": 1,
@@ -7152,7 +7190,10 @@
       "origen_etnico": "Chileno",
       "profesion": "Psiquiatra, profesor universitario",
       "ubicacion": "Chile",
-      "caracteristicas": ["énfasis kraepeliniano", "profesor de psiquiatría"],
+      "caracteristicas": [
+        "énfasis kraepeliniano",
+        "profesor de psiquiatría"
+      ],
       "epoca_relacion": "Década de 1950s",
       "rol_en_vida_claudio": "Uno de los tres profesores de psiquiatría entre los que Claudio podía elegir para su especialización, representante del enfoque kraepeliniano clásico",
       "num_menciones": 1,
@@ -7178,7 +7219,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Psiquiatra, profesor universitario",
       "ubicacion": "Santiago, Chile",
-      "caracteristicas": ["enfoque fenomenológico", "enfoque existencialista", "catedrático de psiquiatría"],
+      "caracteristicas": [
+        "enfoque fenomenológico",
+        "enfoque existencialista",
+        "catedrático de psiquiatría"
+      ],
       "epoca_relacion": "Época universitaria",
       "rol_en_vida_claudio": "Una de las tres opciones de cátedra de psiquiatría",
       "num_menciones": 1,
@@ -7204,7 +7249,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Médico, psiquiatra",
       "ubicacion": "Santiago, Chile",
-      "caracteristicas": ["persona problemática según la clínica", "perdió una pierna en accidente", "sabiduría personal"],
+      "caracteristicas": [
+        "persona problemática según la clínica",
+        "perdió una pierna en accidente",
+        "sabiduría personal"
+      ],
       "epoca_relacion": "Época universitaria (clínica de Matte)",
       "rol_en_vida_claudio": "Verdadera amistad en la clínica psiquiátrica",
       "num_menciones": 1,
@@ -7230,7 +7279,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Médico, hipnoterapeuta",
       "ubicacion": "Santiago, Chile",
-      "caracteristicas": ["especialista en hipnoterapia", "conocía los trabajos de Milton Erickson", "facilitaba experiencias regresivas"],
+      "caracteristicas": [
+        "especialista en hipnoterapia",
+        "conocía los trabajos de Milton Erickson",
+        "facilitaba experiencias regresivas"
+      ],
       "epoca_relacion": "Época universitaria",
       "rol_en_vida_claudio": "Exposición a técnicas hipnoterapéuticas avanzadas",
       "num_menciones": 1,
@@ -7256,7 +7309,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Estudiante de medicina",
       "ubicacion": "Santiago, Chile",
-      "caracteristicas": ["estudiante de la Escuela Moderna", "gran amiga de Claudio", "compañera de Otto Kernberg"],
+      "caracteristicas": [
+        "estudiante de la Escuela Moderna",
+        "gran amiga de Claudio",
+        "compañera de Otto Kernberg"
+      ],
       "epoca_relacion": "Época universitaria",
       "rol_en_vida_claudio": "Amiga cercana durante estudios de medicina",
       "num_menciones": 1,
@@ -7282,7 +7339,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Médico, profesor de Medicina Preventiva y Epidemiología",
       "ubicacion": "Santiago, Chile",
-      "caracteristicas": ["profesor de medicina", "gran claridad intelectual", "preocupación social"],
+      "caracteristicas": [
+        "profesor de medicina",
+        "gran claridad intelectual",
+        "preocupación social"
+      ],
       "epoca_relacion": "Época universitaria (medicina)",
       "rol_en_vida_claudio": "Profesor destacado en la escuela de medicina",
       "num_menciones": 1,
@@ -7300,7 +7361,9 @@
     },
     {
       "nombre": "Joseph Chilton Pierce",
-      "nombre_alternativo": ["Joseph Chilton Pearce"],
+      "nombre_alternativo": [
+        "Joseph Chilton Pearce"
+      ],
       "relacion": "Autor de interés",
       "tipo_relacion": "influencia",
       "fuerza_vinculo": 1,
@@ -7308,7 +7371,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Escritor, conferenciante",
       "ubicacion": "Estados Unidos",
-      "caracteristicas": ["autor sobre desarrollo humano", "visionario de la pubertad como crisis", "escritor sobre conciencia"],
+      "caracteristicas": [
+        "autor sobre desarrollo humano",
+        "visionario de la pubertad como crisis",
+        "escritor sobre conciencia"
+      ],
       "epoca_relacion": "Lectura posterior",
       "rol_en_vida_claudio": "Autor que influyó en su comprensión del desarrollo humano",
       "num_menciones": 1,
@@ -7326,7 +7393,9 @@
     },
     {
       "nombre": "Ricardo Latcham",
-      "nombre_alternativo": ["Ricardo E. Latcham"],
+      "nombre_alternativo": [
+        "Ricardo E. Latcham"
+      ],
       "relacion": "Erudito mencionado",
       "tipo_relacion": "referencia",
       "fuerza_vinculo": 1,
@@ -7334,7 +7403,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Antropólogo, etnólogo, periodista",
       "ubicacion": "Chile",
-      "caracteristicas": ["erudito chileno", "investigador del lenguaje europeo temprano", "antropólogo pionero"],
+      "caracteristicas": [
+        "erudito chileno",
+        "investigador del lenguaje europeo temprano",
+        "antropólogo pionero"
+      ],
       "epoca_relacion": "Época universitaria",
       "rol_en_vida_claudio": "Referencia académica en curso de mitología",
       "num_menciones": 1,
@@ -7386,7 +7459,12 @@
       "origen_etnico": "No especificado",
       "profesion": "No especificada",
       "ubicacion": "Chile",
-      "caracteristicas": ["Madre de Cecilia Bruna", "Muy comunicativa", "Conocedora de maldiciones", "Suegra de Claudio"],
+      "caracteristicas": [
+        "Madre de Cecilia Bruna",
+        "Muy comunicativa",
+        "Conocedora de maldiciones",
+        "Suegra de Claudio"
+      ],
       "epoca_relacion": "Juventud de Claudio",
       "rol_en_vida_claudio": "Madre de la primera esposa de Claudio (Cecilia Bruna). Claudio la recuerda como una persona muy comunicativa que le contó cómo había maldecido a alguien con eficacia pero moderación",
       "num_menciones": 1,
@@ -7412,7 +7490,12 @@
       "origen_etnico": "No especificado",
       "profesion": "Cantante, compositor",
       "ubicacion": "Salvador, Bahía, Brasil",
-      "caracteristicas": ["compositor brasileño", "música de Bahía", "sutiles armonías", "patrones rítmicos complejos"],
+      "caracteristicas": [
+        "compositor brasileño",
+        "música de Bahía",
+        "sutiles armonías",
+        "patrones rítmicos complejos"
+      ],
       "epoca_relacion": "Referencia musical",
       "rol_en_vida_claudio": "Compositor cuyas canciones admiraba",
       "num_menciones": 1,
@@ -7421,7 +7504,7 @@
       ],
       "biografia_extendida": "Dorival Caymmi (1914-2008) fue un célebre cantante y compositor brasileño nacido en Salvador, Bahía. Es considerado uno de los artistas más importantes de la música popular brasileña, conocido por sus composiciones que celebran la cultura bahiana, las comunidades de pescadores y las tradiciones afrobrasileñas. Entre sus canciones más famosas se encuentran 'O Que É Que a Baiana Tem?', 'A Jangada Voltou Só', 'Marina' y 'Saudade da Bahia'. Su música combina samba, baião y otros ritmos brasileños con un estilo único y distintivo. Claudio Naranjo conoció su música a través de Cecilia, quien tras una estadía en Bahía aprendió a reproducir las sutiles armonías y complejos patrones rítmicos de las canciones de Caymmi.",
       "wikipedia_url": "https://es.wikipedia.org/wiki/Dorival_Caymmi",
-      "foto_url": null,
+      "foto_url": "/images/personas/Dorival_Caymmi.jpg",
       "fecha_nacimiento": "1914-04-29",
       "fecha_muerte": "2008-08-16",
       "lugar_nacimiento": "Salvador, Bahía, Brasil",
@@ -7438,7 +7521,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Pintor, grabador",
       "ubicacion": "Santiago, Chile",
-      "caracteristicas": ["pintor chileno", "grabador", "director del Museo de Arte Contemporáneo"],
+      "caracteristicas": [
+        "pintor chileno",
+        "grabador",
+        "director del Museo de Arte Contemporáneo"
+      ],
       "epoca_relacion": "Época de matrimonio con Cecilia",
       "rol_en_vida_claudio": "Maestro de grabado de su esposa Cecilia",
       "num_menciones": 1,
@@ -7447,7 +7534,7 @@
       ],
       "biografia_extendida": "Nemesio Antúnez (1918-1988) fue un destacado pintor y grabador chileno, considerado uno de los principales exponentes del arte visual en Chile durante el siglo XX. Fundó el Taller 99 en 1956, un espacio de experimentación gráfica que se convirtió en un centro de referencia para el grabado en Latinoamérica. Fue director del Museo de Arte Contemporáneo de la Universidad de Chile. Su obra se caracteriza por un estilo figurativo con influencias surrealistas y una profunda reflexión sobre la condición humana. En el libro, se menciona que Cecilia, la primera esposa de Claudio Naranjo, asistió a su taller de grabado donde demostró gran talento artístico.",
       "wikipedia_url": "https://es.wikipedia.org/wiki/Nemesio_Ant%C3%BAnez",
-      "foto_url": null,
+      "foto_url": "/images/personas/Nemesio_Antunez.jpg",
       "fecha_nacimiento": "1918-12-04",
       "fecha_muerte": "1988-05-03",
       "lugar_nacimiento": "Santiago, Chile",
@@ -7464,7 +7551,12 @@
       "origen_etnico": "No especificado",
       "profesion": "Compositor, odontólogo",
       "ubicacion": "Santiago / Isla Negra, Chile",
-      "caracteristicas": ["compositor chileno", "odontólogo", "amigo de la familia", "vecino de Pablo Neruda"],
+      "caracteristicas": [
+        "compositor chileno",
+        "odontólogo",
+        "amigo de la familia",
+        "vecino de Pablo Neruda"
+      ],
       "epoca_relacion": "Luna de miel de Claudio",
       "rol_en_vida_claudio": "Proporcionó casa para luna de miel",
       "num_menciones": 1,
@@ -7516,7 +7608,10 @@
       "origen_etnico": "Chileno",
       "profesion": "Médico, hipnoterapeuta",
       "ubicacion": "Chile",
-      "caracteristicas": ["maestro de hipnoterapia", "formador clínico"],
+      "caracteristicas": [
+        "maestro de hipnoterapia",
+        "formador clínico"
+      ],
       "epoca_relacion": "Década de 1950s",
       "rol_en_vida_claudio": "Maestro de quien Claudio aprendió la práctica de la hipnoterapia durante su formación psiquiátrica",
       "num_menciones": 1,
@@ -7542,7 +7637,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Fundadora de la Ciencia Cristiana, escritora",
       "ubicacion": "Nueva Inglaterra, Estados Unidos",
-      "caracteristicas": ["fundadora de la Ciencia Cristiana", "sanadora espiritual", "autora de Ciencia y Salud"],
+      "caracteristicas": [
+        "fundadora de la Ciencia Cristiana",
+        "sanadora espiritual",
+        "autora de Ciencia y Salud"
+      ],
       "epoca_relacion": "Viaje a Baltimore con la madre",
       "rol_en_vida_claudio": "Su lectura ayudó a la curación de la madre",
       "num_menciones": 1,
@@ -7551,7 +7650,7 @@
       ],
       "biografia_extendida": "Mary Baker Eddy (1821-1910) fue la fundadora de la Ciencia Cristiana, un movimiento religioso que enfatiza la curación espiritual. Nació en Bow, New Hampshire, y tras años de enfermedad y dificultades personales, experimentó lo que consideró una curación milagrosa en 1866 tras leer la Biblia. En 1875 publicó 'Ciencia y Salud con Clave de las Escrituras', el texto fundamental de la Ciencia Cristiana. En 1879 fundó la Iglesia de Cristo, Científico, que creció significativamente. Su enseñanza sostiene que la enfermedad es una ilusión mental que puede ser curada mediante la comprensión espiritual. Claudio Naranjo menciona que un creyente en Baltimore recomendó a su madre leer a Mary Baker Eddy 'sin críticas', un ejercicio espiritual que contribuyó a la curación parcial de la ceguera de su madre.",
       "wikipedia_url": "https://es.wikipedia.org/wiki/Mary_Baker_Eddy",
-      "foto_url": null,
+      "foto_url": "/images/personas/Mary_Baker_Eddy.jpg",
       "fecha_nacimiento": "1821-07-16",
       "fecha_muerte": "1910-12-03",
       "lugar_nacimiento": "Bow, New Hampshire, EE.UU.",
@@ -7560,7 +7659,9 @@
     },
     {
       "nombre": "Ashley Montagu",
-      "nombre_alternativo": ["Montague Francis Ashley-Montagu"],
+      "nombre_alternativo": [
+        "Montague Francis Ashley-Montagu"
+      ],
       "relacion": "Autor y conferenciante encontrado en Baltimore",
       "tipo_relacion": "influencia",
       "fuerza_vinculo": 1,
@@ -7568,7 +7669,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Antropólogo, humanista",
       "ubicacion": "Estados Unidos",
-      "caracteristicas": ["antropólogo social", "humanista", "autor de La superioridad natural de las mujeres"],
+      "caracteristicas": [
+        "antropólogo social",
+        "humanista",
+        "autor de La superioridad natural de las mujeres"
+      ],
       "epoca_relacion": "Viaje a Baltimore con la madre",
       "rol_en_vida_claudio": "Conferenciante sobre el amor en la vida animal",
       "num_menciones": 1,
@@ -7577,7 +7682,7 @@
       ],
       "biografia_extendida": "Ashley Montagu (1905-1999), nacido como Montague Francis Ashley-Montagu, fue un antropólogo y humanista británico-estadounidense conocido por sus obras que desafiaban las nociones tradicionales sobre raza, género y naturaleza humana. Su libro más influyente, 'La superioridad natural de las mujeres' (1953), argumentaba que las mujeres son biológicamente superiores a los hombres en muchos aspectos, generando considerable controversia en su época. También escribió extensamente sobre la importancia del contacto físico y el amor en el desarrollo humano y animal. Claudio Naranjo asistió a un sermón suyo en una Iglesia Unitaria de Baltimore, donde quedó encantado al escucharlo hablar sobre la omnipresencia del amor en la vida animal, y tuvo un breve intercambio personal que describió como punto de partida de una transformación positiva.",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Ashley_Montagu",
-      "foto_url": null,
+      "foto_url": "/images/personas/Ashley_Montagu.jpg",
       "fecha_nacimiento": "1905-06-28",
       "fecha_muerte": "1999-11-26",
       "lugar_nacimiento": "Londres, Inglaterra",
@@ -7607,7 +7712,7 @@
       ],
       "biografia_extendida": "William Blake (1757-1827) fue un poeta, pintor y grabador inglés, ahora considerado una figura seminal tanto en la poesía como en las artes visuales de la era romántica. Nació y vivió toda su vida en Londres, donde fue aprendiz de grabador desde los 14 años. Desarrolló una técnica única de 'aguafuerte en relieve' que le permitió combinar texto e imágenes en las mismas planchas, creando sus famosos 'libros iluminados'. Reportó tener visiones a lo largo de toda su vida, y su obra explora temas religiosos y místicos, aunque fue a menudo crítico con la religión organizada. Sus obras más famosas incluyen 'Canciones de inocencia y de experiencia' (que contiene 'El tigre' y 'El cordero'), 'El matrimonio del cielo y el infierno', 'Jerusalén' y 'Milton'. Aunque fue considerado excéntrico o incluso loco por sus contemporáneos, ahora es reconocido como uno de los mayores genios artísticos de la historia británica.",
       "wikipedia_url": "https://en.wikipedia.org/wiki/William_Blake",
-      "foto_url": null,
+      "foto_url": "/images/personas/William_Blake.jpg",
       "fecha_nacimiento": "1757-11-28",
       "fecha_muerte": "1827-08-12",
       "lugar_nacimiento": "Londres, Inglaterra",
@@ -7616,7 +7721,9 @@
     },
     {
       "nombre": "Dizzie Gillespie",
-      "nombre_alternativo": ["John Birks Gillespie"],
+      "nombre_alternativo": [
+        "John Birks Gillespie"
+      ],
       "relacion": "Participante en sesión psicodélica",
       "tipo_relacion": "conocido",
       "fuerza_vinculo": 1,
@@ -7624,7 +7731,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Músico de jazz (trompetista, compositor)",
       "ubicacion": "Estados Unidos",
-      "caracteristicas": ["legendario trompetista de jazz", "padre del bebop", "participante en experiencia psicodélica"],
+      "caracteristicas": [
+        "legendario trompetista de jazz",
+        "padre del bebop",
+        "participante en experiencia psicodélica"
+      ],
       "epoca_relacion": "Sesión de LSD con la madre",
       "rol_en_vida_claudio": "Coparticipante en sesión psicodélica grupal",
       "num_menciones": 1,
@@ -7633,7 +7744,7 @@
       ],
       "biografia_extendida": "Dizzy Gillespie (1917-1993), nacido como John Birks Gillespie, fue un trompetista, compositor y cantante de jazz estadounidense, considerado uno de los músicos más influyentes en la historia del jazz. Fue una figura central en el desarrollo del bebop y del jazz moderno, conocido por sus mejillas hinchadas al tocar, su trompeta con la campana inclinada hacia arriba, y su estilo virtuosístico e innovador. Compuso estándares del jazz como 'A Night in Tunisia', 'Groovin' High' y 'Salt Peanuts'. Claudio Naranjo lo menciona como participante en una sesión psicodélica grupal en la que también participaron Alan Watts y la madre de Claudio, describiendo que Gillespie 'se tumbó sobre su regazo durante horas como una criatura' durante la experiencia.",
       "wikipedia_url": "https://es.wikipedia.org/wiki/Dizzy_Gillespie",
-      "foto_url": null,
+      "foto_url": "/images/personas/Dizzy_Gillespie.jpg",
       "fecha_nacimiento": "1917-10-21",
       "fecha_muerte": "1993-01-06",
       "lugar_nacimiento": "Cheraw, Carolina del Sur, EE.UU.",
@@ -7642,7 +7753,10 @@
     },
     {
       "nombre": "Jerome Brunner",
-      "nombre_alternativo": ["Jerome Bruner", "Jerome Seymour Bruner"],
+      "nombre_alternativo": [
+        "Jerome Bruner",
+        "Jerome Seymour Bruner"
+      ],
       "relacion": "Profesor en Harvard",
       "tipo_relacion": "mentor",
       "fuerza_vinculo": 1,
@@ -7650,7 +7764,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Psicólogo, educador",
       "ubicacion": "Cambridge, Massachusetts, EE.UU.",
-      "caracteristicas": ["psicólogo cognitivo", "pionero en psicología educativa", "profesor de Harvard"],
+      "caracteristicas": [
+        "psicólogo cognitivo",
+        "pionero en psicología educativa",
+        "profesor de Harvard"
+      ],
       "epoca_relacion": "Estudios en Harvard",
       "rol_en_vida_claudio": "Profesor colaborador en curso de antropología de McClelland",
       "num_menciones": 1,
@@ -7659,7 +7777,7 @@
       ],
       "biografia_extendida": "Jerome Bruner (1915-2016) fue un psicólogo estadounidense que realizó contribuciones fundamentales a la psicología cognitiva y a la teoría del aprendizaje. Nació en Nueva York y enseñó en Harvard, Oxford y la Universidad de Nueva York. Es conocido por su concepto de 'andamiaje' en el aprendizaje, su teoría del aprendizaje por descubrimiento, y su trabajo pionero sobre cómo la narrativa estructura la experiencia humana. Fundó el Center for Cognitive Studies en Harvard en 1960. Sus libros influyentes incluyen 'The Process of Education' (1960) y 'Actual Minds, Possible Worlds' (1986). Claudio Naranjo asistió a un curso de antropología en Harvard donde Bruner era uno de los profesores colaboradores, junto con Henry Murray y Florence Powdermaker.",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Jerome_Bruner",
-      "foto_url": null,
+      "foto_url": "/images/personas/Jerome_Bruner.jpg",
       "fecha_nacimiento": "1915-10-01",
       "fecha_muerte": "2016-06-05",
       "lugar_nacimiento": "",
@@ -7700,7 +7818,9 @@
     },
     {
       "nombre": "Harrison Gough",
-      "nombre_alternativo": ["Harrison G. Gough"],
+      "nombre_alternativo": [
+        "Harrison G. Gough"
+      ],
       "relacion": "Psicólogo de IPAR Berkeley, traductor de su test",
       "tipo_relacion": "colega",
       "fuerza_vinculo": 1,
@@ -7708,7 +7828,11 @@
       "origen_etnico": "Estadounidense",
       "profesion": "Psicólogo, profesor universitario",
       "ubicacion": "UC Berkeley, California, EE.UU.",
-      "caracteristicas": ["California Psychological Inventory", "Adjective Check List", "IPAR"],
+      "caracteristicas": [
+        "California Psychological Inventory",
+        "Adjective Check List",
+        "IPAR"
+      ],
       "epoca_relacion": "Década de 1960s",
       "rol_en_vida_claudio": "Psicólogo de IPAR con quien Claudio intercambió cartas para traducir su Lista de Adjetivos (Adjective Check List) al español",
       "num_menciones": 1,
@@ -7726,7 +7850,9 @@
     },
     {
       "nombre": "Sterling Bunnel",
-      "nombre_alternativo": ["Sterling Bunnell"],
+      "nombre_alternativo": [
+        "Sterling Bunnell"
+      ],
       "relacion": "Psiquiatra presentado por Frank Barron",
       "tipo_relacion": "amigo",
       "fuerza_vinculo": 1,
@@ -7734,7 +7860,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Psiquiatra",
       "ubicacion": "California, EE.UU.",
-      "caracteristicas": ["psiquiatra excéntrico", "dueño de una serpiente pitón", "terapeuta de discípulos de Suzuki Roshi"],
+      "caracteristicas": [
+        "psiquiatra excéntrico",
+        "dueño de una serpiente pitón",
+        "terapeuta de discípulos de Suzuki Roshi"
+      ],
       "epoca_relacion": "Estadía en California (beca Fulbright)",
       "rol_en_vida_claudio": "Conocido a través de Frank Barron",
       "num_menciones": 1,
@@ -7760,7 +7890,11 @@
       "origen_etnico": "No especificado",
       "profesion": "No especificada",
       "ubicacion": "California, EE.UU.",
-      "caracteristicas": ["hospitalaria", "cálido aprecio", "conexión con comunidad zen"],
+      "caracteristicas": [
+        "hospitalaria",
+        "cálido aprecio",
+        "conexión con comunidad zen"
+      ],
       "epoca_relacion": "Estadía en California (beca Fulbright)",
       "rol_en_vida_claudio": "Hospitalidad y conexión con comunidad budista zen",
       "num_menciones": 1,
@@ -7778,7 +7912,9 @@
     },
     {
       "nombre": "Albert Hoffman",
-      "nombre_alternativo": ["Albert Hofmann"],
+      "nombre_alternativo": [
+        "Albert Hofmann"
+      ],
       "relacion": "Químico descubridor del LSD",
       "tipo_relacion": "referencia",
       "fuerza_vinculo": 1,
@@ -7786,7 +7922,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Químico, investigador",
       "ubicacion": "Basilea, Suiza",
-      "caracteristicas": ["descubridor del LSD", "químico de Sandoz", "investigador de alcaloides"],
+      "caracteristicas": [
+        "descubridor del LSD",
+        "químico de Sandoz",
+        "investigador de alcaloides"
+      ],
       "epoca_relacion": "Interés en psicoterapia con LSD",
       "rol_en_vida_claudio": "Proporcionó libro sobre psicoterapia con LSD",
       "num_menciones": 1,
@@ -7795,7 +7935,7 @@
       ],
       "biografia_extendida": "Albert Hofmann (1906-2008) fue un químico suizo conocido mundialmente por ser el descubridor del LSD (dietilamida de ácido lisérgico). Trabajando en los laboratorios Sandoz en Basilea, sintetizó el LSD-25 en 1938 mientras investigaba alcaloides del cornezuelo para usos médicos, pero sus efectos psicotrópicos no fueron descubiertos hasta 1943, cuando accidentalmente absorbió una pequeña cantidad a través de la piel. Su famoso 'viaje en bicicleta' del 19 de abril de 1943 fue la primera experiencia psicodélica intencional con LSD. Hofmann también aisló y sintetizó los compuestos activos de los hongos psilocibina. A lo largo de su vida mantuvo un interés por las aplicaciones terapéuticas y espirituales de las sustancias psicodélicas. Claudio Naranjo encontró en su biblioteca un libro sobre psicoterapia con LSD que Hofmann le regaló.",
       "wikipedia_url": "https://es.wikipedia.org/wiki/Albert_Hofmann",
-      "foto_url": null,
+      "foto_url": "/images/personas/Albert_Hofmann.jpg",
       "fecha_nacimiento": "1906-01-11",
       "fecha_muerte": "2008-04-29",
       "lugar_nacimiento": "Baden, Suiza",
@@ -7804,7 +7944,9 @@
     },
     {
       "nombre": "Richard Evan Shultes",
-      "nombre_alternativo": ["Richard Evans Schultes"],
+      "nombre_alternativo": [
+        "Richard Evans Schultes"
+      ],
       "relacion": "Curador del museo, experto en yagé",
       "tipo_relacion": "mentor",
       "fuerza_vinculo": 1,
@@ -7812,7 +7954,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Botánico, etnobotánico",
       "ubicacion": "Cambridge, Massachusetts, EE.UU.",
-      "caracteristicas": ["célebre etnobotánico", "curador del museo", "experto en plantas psicodélicas"],
+      "caracteristicas": [
+        "célebre etnobotánico",
+        "curador del museo",
+        "experto en plantas psicodélicas"
+      ],
       "epoca_relacion": "Investigación del yagé",
       "rol_en_vida_claudio": "Animó a estudiar los efectos del yagé",
       "num_menciones": 1,
@@ -7838,7 +7984,10 @@
       "origen_etnico": "No especificado",
       "profesion": "Químico, investigador",
       "ubicacion": "Universidad Estatal de Ohio, EE.UU.",
-      "caracteristicas": ["análisis de yagé", "químico"],
+      "caracteristicas": [
+        "análisis de yagé",
+        "químico"
+      ],
       "epoca_relacion": "Década de 1960s",
       "rol_en_vida_claudio": "Químico a quien Claudio envió corteza de yagé para análisis químico junto con Roland Fischer",
       "num_menciones": 1,
@@ -7864,7 +8013,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Investigador de plantas medicinales",
       "ubicacion": "Región de Kamsa, Colombia",
-      "caracteristicas": ["Yagé", "Curanderos de Kamsa", "Investigación etnobotánica"],
+      "caracteristicas": [
+        "Yagé",
+        "Curanderos de Kamsa",
+        "Investigación etnobotánica"
+      ],
       "epoca_relacion": "Década de 1960s",
       "rol_en_vida_claudio": "Obtuvo bebida de yagé a través de un curandero de Kamsa para investigación",
       "num_menciones": 1,
@@ -7890,7 +8043,10 @@
       "origen_etnico": "Colombiano",
       "profesion": "Médico",
       "ubicacion": "Bogotá, Colombia",
-      "caracteristicas": ["doctor colombiano", "receptor de libro dedicado"],
+      "caracteristicas": [
+        "doctor colombiano",
+        "receptor de libro dedicado"
+      ],
       "epoca_relacion": "Década de 1960s-1970s",
       "rol_en_vida_claudio": "Doctor en Bogotá a quien Claudio envió una copia dedicada del libro 'Siete flechas' a través de Andy Weil",
       "num_menciones": 1,
@@ -7916,7 +8072,10 @@
       "origen_etnico": "Afrocubano",
       "profesion": "Sacerdote yoruba (santero)",
       "ubicacion": "Cuba",
-      "caracteristicas": ["notable clarividencia", "sacerdote yoruba"],
+      "caracteristicas": [
+        "notable clarividencia",
+        "sacerdote yoruba"
+      ],
       "epoca_relacion": "Década de 1970s-1980s",
       "rol_en_vida_claudio": "Sacerdote yoruba de notable clarividencia que reveló a Claudio la verdad sobre la muerte de su padre",
       "num_menciones": 1,
@@ -7942,7 +8101,10 @@
       "origen_etnico": "No especificado",
       "profesion": "No especificada",
       "ubicacion": "Chile",
-      "caracteristicas": ["primera paciente analítica", "experiencia con harmalina"],
+      "caracteristicas": [
+        "primera paciente analítica",
+        "experiencia con harmalina"
+      ],
       "epoca_relacion": "Década de 1950s-1960s",
       "rol_en_vida_claudio": "Primera paciente de Claudio en terapia analítica, cuyas experiencias con harmalina contribuyeron a la comprensión de Claudio sobre los estados alterados de conciencia",
       "num_menciones": 1,
@@ -7986,7 +8148,7 @@
       ],
       "biografia_extendida": "Raymond Cattell (1905-1998) fue un psicólogo británico-estadounidense, pionero en el uso del análisis factorial para estudiar la personalidad y la inteligencia. Nacido en Inglaterra, obtuvo su doctorado en la Universidad de Londres en 1929 y posteriormente enseñó en Columbia, Clark, Harvard y la Universidad de Illinois. Su contribución más famosa es el modelo de los 16 Factores de Personalidad (16PF), que identificó 16 rasgos primarios mediante análisis factorial. También distinguió entre inteligencia fluida (capacidad de resolver problemas nuevos) e inteligencia cristalizada (conocimiento adquirido). Desarrolló la 'prueba scree' para determinar el número de factores a retener en análisis factorial. Fundó el Instituto de Tests de Personalidad y Aptitudes (IPAT). Claudio refactorizó el 16PF en población chilena y fue invitado a unirse a IPAT, aunque finalmente optó por Berkeley. Era conocido por ser introvertido, trabajador y totalmente dedicado a la ciencia.",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Raymond_Cattell",
-      "foto_url": null,
+      "foto_url": "/images/personas/Raymond_Cattell.jpg",
       "fecha_nacimiento": "1905-03-20",
       "fecha_muerte": "1998-02-02",
       "lugar_nacimiento": "Hill Top, Inglaterra",
@@ -8003,7 +8165,11 @@
       "origen_etnico": "Polaco",
       "profesion": "Filósofo, profesor universitario",
       "ubicacion": "Instituto Pedagógico, Santiago, Chile",
-      "caracteristicas": ["filósofo medieval", "setenta años", "oficina en avenida Macul"],
+      "caracteristicas": [
+        "filósofo medieval",
+        "setenta años",
+        "oficina en avenida Macul"
+      ],
       "epoca_relacion": "Década de 1950s-1960s",
       "rol_en_vida_claudio": "Profesor de filosofía medieval que proporcionó una carta de recomendación a Claudio para sus estudios en el extranjero",
       "num_menciones": 1,
@@ -8021,7 +8187,9 @@
     },
     {
       "nombre": "Erich Fromm",
-      "nombre_alternativo": ["Erich Seligmann Fromm"],
+      "nombre_alternativo": [
+        "Erich Seligmann Fromm"
+      ],
       "relacion": "Psicoanalista y filósofo social, figura respetada por Claudio",
       "tipo_relacion": "referencia",
       "fuerza_vinculo": 1,
@@ -8029,7 +8197,11 @@
       "origen_etnico": "Judío-alemán",
       "profesion": "Psicoanalista, filósofo social, escritor",
       "ubicacion": "Nueva York / Ciudad de México",
-      "caracteristicas": ["psicoanálisis humanista", "El Arte de Amar", "Tener o Ser"],
+      "caracteristicas": [
+        "psicoanálisis humanista",
+        "El Arte de Amar",
+        "Tener o Ser"
+      ],
       "epoca_relacion": "Referencia intelectual",
       "rol_en_vida_claudio": "Figura que Claudio respetaba profundamente y cuyas opiniones valoraba, junto con Suzuki Roshi",
       "num_menciones": 1,
@@ -8047,7 +8219,9 @@
     },
     {
       "nombre": "Joel Forte",
-      "nombre_alternativo": ["Joel Fort"],
+      "nombre_alternativo": [
+        "Joel Fort"
+      ],
       "relacion": "Investigador de psicodélicos",
       "tipo_relacion": "colaborador",
       "fuerza_vinculo": 1,
@@ -8055,7 +8229,10 @@
       "origen_etnico": "No especificado",
       "profesion": "Investigador, psicólogo",
       "ubicacion": "California, EE.UU.",
-      "caracteristicas": ["experimentos con psicodélicos", "investigador"],
+      "caracteristicas": [
+        "experimentos con psicodélicos",
+        "investigador"
+      ],
       "epoca_relacion": "Década de 1960s",
       "rol_en_vida_claudio": "Conductor de experimentos sobre efectos comparativos de psicodélicos en los que participó Claudio",
       "num_menciones": 1,
@@ -8081,7 +8258,10 @@
       "origen_etnico": "No especificado",
       "profesion": "Editor, publicista",
       "ubicacion": "Nueva York, EE.UU.",
-      "caracteristicas": ["Julian Press", "editor de terapia Gestalt"],
+      "caracteristicas": [
+        "Julian Press",
+        "editor de terapia Gestalt"
+      ],
       "epoca_relacion": "Finales de 1950s",
       "rol_en_vida_claudio": "Editor que publicó el famoso libro sobre terapia Gestalt que el tío Ben envió a Claudio",
       "num_menciones": 1,
@@ -8107,7 +8287,10 @@
       "origen_etnico": "No especificado",
       "profesion": "No especificada",
       "ubicacion": "Esalen, California, EE.UU.",
-      "caracteristicas": ["sueño vocacional", "serpiente en sueño"],
+      "caracteristicas": [
+        "sueño vocacional",
+        "serpiente en sueño"
+      ],
       "epoca_relacion": "Talleres de Esalen (década de 1960s)",
       "rol_en_vida_claudio": "Participante en los talleres de Fritz Perls en Esalen que compartió un sueño significativo sobre su vocación",
       "num_menciones": 1,
@@ -8125,7 +8308,9 @@
     },
     {
       "nombre": "Dick Farson",
-      "nombre_alternativo": ["Richard Farson"],
+      "nombre_alternativo": [
+        "Richard Farson"
+      ],
       "relacion": "Figura de Esalen, participante en conversación televisada",
       "tipo_relacion": "amigo",
       "fuerza_vinculo": 1,
@@ -8133,7 +8318,10 @@
       "origen_etnico": "No especificado",
       "profesion": "Psicólogo, educador, autor",
       "ubicacion": "Esalen, California, EE.UU.",
-      "caracteristicas": ["Esalen", "conversación televisada KRON"],
+      "caracteristicas": [
+        "Esalen",
+        "conversación televisada KRON"
+      ],
       "epoca_relacion": "Talleres de Esalen (década de 1960s)",
       "rol_en_vida_claudio": "Figura de Esalen que participó en una conversación post-taller televisada con Fritz Perls, Castaneda, Harner, Michael Murphy y Claudio",
       "num_menciones": 1,
@@ -8159,7 +8347,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Farmacólogo, químico",
       "ubicacion": "California, EE.UU.",
-      "caracteristicas": ["experimento con MDA", "autoexperimentación", "vasodilatador"],
+      "caracteristicas": [
+        "experimento con MDA",
+        "autoexperimentación",
+        "vasodilatador"
+      ],
       "epoca_relacion": "Década de 1950s-1960s",
       "rol_en_vida_claudio": "Químico que reportó los efectos del MDA tras experimentar consigo mismo",
       "num_menciones": 1,
@@ -8177,7 +8369,9 @@
     },
     {
       "nombre": "Sydney Cohen",
-      "nombre_alternativo": ["Sidney Cohen"],
+      "nombre_alternativo": [
+        "Sidney Cohen"
+      ],
       "relacion": "Investigador pionero de LSD, mentor de Betty Eisner",
       "tipo_relacion": "referencia",
       "fuerza_vinculo": 1,
@@ -8185,7 +8379,10 @@
       "origen_etnico": "No especificado",
       "profesion": "Psiquiatra, investigador de psicodélicos",
       "ubicacion": "Los Ángeles, California, EE.UU.",
-      "caracteristicas": ["investigación con LSD", "pionero psicodélico"],
+      "caracteristicas": [
+        "investigación con LSD",
+        "pionero psicodélico"
+      ],
       "epoca_relacion": "Década de 1950s-1960s",
       "rol_en_vida_claudio": "Psiquiatra cuya excolaboradora Betty Eisner continuó trabajando con LSD y fue presentada a Claudio",
       "num_menciones": 1,
@@ -8203,7 +8400,9 @@
     },
     {
       "nombre": "Hyman Roudman",
-      "nombre_alternativo": ["Hy Roudman"],
+      "nombre_alternativo": [
+        "Hy Roudman"
+      ],
       "relacion": "Amigo del grupo de Leo Zippel",
       "tipo_relacion": "amigo",
       "fuerza_vinculo": 1,
@@ -8211,7 +8410,11 @@
       "origen_etnico": "No especificado",
       "profesion": "No especificada",
       "ubicacion": "Estados Unidos",
-      "caracteristicas": ["Integridad", "Desapego material", "Biblioteca donada"],
+      "caracteristicas": [
+        "Integridad",
+        "Desapego material",
+        "Biblioteca donada"
+      ],
       "epoca_relacion": "Década de 1960s",
       "rol_en_vida_claudio": "Miembro del grupo de Leo Zippel conocido por su integridad y desapego material",
       "num_menciones": 1,
@@ -8237,7 +8440,9 @@
       "origen_etnico": "Chileno",
       "profesion": "No especificada",
       "ubicacion": "Santiago, Chile",
-      "caracteristicas": ["cabaña con jardín luminoso"],
+      "caracteristicas": [
+        "cabaña con jardín luminoso"
+      ],
       "epoca_relacion": "Segundo intermedio en Chile",
       "rol_en_vida_claudio": "Amiga que prestó su cabaña en Santiago donde Claudio experimentó con 10-methoxy-harmalan por primera vez",
       "num_menciones": 1,
@@ -8255,7 +8460,9 @@
     },
     {
       "nombre": "Henry Miller",
-      "nombre_alternativo": ["Henry Valentine Miller"],
+      "nombre_alternativo": [
+        "Henry Valentine Miller"
+      ],
       "relacion": "Escritor que Claudio conoció a través de amigos",
       "tipo_relacion": "referencia",
       "fuerza_vinculo": 1,
@@ -8263,7 +8470,11 @@
       "origen_etnico": "Estadounidense de origen alemán",
       "profesion": "Escritor, novelista, ensayista",
       "ubicacion": "París / Big Sur, California",
-      "caracteristicas": ["Trópico de Cáncer", "La pesadilla con aire acondicionado", "escritor controvertido"],
+      "caracteristicas": [
+        "Trópico de Cáncer",
+        "La pesadilla con aire acondicionado",
+        "escritor controvertido"
+      ],
       "epoca_relacion": "Referencia literaria",
       "rol_en_vida_claudio": "Escritor cuyo trabajo Claudio conoció a través de amigos, aunque solo leyó 'La pesadilla con aire acondicionado'",
       "num_menciones": 1,
@@ -8307,7 +8518,7 @@
       ],
       "biografia_extendida": "Kahlil Gibran (1883-1931) fue un poeta, filósofo y artista libanés-estadounidense, conocido principalmente por 'El Profeta' (1923), uno de los libros más vendidos de la historia. Nació en Bsharri, Líbano (entonces parte del Imperio Otomano), y emigró con su familia a Boston en 1895. Estudió arte en París y pasó la mayor parte de su vida adulta entre Estados Unidos y Líbano. Su obra fusiona filosofías orientales y occidentales, caracterizada por su sabiduría espiritual, intuiciones místicas y prosa lírica. 'El Profeta', una colección de 26 ensayos poéticos sobre temas como el amor, el matrimonio, el trabajo y la muerte, ha vendido millones de copias y ha sido traducido a más de 100 idiomas. Otras obras importantes incluyen 'Alas rotas' (1912) y 'Arena y espuma' (1926). Gibran es considerado uno de los autores más leídos del siglo XX.",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Kahlil_Gibran",
-      "foto_url": null,
+      "foto_url": "/images/personas/Kahlil_Gibran.jpg",
       "fecha_nacimiento": "1883-01-06",
       "fecha_muerte": "1931-04-10",
       "lugar_nacimiento": "Bsharri, Líbano",
@@ -8316,7 +8527,9 @@
     },
     {
       "nombre": "Miguel Serrano",
-      "nombre_alternativo": ["Miguel Joaquín Diego del Carmen Serrano Fernández"],
+      "nombre_alternativo": [
+        "Miguel Joaquín Diego del Carmen Serrano Fernández"
+      ],
       "relacion": "Embajador chileno en India, escritor esotérico",
       "tipo_relacion": "referencia",
       "fuerza_vinculo": 1,
@@ -8324,7 +8537,11 @@
       "origen_etnico": "Chileno",
       "profesion": "Diplomático, escritor, periodista",
       "ubicacion": "Chile / India",
-      "caracteristicas": ["correspondencia con Hesse y Jung", "embajador en India", "escritor esotérico"],
+      "caracteristicas": [
+        "correspondencia con Hesse y Jung",
+        "embajador en India",
+        "escritor esotérico"
+      ],
       "epoca_relacion": "Década de 1950s-1960s",
       "rol_en_vida_claudio": "Embajador chileno conocido por su correspondencia con Hermann Hesse y Carl Jung, criticado por Claudio por sus escritos",
       "num_menciones": 1,
@@ -8333,7 +8550,7 @@
       ],
       "biografia_extendida": "Miguel Serrano (1917-2009) fue un diplomático, escritor y periodista chileno, conocido por su correspondencia publicada con Hermann Hesse y Carl Jung. Sirvió como embajador de Chile en la India. Fue una figura controvertida del esoterismo y el nazismo esotérico. Un buscador chileno que viajó a la India habló con desprecio de cómo Serrano lo había tratado. Claudio Naranjo también detestaba a Serrano por lo que había leído sobre él en El Mercurio. Serrano escribió numerosos libros sobre temas esotéricos, herméticos y mitológicos.",
       "wikipedia_url": "https://es.wikipedia.org/wiki/Miguel_Serrano",
-      "foto_url": null,
+      "foto_url": "/images/personas/Miguel_Serrano.jpg",
       "fecha_nacimiento": "1917-09-10",
       "fecha_muerte": "2009-02-28",
       "lugar_nacimiento": "Santiago, Chile",
@@ -8342,7 +8559,10 @@
     },
     {
       "nombre": "Mahatma Gandhi",
-      "nombre_alternativo": ["Mohandas Karamchand Gandhi", "Bapu"],
+      "nombre_alternativo": [
+        "Mohandas Karamchand Gandhi",
+        "Bapu"
+      ],
       "relacion": "Líder espiritual indio cuya muerte impactó profundamente al joven Claudio",
       "tipo_relacion": "referencia",
       "fuerza_vinculo": 1,
@@ -8350,7 +8570,12 @@
       "origen_etnico": "Indio",
       "profesion": "Abogado, activista, líder espiritual",
       "ubicacion": "India",
-      "caracteristicas": ["No violencia", "Satyagraha", "Independencia india", "Líder espiritual"],
+      "caracteristicas": [
+        "No violencia",
+        "Satyagraha",
+        "Independencia india",
+        "Líder espiritual"
+      ],
       "epoca_relacion": "Referencia histórica",
       "rol_en_vida_claudio": "Su muerte en 1948 impactó profundamente al joven Claudio. Claudio se disgustó con lo que el embajador chileno Miguel Serrano escribió sobre Gandhi en El Mercurio",
       "num_menciones": 1,
@@ -8359,7 +8584,7 @@
       ],
       "biografia_extendida": "Mohandas Karamchand Gandhi (1869-1948), conocido como Mahatma ('gran alma') Gandhi, fue el líder del movimiento de independencia de India contra el dominio británico. Pionero de la resistencia no violenta (Satyagraha), su filosofía influyó en movimientos de derechos civiles en todo el mundo. Nació en Porbandar, India, estudió derecho en Londres, y desarrolló sus métodos de resistencia no violenta mientras vivía en Sudáfrica. Regresó a India en 1915 y lideró el movimiento de independencia hasta 1947. Fue asesinado el 30 de enero de 1948 por un nacionalista hindú. Su muerte impactó profundamente al joven Claudio Naranjo, quien la recuerda como una de las que más le afectó durante su niñez.",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Mahatma_Gandhi",
-      "foto_url": null,
+      "foto_url": "/images/personas/Mahatma_Gandhi.jpg",
       "fecha_nacimiento": "1869-10-02",
       "fecha_muerte": "1948-01-30",
       "lugar_nacimiento": "Porbandar, India",
@@ -8376,7 +8601,10 @@
       "origen_etnico": "Francés",
       "profesion": "Sacerdote católico, misionero, escritor",
       "ubicacion": "Francia / Chile",
-      "caracteristicas": ["misionero con mineros", "autor de libro sobre condiciones miserables"],
+      "caracteristicas": [
+        "misionero con mineros",
+        "autor de libro sobre condiciones miserables"
+      ],
       "epoca_relacion": "Período en Chile",
       "rol_en_vida_claudio": "Sacerdote misionero francés invitado por Nieves, quien vivió con mineros del carbón en Francia",
       "num_menciones": 1,
@@ -8394,7 +8622,9 @@
     },
     {
       "nombre": "Abe Levistsky",
-      "nombre_alternativo": ["Abraham Levitsky"],
+      "nombre_alternativo": [
+        "Abraham Levitsky"
+      ],
       "relacion": "Amigo de largo tiempo, participante en taller de Fritz Perls",
       "tipo_relacion": "amigo",
       "fuerza_vinculo": 1,
@@ -8402,7 +8632,10 @@
       "origen_etnico": "No especificado",
       "profesion": "No especificada",
       "ubicacion": "Saint Louis / Berkeley, EE.UU.",
-      "caracteristicas": ["viajó de Saint Louis", "larga amistad"],
+      "caracteristicas": [
+        "viajó de Saint Louis",
+        "larga amistad"
+      ],
       "epoca_relacion": "Talleres de Fritz Perls",
       "rol_en_vida_claudio": "Participante en taller de Fritz Perls que ofreció llevar a Claudio a Berkeley, iniciando una larga amistad",
       "num_menciones": 1,
@@ -8428,7 +8661,12 @@
       "origen_etnico": "No especificado",
       "profesion": "Investigador de psicodélicos, ingeniero",
       "ubicacion": "California, EE.UU.",
-      "caracteristicas": ["Investigador psicodélico", "Colaborador de Willis Harman", "Interés en contacto extraterrestre", "Ofreció capacitación en LSD"],
+      "caracteristicas": [
+        "Investigador psicodélico",
+        "Colaborador de Willis Harman",
+        "Interés en contacto extraterrestre",
+        "Ofreció capacitación en LSD"
+      ],
       "epoca_relacion": "Años 1960s-1970s",
       "rol_en_vida_claudio": "Colaborador de Willis Harman en Stanford Research Institute. Willis lo presentó a Claudio. Myron se ofreció para capacitar a Claudio en administración de LSD, pero Claudio prefirió seguir su propio camino y desconfió de su intensa antagonismo hacia Tim Leary",
       "num_menciones": 1,
@@ -8467,7 +8705,7 @@
       ],
       "biografia_extendida": "Mircea Eliade (1907-1986) fue un historiador de las religiones, filósofo y escritor rumano, considerado uno de los eruditos más influyentes en el estudio de la religión del siglo XX. Fue profesor en la Universidad de Chicago desde 1956 hasta su muerte. Sus obras más conocidas incluyen 'El chamanismo y las técnicas arcaicas del éxtasis' (1951), 'El mito del eterno retorno' (1949) y 'Tratado de historia de las religiones' (1949). Acuñó conceptos fundamentales como 'hierofanía' (manifestación de lo sagrado) y 'homo religiosus'. Su trabajo sobre chamanismo documentó sistemáticamente las prácticas extáticas en diversas culturas, proporcionando un marco para comprender experiencias místicas y psicodélicas. También escribió ficción literaria con elementos fantásticos. Su enciclopedia de la religión sigue siendo una obra de referencia fundamental.",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Mircea_Eliade",
-      "foto_url": null,
+      "foto_url": "/images/personas/Mircea_Eliade.jpg",
       "fecha_nacimiento": "1907-03-09",
       "fecha_muerte": "1986-04-22",
       "lugar_nacimiento": "Bucarest, Rumania",
@@ -8502,7 +8740,9 @@
     },
     {
       "nombre": "Rollo May",
-      "nombre_alternativo": ["Rollo Reece May"],
+      "nombre_alternativo": [
+        "Rollo Reece May"
+      ],
       "relacion": "Organizador de conferencia sobre psicología humanista",
       "tipo_relacion": "colega",
       "fuerza_vinculo": 1,
@@ -8510,7 +8750,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Psicólogo existencial, escritor",
       "ubicacion": "Estados Unidos",
-      "caracteristicas": ["Psicología existencial", "La búsqueda de la belleza", "El coraje de crear"],
+      "caracteristicas": [
+        "Psicología existencial",
+        "La búsqueda de la belleza",
+        "El coraje de crear"
+      ],
       "epoca_relacion": "Finales de los años 70",
       "rol_en_vida_claudio": "Organizador de conferencia sobre teoría de psicología humanista que invitó a Claudio",
       "num_menciones": 1,
@@ -8528,7 +8772,9 @@
     },
     {
       "nombre": "Carl Rogers",
-      "nombre_alternativo": ["Carl R. Rogers"],
+      "nombre_alternativo": [
+        "Carl R. Rogers"
+      ],
       "relacion": "Participante en conferencia de psicología humanista organizada por Rollo May",
       "tipo_relacion": "colega",
       "fuerza_vinculo": 1,
@@ -8536,7 +8782,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Psicólogo, psicoterapeuta",
       "ubicacion": "Estados Unidos",
-      "caracteristicas": ["Terapia centrada en el cliente", "Psicología humanista", "Tercera fuerza"],
+      "caracteristicas": [
+        "Terapia centrada en el cliente",
+        "Psicología humanista",
+        "Tercera fuerza"
+      ],
       "epoca_relacion": "Finales de los años 70",
       "rol_en_vida_claudio": "Colega en conferencia de psicología humanista en Arizona Inn",
       "num_menciones": 1,
@@ -8554,7 +8804,9 @@
     },
     {
       "nombre": "Will Schutz",
-      "nombre_alternativo": ["William Schutz"],
+      "nombre_alternativo": [
+        "William Schutz"
+      ],
       "relacion": "Psicólogo humanista, participante en conferencia de Arizona",
       "tipo_relacion": "colega",
       "fuerza_vinculo": 1,
@@ -8562,7 +8814,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Psicólogo, autor",
       "ubicacion": "California, EE.UU.",
-      "caracteristicas": ["FIRO-B", "psicología humanista", "Esalen"],
+      "caracteristicas": [
+        "FIRO-B",
+        "psicología humanista",
+        "Esalen"
+      ],
       "epoca_relacion": "Conferencia de Arizona Inn",
       "rol_en_vida_claudio": "Participante en conferencia sobre psicología humanista en Arizona Inn junto con otras figuras prominentes",
       "num_menciones": 1,
@@ -8570,17 +8826,19 @@
         "conferencia sorprendentemente infructuosa, pese a reunir a personas como Gregory Bateson, Carl Rogers, Will Schutz, Jim Bugenthal, Willis Harman, John Perry, Arthur Deikman, Stan Grof y otros"
       ],
       "biografia_extendida": "William Schutz (1925-2002) fue un psicólogo estadounidense conocido por desarrollar la teoría FIRO (Fundamental Interpersonal Relations Orientation) y el instrumento FIRO-B para evaluar necesidades interpersonales. Fue una figura importante en el movimiento de la psicología humanista y en el Instituto Esalen. Autor de 'The Human Element' y otros libros sobre relaciones interpersonales y desarrollo personal. Participó en la conferencia sobre psicología humanista en Arizona Inn que Claudio Naranjo describió como 'sorprendentemente infructuosa'.",
-      "wikipedia_url": "",
-      "foto_url": null,
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/William_Schutz",
+      "foto_url": "/images/personas/Will_Schutz.jpg",
+      "fecha_nacimiento": "1925-12-11",
+      "fecha_muerte": "2002-11-06",
       "lugar_nacimiento": "",
       "lugar_muerte": "",
       "relaciones_con_otras_personas": []
     },
     {
       "nombre": "Jim Bugenthal",
-      "nombre_alternativo": ["James Bugenthal"],
+      "nombre_alternativo": [
+        "James Bugenthal"
+      ],
       "relacion": "Psicólogo existencial-humanista, participante en conferencia",
       "tipo_relacion": "colega",
       "fuerza_vinculo": 1,
@@ -8588,7 +8846,10 @@
       "origen_etnico": "No especificado",
       "profesion": "Psicólogo, autor",
       "ubicacion": "California, EE.UU.",
-      "caracteristicas": ["psicología existencial-humanista", "pionero"],
+      "caracteristicas": [
+        "psicología existencial-humanista",
+        "pionero"
+      ],
       "epoca_relacion": "Conferencia de Arizona Inn",
       "rol_en_vida_claudio": "Participante en conferencia sobre psicología humanista en Arizona Inn junto con otras figuras prominentes",
       "num_menciones": 1,
@@ -8606,7 +8867,9 @@
     },
     {
       "nombre": "John Perry",
-      "nombre_alternativo": ["John Weir Perry"],
+      "nombre_alternativo": [
+        "John Weir Perry"
+      ],
       "relacion": "Participante en conferencia de psicología humanista organizada por Rollo May",
       "tipo_relacion": "colega",
       "fuerza_vinculo": 1,
@@ -8614,7 +8877,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Psiquiatra, investigador de psicosis",
       "ubicacion": "Estados Unidos",
-      "caracteristicas": ["Psicosis", "Experiencias espirituales", "Diagnóstico alternativo"],
+      "caracteristicas": [
+        "Psicosis",
+        "Experiencias espirituales",
+        "Diagnóstico alternativo"
+      ],
       "epoca_relacion": "Finales de los años 70",
       "rol_en_vida_claudio": "Colega en conferencia de psicología humanista en Arizona Inn",
       "num_menciones": 1,
@@ -8640,7 +8907,12 @@
       "origen_etnico": "No especificado",
       "profesion": "Antropólogo, científico social, cibernético",
       "ubicacion": "Estados Unidos",
-      "caracteristicas": ["Teoría de sistemas", "Cibernética", "Epistemología", "Ecología de la mente"],
+      "caracteristicas": [
+        "Teoría de sistemas",
+        "Cibernética",
+        "Epistemología",
+        "Ecología de la mente"
+      ],
       "epoca_relacion": "Finales de los años 70",
       "rol_en_vida_claudio": "Colega en conferencia de psicología humanista en Arizona Inn",
       "num_menciones": 1,
@@ -8658,7 +8930,10 @@
     },
     {
       "nombre": "Alejandro Magno",
-      "nombre_alternativo": ["Alejandro III de Macedonia", "Alexandros"],
+      "nombre_alternativo": [
+        "Alejandro III de Macedonia",
+        "Alexandros"
+      ],
       "relacion": "Figura histórica mencionada como uno de los 'amigos muertos' que visitaban a alguien en el círculo de Claudio",
       "tipo_relacion": "referencia",
       "fuerza_vinculo": 1,
@@ -8666,7 +8941,12 @@
       "origen_etnico": "Macedonio",
       "profesion": "Rey, conquistador, general",
       "ubicacion": "Macedonia, Imperio Persa, Egipto, India",
-      "caracteristicas": ["Conquistador", "General", "Rey de Macedonia", "Figura histórica"],
+      "caracteristicas": [
+        "Conquistador",
+        "General",
+        "Rey de Macedonia",
+        "Figura histórica"
+      ],
       "epoca_relacion": "Referencia histórica",
       "rol_en_vida_claudio": "Mencionado como uno de los 'amigos muertos' que según alguien del círculo de Claudio le visitaban, junto con Mozart. A Alejandro Magno le había dedicado uno de sus primeros poemas",
       "num_menciones": 1,
@@ -8692,7 +8972,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Médico, psiquiatra",
       "ubicacion": "Santiago, Chile (CEAM)",
-      "caracteristicas": ["CEAM", "Hijo de Ernst Kretzschmer", "Director asociado"],
+      "caracteristicas": [
+        "CEAM",
+        "Hijo de Ernst Kretzschmer",
+        "Director asociado"
+      ],
       "epoca_relacion": "Década de 1970s",
       "rol_en_vida_claudio": "Director asociado del CEAM invitado por Franz durante ausencia de Claudio",
       "num_menciones": 1,
@@ -8718,7 +9002,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Psiquiatra, psicólogo médico",
       "ubicacion": "Alemania",
-      "caracteristicas": ["Genio y Locura", "Tipología esquizoide-cicloide", "Constitución física y carácter"],
+      "caracteristicas": [
+        "Genio y Locura",
+        "Tipología esquizoide-cicloide",
+        "Constitución física y carácter"
+      ],
       "epoca_relacion": "Primera mitad del siglo XX",
       "rol_en_vida_claudio": "Padre de Wolfgang Kretzschmer, famoso psiquiatra alemán cuyo trabajo sobre tipos de personalidad influyó en la psiquiatría",
       "num_menciones": 1,
@@ -8759,7 +9047,7 @@
       ],
       "biografia_extendida": "Nyanaponika Thera (1901-1994), nacido como Siegmund Feniger en Hanau, Alemania, fue un monje budista alemán de origen judío que se convirtió en una de las figuras más influyentes en la transmisión del budismo Theravada a Occidente. Ordenado en Sri Lanka en 1936, pasó 42 años en el Forest Hermitage de Kandy. Fue cofundador de la Buddhist Publication Society, que difundió enseñanzas budistas a nivel mundial. Su obra más conocida, 'The Heart of Buddhist Meditation' (1954), fue pionera en presentar la práctica de Vipassana (insight meditation) a audiencias occidentales de manera sistemática. El libro incluía traducciones del Satipatthana Sutta, el discurso fundamental sobre los fundamentos de la atención plena. Su influencia fue determinante para generaciones de practicantes y maestros occidentales.",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Nyanaponika_Thera",
-      "foto_url": null,
+      "foto_url": "/images/personas/Nyanaponika_Thera.jpg",
       "fecha_nacimiento": "1901-07-21",
       "fecha_muerte": "1994-10-19",
       "lugar_nacimiento": "Hanau, Alemania",
@@ -8776,7 +9064,12 @@
       "origen_etnico": "No especificado",
       "profesion": "Profesor de esgrima, terapeuta Gestalt, practicante de aikido",
       "ubicacion": "Chile (CEAM)",
-      "caracteristicas": ["Esgrima húngara", "Terapia Gestalt", "Aikido", "Trabajo corporal"],
+      "caracteristicas": [
+        "Esgrima húngara",
+        "Terapia Gestalt",
+        "Aikido",
+        "Trabajo corporal"
+      ],
       "epoca_relacion": "Década de 1970s",
       "rol_en_vida_claudio": "Amigo que colaboró en CEAM enseñando esgrima, luego se convirtió en terapeuta Gestalt",
       "num_menciones": 1,
@@ -8794,7 +9087,9 @@
     },
     {
       "nombre": "Heinrich Zimmer",
-      "nombre_alternativo": ["Heinrich Robert Zimmer"],
+      "nombre_alternativo": [
+        "Heinrich Robert Zimmer"
+      ],
       "relacion": "Autor de lectura espiritual en CEAM",
       "tipo_relacion": "referencia",
       "fuerza_vinculo": 1,
@@ -8802,7 +9097,12 @@
       "origen_etnico": "No especificado",
       "profesion": "Indólogo, historiador de arte, filósofo",
       "ubicacion": "Alemania, posteriormente Estados Unidos",
-      "caracteristicas": ["Indología", "Mitología india", "Arte budista", "The Sultan's Lost Slipper"],
+      "caracteristicas": [
+        "Indología",
+        "Mitología india",
+        "Arte budista",
+        "The Sultan's Lost Slipper"
+      ],
       "epoca_relacion": "Década de 1970s (lectura de su obra)",
       "rol_en_vida_claudio": "Autor cuyos escritos inspiraron el currículum de espiritualidad integradora del CEAM",
       "num_menciones": 1,
@@ -8811,9 +9111,9 @@
       ],
       "biografia_extendida": "Heinrich Robert Zimmer (1890-1943) fue un indólogo e historiador de arte alemán, destacado por su trabajo en mitología india y simbolismo artístico del sur de Asia. Su libro 'The Sultan's Lost Slipper' formó parte del currículum de espiritualidad integradora que Claudio Naranjo desarrolló en el CEAM. Sus escritos, editados póstumamente por Joseph Campbell, influyeron significativamente en la comprensión occidental de la filosofía y mitología orientales. Su trabajo sirvió como trasfondo para el libro de Claudio 'The One Quest'.",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Heinrich_Zimmer",
-      "foto_url": null,
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
+      "foto_url": "/images/personas/Heinrich_Zimmer.jpg",
+      "fecha_nacimiento": "1890-12-06",
+      "fecha_muerte": "1943-03-20",
       "lugar_nacimiento": "",
       "lugar_muerte": "",
       "relaciones_con_otras_personas": []
@@ -8828,7 +9128,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Psicólogo, antropólogo, creador de Biodanza",
       "ubicacion": "Chile",
-      "caracteristicas": ["Biodanza", "Talento", "Tesis dirigida por Claudio"],
+      "caracteristicas": [
+        "Biodanza",
+        "Talento",
+        "Tesis dirigida por Claudio"
+      ],
       "epoca_relacion": "Década de 1960s-70s",
       "rol_en_vida_claudio": "Alumno talentoso recomendado por Claudio, cuya tesis dirigió en la Facultad de Psicología",
       "num_menciones": 1,
@@ -8846,7 +9150,10 @@
     },
     {
       "nombre": "Dick Baker",
-      "nombre_alternativo": ["Baker Roshi", "Richard Baker"],
+      "nombre_alternativo": [
+        "Baker Roshi",
+        "Richard Baker"
+      ],
       "relacion": "Conocido del budismo zen, sucesor de Suzuki",
       "tipo_relacion": "conocido",
       "fuerza_vinculo": 1,
@@ -8854,7 +9161,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Maestro zen, abad",
       "ubicacion": "Estados Unidos (San Francisco Zen Center)",
-      "caracteristicas": ["Budismo zen", "Sucesor de Suzuki", "Windmill publications"],
+      "caracteristicas": [
+        "Budismo zen",
+        "Sucesor de Suzuki",
+        "Windmill publications"
+      ],
       "epoca_relacion": "Década de 1960s-70s",
       "rol_en_vida_claudio": "Figura del budismo zen estadounidense, contactó a Claudio por teléfono",
       "num_menciones": 1,
@@ -8872,7 +9183,10 @@
     },
     {
       "nombre": "William Burroughs",
-      "nombre_alternativo": ["William S. Burroughs", "William Seward Burroughs II"],
+      "nombre_alternativo": [
+        "William S. Burroughs",
+        "William Seward Burroughs II"
+      ],
       "relacion": "Autor de experiencias con yagé, contemporáneo en exploración psicodélica",
       "tipo_relacion": "referencia",
       "fuerza_vinculo": 1,
@@ -8880,7 +9194,12 @@
       "origen_etnico": "No especificado",
       "profesion": "Escritor, novelista, ensayista",
       "ubicacion": "Estados Unidos",
-      "caracteristicas": ["Beat Generation", "The Yage Letters", "Naked Lunch", "Ayahuasca"],
+      "caracteristicas": [
+        "Beat Generation",
+        "The Yage Letters",
+        "Naked Lunch",
+        "Ayahuasca"
+      ],
       "epoca_relacion": "Década de 1960s",
       "rol_en_vida_claudio": "Escritor que documentó experiencias con yagé/ayahuasca en Perú junto a Allen Ginsberg",
       "num_menciones": 1,
@@ -8889,16 +9208,19 @@
       ],
       "biografia_extendida": "William Seward Burroughs II (1914-1997) fue un novelista, ensayista y figura central de la Generación Beat. Junto con Allen Ginsberg, documentó sus experiencias con yagé (ayahuasca) en Perú en 'The Yage Letters' (1963). Claudio Naranjo leyó este libro justo después de su propio viaje al Putumayo y notó que Burroughs no comentaba la diferencia cualitativa entre la experiencia con ayahuasca y el LSD, algo que Claudio consideró significativo. Burroughs es autor de obras influyentes como 'Naked Lunch' y fue una figura controvertida en la literatura del siglo XX.",
       "wikipedia_url": "https://en.wikipedia.org/wiki/William_S._Burroughs",
-      "foto_url": null,
-      "fecha_nacimiento": "",
-      "fecha_muerte": "",
-      "lugar_nacimiento": "",
-      "lugar_muerte": "",
+      "foto_url": "/images/personas/William_Burroughs.jpg",
+      "fecha_nacimiento": "1914-02-05",
+      "fecha_muerte": "1997-08-02",
+      "lugar_nacimiento": "St. Louis, Missouri, EE.UU.",
+      "lugar_muerte": "Lawrence, Kansas, EE.UU.",
       "relaciones_con_otras_personas": []
     },
     {
       "nombre": "Suzanne Langer",
-      "nombre_alternativo": ["Susanne K. Langer", "Susanne Knauth Langer"],
+      "nombre_alternativo": [
+        "Susanne K. Langer",
+        "Susanne Knauth Langer"
+      ],
       "relacion": "Filósofa cuyo libro influyó en Claudio",
       "tipo_relacion": "referencia",
       "fuerza_vinculo": 1,
@@ -8906,7 +9228,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Filósofa, educadora",
       "ubicacion": "Estados Unidos",
-      "caracteristicas": ["Filosofía del símbolo", "Philosophy in a New Key", "Mente y emoción"],
+      "caracteristicas": [
+        "Filosofía del símbolo",
+        "Philosophy in a New Key",
+        "Mente y emoción"
+      ],
       "epoca_relacion": "Década de 1960s",
       "rol_en_vida_claudio": "Autora de 'Philosophy in a New Key' que entusiasmó a Fritz Perls y cuyo título inspiró a Claudio",
       "num_menciones": 1,
@@ -8932,7 +9258,10 @@
       "origen_etnico": "No especificado",
       "profesion": "No especificada",
       "ubicacion": "Probablemente Esalen o Big Sur",
-      "caracteristicas": ["Workshop de Gestalt", "Cindy Werthman"],
+      "caracteristicas": [
+        "Workshop de Gestalt",
+        "Cindy Werthman"
+      ],
       "epoca_relacion": "Década de 1960s",
       "rol_en_vida_claudio": "Participante en workshop con Fritz Perls junto a Claudio",
       "num_menciones": 1,
@@ -8958,7 +9287,10 @@
       "origen_etnico": "No especificado",
       "profesion": "No especificada",
       "ubicacion": "Probablemente Esalen o Big Sur",
-      "caracteristicas": ["Workshop de Gestalt", "George Brown"],
+      "caracteristicas": [
+        "Workshop de Gestalt",
+        "George Brown"
+      ],
       "epoca_relacion": "Década de 1960s",
       "rol_en_vida_claudio": "Participante en workshop con Fritz Perls junto a Claudio",
       "num_menciones": 1,
@@ -8976,7 +9308,9 @@
     },
     {
       "nombre": "Dorothea Dooling",
-      "nombre_alternativo": ["Dorothea H. Dooling"],
+      "nombre_alternativo": [
+        "Dorothea H. Dooling"
+      ],
       "relacion": "Maestra de Gurdjieff, fundadora de Parábola magazine",
       "tipo_relacion": "maestro",
       "fuerza_vinculo": 1,
@@ -8984,7 +9318,12 @@
       "origen_etnico": "No especificado",
       "profesion": "Maestra espiritual, editora",
       "ubicacion": "Nueva York, EE.UU.",
-      "caracteristicas": ["Tradición Gurdjieff", "Revista Parábola", "Mitología", "Spiritualidad"],
+      "caracteristicas": [
+        "Tradición Gurdjieff",
+        "Revista Parábola",
+        "Mitología",
+        "Spiritualidad"
+      ],
       "epoca_relacion": "Década de 1970s",
       "rol_en_vida_claudio": "Maestra en la tradición de Gurdjieff que visitó la escuela de Santiago y de quien Claudio recibió consejos",
       "num_menciones": 1,
@@ -9010,7 +9349,10 @@
       "origen_etnico": "No especificado",
       "profesion": "Abogado",
       "ubicacion": "Chile",
-      "caracteristicas": ["Joven profesional", "Testigo de Tótila Albert"],
+      "caracteristicas": [
+        "Joven profesional",
+        "Testigo de Tótila Albert"
+      ],
       "epoca_relacion": "Década de 1960s",
       "rol_en_vida_claudio": "Joven abogado que acompañó a Claudio a visitar a Tótila Albert antes de su muerte",
       "num_menciones": 1,
@@ -9036,7 +9378,11 @@
       "origen_etnico": "Judío",
       "profesion": "Pintor",
       "ubicacion": "Chile (Academia de Tótila Albert)",
-      "caracteristicas": ["Pintor israelí", "Academia de Tótila", "Asociado artístico"],
+      "caracteristicas": [
+        "Pintor israelí",
+        "Academia de Tótila",
+        "Asociado artístico"
+      ],
       "epoca_relacion": "Década de 1960s",
       "rol_en_vida_claudio": "Antiguo asociado de Tótila Albert que continuó usando su academia después de su muerte",
       "num_menciones": 1,
@@ -9054,7 +9400,9 @@
     },
     {
       "nombre": "Karl Pribram",
-      "nombre_alternativo": ["Karl H. Pribram"],
+      "nombre_alternativo": [
+        "Karl H. Pribram"
+      ],
       "relacion": "Co-organizador del congreso 'Fronteras del aprendizaje' en Lago Como",
       "tipo_relacion": "colega",
       "fuerza_vinculo": 1,
@@ -9062,7 +9410,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Neurocirujano, neurocientífico cognitivo",
       "ubicacion": "Estados Unidos (Stanford)",
-      "caracteristicas": ["Neurociencia cognitiva", "Memoria distribuida", "Holonomic brain theory"],
+      "caracteristicas": [
+        "Neurociencia cognitiva",
+        "Memoria distribuida",
+        "Holonomic brain theory"
+      ],
       "epoca_relacion": "Finales de los años 60/70s",
       "rol_en_vida_claudio": "Organizador junto con Arthur Koestler del congreso 'Fronteras del aprendizaje' que invitó a Claudio",
       "num_menciones": 1,
@@ -9080,7 +9432,9 @@
     },
     {
       "nombre": "Erik Erikson",
-      "nombre_alternativo": ["Erik H. Erikson"],
+      "nombre_alternativo": [
+        "Erik H. Erikson"
+      ],
       "relacion": "Psicoanalista que felicitó fenomenología de yagé de Claudio",
       "tipo_relacion": "colega",
       "fuerza_vinculo": 1,
@@ -9088,7 +9442,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Psicoanalista, psicólogo del desarrollo",
       "ubicacion": "Estados Unidos (Stanford Center)",
-      "caracteristicas": ["Teoría psicosocial", "Crisis de identidad", "Ocho etapas del desarrollo"],
+      "caracteristicas": [
+        "Teoría psicosocial",
+        "Crisis de identidad",
+        "Ocho etapas del desarrollo"
+      ],
       "epoca_relacion": "Finales de los años 60/70s",
       "rol_en_vida_claudio": "Psicoanalista en Stanford Center que felicitó a Claudio por su fenomenología del yagé",
       "num_menciones": 1,
@@ -9106,7 +9464,9 @@
     },
     {
       "nombre": "David Krech",
-      "nombre_alternativo": ["David Krech-Harowitz"],
+      "nombre_alternativo": [
+        "David Krech-Harowitz"
+      ],
       "relacion": "Psicólogo conocido por texto con Crutchfield",
       "tipo_relacion": "colega",
       "fuerza_vinculo": 1,
@@ -9114,7 +9474,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Psicólogo experimental",
       "ubicacion": "Universidad de California, Berkeley",
-      "caracteristicas": ["Psicología experimental", "Texto con Crutchfield", "Investigación neuroquímica"],
+      "caracteristicas": [
+        "Psicología experimental",
+        "Texto con Crutchfield",
+        "Investigación neuroquímica"
+      ],
       "epoca_relacion": "Finales de los años 60/70s",
       "rol_en_vida_claudio": "Psicólogo de Berkeley entusiasmado con la visita de Claudio",
       "num_menciones": 1,
@@ -9132,7 +9496,9 @@
     },
     {
       "nombre": "Richard Crutchfield",
-      "nombre_alternativo": ["Richard S. Crutchfield"],
+      "nombre_alternativo": [
+        "Richard S. Crutchfield"
+      ],
       "relacion": "Coautor de texto de psicología con David Krech",
       "tipo_relacion": "referencia",
       "fuerza_vinculo": 1,
@@ -9140,7 +9506,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Psicólogo",
       "ubicacion": "Universidad de California, Berkeley (IPAR)",
-      "caracteristicas": ["IPAR", "Psicología experimental", "Texto con David Krech"],
+      "caracteristicas": [
+        "IPAR",
+        "Psicología experimental",
+        "Texto con David Krech"
+      ],
       "epoca_relacion": "Década de 1960s-70s (referencia a su trabajo)",
       "rol_en_vida_claudio": "Ex jefe del IPAR, coautor de texto de psicología que Claudio conocía",
       "num_menciones": 1,
@@ -9264,7 +9634,12 @@
       "origen_etnico": "No especificado",
       "profesion": "Seguidora de Psicosíntesis",
       "ubicacion": "San Francisco, EE.UU.",
-      "caracteristicas": ["Psicosíntesis", "Assagioli", "Chamanismo", "Grupo de Fadiman"],
+      "caracteristicas": [
+        "Psicosíntesis",
+        "Assagioli",
+        "Chamanismo",
+        "Grupo de Fadiman"
+      ],
       "epoca_relacion": "Década de 1960s",
       "rol_en_vida_claudio": "Seguidora de Roberto Assagioli junto a su esposo Jim, participante en grupo terapéutico",
       "num_menciones": 1,
@@ -9324,7 +9699,9 @@
       "origen_etnico": "No especificado",
       "profesion": "No especificada",
       "ubicacion": "Probablemente California",
-      "caracteristicas": ["Conexión con Anna Applebaum"],
+      "caracteristicas": [
+        "Conexión con Anna Applebaum"
+      ],
       "epoca_relacion": "Década de 1960s",
       "rol_en_vida_claudio": "Persona a través de quien Claudio conoció a la psicoanalista Anna Applebaum",
       "num_menciones": 1,
@@ -9376,7 +9753,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Librera, especialista en literatura espiritual",
       "ubicacion": "San Francisco, EE.UU.",
-      "caracteristicas": ["Librería espiritual", "Idries Shah", "Sufismo"],
+      "caracteristicas": [
+        "Librería espiritual",
+        "Idries Shah",
+        "Sufismo"
+      ],
       "epoca_relacion": "1967",
       "rol_en_vida_claudio": "Dueña de librería espiritual que conectó a Claudio con grupo de Idries Shah",
       "num_menciones": 1,
@@ -9394,7 +9775,9 @@
     },
     {
       "nombre": "Lloyd Alexander",
-      "nombre_alternativo": ["Lloyd Chudley Alexander"],
+      "nombre_alternativo": [
+        "Lloyd Chudley Alexander"
+      ],
       "relacion": "Autor de literatura infantil/juvenil cuyos libros Claudio leía a su hijo Matías",
       "tipo_relacion": "referencia",
       "fuerza_vinculo": 1,
@@ -9402,7 +9785,12 @@
       "origen_etnico": "Estadounidense",
       "profesion": "Escritor de literatura infantil y juvenil",
       "ubicacion": "Estados Unidos",
-      "caracteristicas": ["Literatura infantil", "Fantasía", "Premio Newbery", "Las Crónicas de Prydain"],
+      "caracteristicas": [
+        "Literatura infantil",
+        "Fantasía",
+        "Premio Newbery",
+        "Las Crónicas de Prydain"
+      ],
       "epoca_relacion": "Referencia literaria",
       "rol_en_vida_claudio": "Claudio leía los libros de Lloyd Alexander a su hijo Matías. En particular, leyó 'El Caldero Negro' (segundo libro de Las Crónicas de Prydain) durante una visita con su hijo",
       "num_menciones": 1,
@@ -9428,7 +9816,11 @@
       "origen_etnico": "No especificado",
       "profesion": "No especificada",
       "ubicacion": "Cerca de Esalen, Big Sur, California",
-      "caracteristicas": ["Gestalt Kibutz", "Fritz Perls", "Esalen"],
+      "caracteristicas": [
+        "Gestalt Kibutz",
+        "Fritz Perls",
+        "Esalen"
+      ],
       "epoca_relacion": "Década de 1960s-70s",
       "rol_en_vida_claudio": "Ex-amante de Fritz Perls que se interesó en la idea del Gestalt Kibutz y vivía cerca de Esalen",
       "num_menciones": 1,
@@ -9454,7 +9846,11 @@
       "origen_etnico": "No especificado",
       "profesion": "No especificada",
       "ubicacion": "Big Sur, California",
-      "caracteristicas": ["Big Sur", "Taller de Claudio", "Propiedad forestal"],
+      "caracteristicas": [
+        "Big Sur",
+        "Taller de Claudio",
+        "Propiedad forestal"
+      ],
       "epoca_relacion": "Década de 1960s-70s",
       "rol_en_vida_claudio": "Persona que asistió a un taller de Claudio y se estableció en Big Sur",
       "num_menciones": 1,
@@ -9480,7 +9876,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Maestro de Sensory Awareness",
       "ubicacion": "Big Sur, California",
-      "caracteristicas": ["Sensory Awareness", "Charlotte Selver", "Big Sur"],
+      "caracteristicas": [
+        "Sensory Awareness",
+        "Charlotte Selver",
+        "Big Sur"
+      ],
       "epoca_relacion": "Década de 1960s-70s",
       "rol_en_vida_claudio": "Junto con Charlotte Selver, ofreció su cabaña de Big Sur a Claudio y Marilyn",
       "num_menciones": 1,
@@ -9506,7 +9906,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Secretaria, colaboradora del CEAM",
       "ubicacion": "Santiago, Chile",
-      "caracteristicas": ["CEAM", "Secretaria", "Participante en grupos"],
+      "caracteristicas": [
+        "CEAM",
+        "Secretaria",
+        "Participante en grupos"
+      ],
       "epoca_relacion": "Década de 1960s-70s",
       "rol_en_vida_claudio": "Secretaria de Claudio en el CEAM y participante en reuniones grupales",
       "num_menciones": 1,
@@ -9532,7 +9936,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Constructor",
       "ubicacion": "Chile (Arica)",
-      "caracteristicas": ["Constructor", "Grupo de Óscar Ichazo", "Departamento compartido"],
+      "caracteristicas": [
+        "Constructor",
+        "Grupo de Óscar Ichazo",
+        "Departamento compartido"
+      ],
       "epoca_relacion": "Década de 1960s-70s",
       "rol_en_vida_claudio": "Constructor chileno, dueño del departamento que compartió con Claudio, seguidor de Óscar Ichazo",
       "num_menciones": 1,
@@ -9550,7 +9958,9 @@
     },
     {
       "nombre": "Hermes Trismegisto",
-      "nombre_alternativo": ["Hermes Trismegistus"],
+      "nombre_alternativo": [
+        "Hermes Trismegistus"
+      ],
       "relacion": "Figura mítica mencionada por Óscar Ichazo",
       "tipo_relacion": "referencia_historica",
       "fuerza_vinculo": 1,
@@ -9558,7 +9968,12 @@
       "origen_etnico": "No aplica",
       "profesion": "Figura legendaria, patrón del hermetismo",
       "ubicacion": "Antiguo Egipto (mítico)",
-      "caracteristicas": ["Hermetismo", "Alquimia", "Corpus Hermeticum", "Sincrónismo greco-egipcio"],
+      "caracteristicas": [
+        "Hermetismo",
+        "Alquimia",
+        "Corpus Hermeticum",
+        "Sincrónismo greco-egipcio"
+      ],
       "epoca_relacion": "Referencia histórica/mítica",
       "rol_en_vida_claudio": "Figura mítica mencionada por Óscar Ichazo como punto de inicio del 'juego' espiritual",
       "num_menciones": 1,
@@ -9576,7 +9991,9 @@
     },
     {
       "nombre": "Dudando John",
-      "nombre_alternativo": ["Duda John"],
+      "nombre_alternativo": [
+        "Duda John"
+      ],
       "relacion": "Posiblemente apodo o expresión, no persona real",
       "tipo_relacion": "mencionado",
       "fuerza_vinculo": 1,
@@ -9584,7 +10001,10 @@
       "origen_etnico": "No aplica",
       "profesion": "No aplica",
       "ubicacion": "No aplica",
-      "caracteristicas": ["Posible error de parsing", "Expresión coloquial"],
+      "caracteristicas": [
+        "Posible error de parsing",
+        "Expresión coloquial"
+      ],
       "epoca_relacion": "No aplica",
       "rol_en_vida_claudio": "PROBABLEMENTE NO ES UNA PERSONA - parece ser una expresión 'Dudando [yo, John]' o error de parsing",
       "num_menciones": 1,
@@ -9610,7 +10030,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Constructor, inversionista",
       "ubicacion": "Chile/Arica",
-      "caracteristicas": ["Sociedad constructora", "Grupo de Arica", "Inversión inmobiliaria"],
+      "caracteristicas": [
+        "Sociedad constructora",
+        "Grupo de Arica",
+        "Inversión inmobiliaria"
+      ],
       "epoca_relacion": "Década de 1960s-70s",
       "rol_en_vida_claudio": "Invitado por Claudio a asociarse en sociedad constructora para proveer vivienda al grupo",
       "num_menciones": 1,
@@ -9636,7 +10060,10 @@
       "origen_etnico": "No especificado",
       "profesion": "No especificada",
       "ubicacion": "Arica, Chile",
-      "caracteristicas": ["Grupo reducido de Arica", "Amigo de Ginny"],
+      "caracteristicas": [
+        "Grupo reducido de Arica",
+        "Amigo de Ginny"
+      ],
       "epoca_relacion": "Década de 1960s-70s",
       "rol_en_vida_claudio": "Gran amigo de Ginny que se unió al grupo reducido después de las expulsiones",
       "num_menciones": 1,
@@ -9662,7 +10089,10 @@
       "origen_etnico": "No especificado",
       "profesion": "No especificada",
       "ubicacion": "Arica, Chile",
-      "caracteristicas": ["Grupo de Arica", "Disconformidad con Óscar"],
+      "caracteristicas": [
+        "Grupo de Arica",
+        "Disconformidad con Óscar"
+      ],
       "epoca_relacion": "Década de 1960s-70s",
       "rol_en_vida_claudio": "Miembro del grupo que abandonó por desacuerdo con la falsedad percibida de Óscar Ichazo",
       "num_menciones": 1,
@@ -9680,7 +10110,9 @@
     },
     {
       "nombre": "Yasutani Roshi",
-      "nombre_alternativo": ["Hakuun Yasutani"],
+      "nombre_alternativo": [
+        "Hakuun Yasutani"
+      ],
       "relacion": "Maestro zen de Bob (Robert Baker Dickman)",
       "tipo_relacion": "referencia",
       "fuerza_vinculo": 1,
@@ -9688,7 +10120,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Maestro zen, monje budista",
       "ubicacion": "Japón",
-      "caracteristicas": ["Zen", "Sanbo Kyodan", "Maestro de Bob Dickman"],
+      "caracteristicas": [
+        "Zen",
+        "Sanbo Kyodan",
+        "Maestro de Bob Dickman"
+      ],
       "epoca_relacion": "Década de 1960s-70s",
       "rol_en_vida_claudio": "Maestro zen bajo cuya dirección Bob Dickman hizo su pasantía en Japón",
       "num_menciones": 1,
@@ -9714,7 +10150,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Psiquiatra, académica",
       "ubicacion": "Santiago, Chile",
-      "caracteristicas": ["Clínica Psiquiátrica", "Universidad de Chile", "Gestalt"],
+      "caracteristicas": [
+        "Clínica Psiquiátrica",
+        "Universidad de Chile",
+        "Gestalt"
+      ],
       "epoca_relacion": "Década de 1960s-70s",
       "rol_en_vida_claudio": "Invitó a Claudio a dar introducción a terapia Gestalt en la Clínica Psiquiátrica de la Universidad de Chile",
       "num_menciones": 1,
@@ -9740,7 +10180,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Estudiante, participante en grupo espiritual",
       "ubicacion": "Saratoga Springs, Nueva York",
-      "caracteristicas": ["Latihan", "Saratoga Springs", "Compañero de dormitorio"],
+      "caracteristicas": [
+        "Latihan",
+        "Saratoga Springs",
+        "Compañero de dormitorio"
+      ],
       "epoca_relacion": "Década de 1960s",
       "rol_en_vida_claudio": "Compañero de dormitorio en Saratoga Springs que presenció los movimientos espontáneos del latihan de Claudio",
       "num_menciones": 1,
@@ -9758,7 +10202,9 @@
     },
     {
       "nombre": "Edith Sitwell",
-      "nombre_alternativo": ["Dame Edith Sitwell"],
+      "nombre_alternativo": [
+        "Dame Edith Sitwell"
+      ],
       "relacion": "Poetisa inglesa conocida en Saratoga Springs",
       "tipo_relacion": "conocido",
       "fuerza_vinculo": 1,
@@ -9766,7 +10212,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Poetisa, escritora",
       "ubicacion": "Inglaterra (visitó Saratoga Springs)",
-      "caracteristicas": ["Poesía modernista", "Façade", "Dama del Imperio Británico"],
+      "caracteristicas": [
+        "Poesía modernista",
+        "Façade",
+        "Dama del Imperio Británico"
+      ],
       "epoca_relacion": "Década de 1960s",
       "rol_en_vida_claudio": "Poetisa que Claudio conoció en Saratoga Springs, participaron en una danza de manos improvisada",
       "num_menciones": 1,
@@ -9784,7 +10234,10 @@
     },
     {
       "nombre": "Dane Rudyar",
-      "nombre_alternativo": ["Dane Rudhyar", "Daniel Chennevière"],
+      "nombre_alternativo": [
+        "Dane Rudhyar",
+        "Daniel Chennevière"
+      ],
       "relacion": "Astrólogo y filósofo que participó en los talleres de Claudio",
       "tipo_relacion": "conocido",
       "fuerza_vinculo": 1,
@@ -9792,7 +10245,12 @@
       "origen_etnico": "No especificado",
       "profesion": "Astrólogo, compositor, pintor, filósofo, poeta",
       "ubicacion": "Palo Alto, San Francisco, Esalen",
-      "caracteristicas": ["Astrología humanista", "Música moderna", "Filosofía espiritual", "Conoció a Joseph Moreno"],
+      "caracteristicas": [
+        "Astrología humanista",
+        "Música moderna",
+        "Filosofía espiritual",
+        "Conoció a Joseph Moreno"
+      ],
       "epoca_relacion": "Fines de los años 1960s - 1980s",
       "rol_en_vida_claudio": "Astrólogo conocido que participó en los talleres de Claudio en Esalen con intervenciones brillantes, conocía al creador del psicodrama Joseph Moreno",
       "num_menciones": 1,
@@ -9819,7 +10277,10 @@
       "origen_etnico": "No especificado",
       "profesion": "Psicoanalista",
       "ubicacion": "Palo Alto, California",
-      "caracteristicas": ["Vivía con Bob Ornstein", "Psicoanálisis"],
+      "caracteristicas": [
+        "Vivía con Bob Ornstein",
+        "Psicoanálisis"
+      ],
       "epoca_relacion": "Años 1970s",
       "rol_en_vida_claudio": "Participante en los grupos de Palo Alto, vivía entonces con Bob Ornstein y luego se dedicó al psicoanálisis",
       "num_menciones": 1,
@@ -9889,7 +10350,9 @@
     },
     {
       "nombre": "Kilmer Meyers",
-      "nombre_alternativo": ["Bishop Kilmer Meyers"],
+      "nombre_alternativo": [
+        "Bishop Kilmer Meyers"
+      ],
       "relacion": "Obispo episcopal de California que invitó a Claudio al Future's Planning Council",
       "tipo_relacion": "conocido",
       "fuerza_vinculo": 1,
@@ -9897,7 +10360,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Obispo episcopal",
       "ubicacion": "San Francisco, California",
-      "caracteristicas": ["Grace Cathedral", "Future's Planning Council", "Diócesis de California"],
+      "caracteristicas": [
+        "Grace Cathedral",
+        "Future's Planning Council",
+        "Diócesis de California"
+      ],
       "epoca_relacion": "Años 1960s-1970s",
       "rol_en_vida_claudio": "Obispo de California que, por comentarios entusiastas de Bill Soskin, invitó a Claudio a formar parte de su comité sobre el misticismo del Future's Planning Council",
       "num_menciones": 1,
@@ -9924,7 +10391,10 @@
       "origen_etnico": "No especificado",
       "profesion": "No especificada",
       "ubicacion": "Recreo, entre Viña del Mar y Valparaíso, Chile",
-      "caracteristicas": ["Jardín en Recreo", "Madre de compañeros de colegio"],
+      "caracteristicas": [
+        "Jardín en Recreo",
+        "Madre de compañeros de colegio"
+      ],
       "epoca_relacion": "Infancia de Claudio (~8 años, circa 1936)",
       "rol_en_vida_claudio": "Madre de compañeros de colegio, dueña de un jardín en Recreo donde Claudio aprendió a compartir lo que le parecía especial",
       "num_menciones": 1,
@@ -9942,7 +10412,9 @@
     },
     {
       "nombre": "Randolph Hearst",
-      "nombre_alternativo": ["William Randolph Hearst"],
+      "nombre_alternativo": [
+        "William Randolph Hearst"
+      ],
       "relacion": "Constructor de la Hearst Mansion mencionado en el libro",
       "tipo_relacion": "referencia_historica",
       "fuerza_vinculo": 1,
@@ -9950,7 +10422,12 @@
       "origen_etnico": "No especificado",
       "profesion": "Magnate de medios, empresario, político",
       "ubicacion": "California, EE.UU.",
-      "caracteristicas": ["Hearst Castle", "Hearst Mansion", "Ciudadano Kane", "Prensa amarilla"],
+      "caracteristicas": [
+        "Hearst Castle",
+        "Hearst Mansion",
+        "Ciudadano Kane",
+        "Prensa amarilla"
+      ],
       "epoca_relacion": "Referencia histórica (1863-1951)",
       "rol_en_vida_claudio": "Constructor de la Hearst Mansion cerca del campus de UC Berkeley, donde Bill Soskin ofreció a Claudio usar para sus talleres. Más recordado como constructor del castillo al sur de Big Sur y como inspiración para Ciudadano Kane.",
       "num_menciones": 1,
@@ -9968,7 +10445,10 @@
     },
     {
       "nombre": "Orson Wells",
-      "nombre_alternativo": ["Orson Welles", "George Orson Welles"],
+      "nombre_alternativo": [
+        "Orson Welles",
+        "George Orson Welles"
+      ],
       "relacion": "Cineasta mencionado en el libro",
       "tipo_relacion": "referencia_cultural",
       "fuerza_vinculo": 1,
@@ -9976,7 +10456,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Director de cine, actor, guionista, productor",
       "ubicacion": "Estados Unidos",
-      "caracteristicas": ["Citizen Kane", "Cine clásico", "War of the Worlds"],
+      "caracteristicas": [
+        "Citizen Kane",
+        "Cine clásico",
+        "War of the Worlds"
+      ],
       "epoca_relacion": "Referencia cultural",
       "rol_en_vida_claudio": "Mencionado como director de 'Citizen Kane', película basada en la vida de William Randolph Hearst, constructor de la Hearst Mansion",
       "num_menciones": 1,
@@ -10002,7 +10486,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Estudiante de posgrado, investigadora",
       "ubicacion": "San Francisco, California",
-      "caracteristicas": ["Primera formulación escrita del eneagrama", "Disertación de posgrado", "Participante en grupos de Claudio"],
+      "caracteristicas": [
+        "Primera formulación escrita del eneagrama",
+        "Disertación de posgrado",
+        "Participante en grupos de Claudio"
+      ],
       "epoca_relacion": "Años 1960s-1970s",
       "rol_en_vida_claudio": "Presentó la primera formulación escrita de los tipos de eneagrama como disertación en una escuela de posgrado de San Francisco, con permiso de Claudio, basándose en las notas tomadas por los oyentes de Claudio",
       "num_menciones": 1,
@@ -10020,7 +10508,10 @@
     },
     {
       "nombre": "Gurú Padma",
-      "nombre_alternativo": ["Padmasambhava", "Guru Rinpoche"],
+      "nombre_alternativo": [
+        "Padmasambhava",
+        "Guru Rinpoche"
+      ],
       "relacion": "Figura histórica del budismo tibetano, mantra cantado por Claudio",
       "tipo_relacion": "referencia_espiritual",
       "fuerza_vinculo": 1,
@@ -10028,7 +10519,13 @@
       "origen_etnico": "Indio (histórico)",
       "profesion": "Maestro budista, yogui",
       "ubicacion": "Tíbet, India (histórico)",
-      "caracteristicas": ["Budismo tibetano", "Mantra Vajra Guru", "Padmasambhava", "Segundo Buda", "Orden Nyingma"],
+      "caracteristicas": [
+        "Budismo tibetano",
+        "Mantra Vajra Guru",
+        "Padmasambhava",
+        "Segundo Buda",
+        "Orden Nyingma"
+      ],
       "epoca_relacion": "Figura histórica (siglo VIII), mantra practicado por Claudio",
       "rol_en_vida_claudio": "Figura espiritual histórica del budismo tibetano cuyo mantra (Om Ah Hum Vajra Guru Padma Siddhi Hum) Claudio cantó en el templo con Rinpoche. Claudio también recibió un dibujo de Padmasambhava Dorje Drolo que estuvo en el centro de su altar por muchos años.",
       "num_menciones": 1,
@@ -10055,7 +10552,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Terapeuta Gestalt",
       "ubicacion": "California, EE.UU.",
-      "caracteristicas": ["Terapia Gestalt", "Meditación", "Práctica espiritual"],
+      "caracteristicas": [
+        "Terapia Gestalt",
+        "Meditación",
+        "Práctica espiritual"
+      ],
       "epoca_relacion": "Años 1970s-1980s",
       "rol_en_vida_claudio": "Amigo gestaltista que asistió a talleres con Rinpoche. Su respuesta 'Estar aquí y ahora' a la pregunta de Rinpoche sobre lo que quería aprender llevó a Claudio a recibir instrucciones de meditación más sutiles que las que había aprendido en el zen",
       "num_menciones": 1,
@@ -10073,7 +10574,9 @@
     },
     {
       "nombre": "Padmasambhava Dorje Drolo",
-      "nombre_alternativo": ["Dorje Drolo"],
+      "nombre_alternativo": [
+        "Dorje Drolo"
+      ],
       "relacion": "Manifestación feroz de Padmasambhava (Gurú Rinpoche) cuyo dibujo Claudio recibió y mantuvo en su altar durante muchos años",
       "tipo_relacion": "referencia",
       "fuerza_vinculo": 1,
@@ -10081,7 +10584,13 @@
       "origen_etnico": "Tibetano/Indio",
       "profesion": "Manifestación de Padmasambhava (figura espiritual)",
       "ubicacion": "Tíbet",
-      "caracteristicas": ["Manifestación feroz", "Padmasambhava", "Budismo tibetano", "Dorje", "Rayo"],
+      "caracteristicas": [
+        "Manifestación feroz",
+        "Padmasambhava",
+        "Budismo tibetano",
+        "Dorje",
+        "Rayo"
+      ],
       "epoca_relacion": "Referencia espiritual",
       "rol_en_vida_claudio": "Claudio recibió un dibujo de Dorje Drolo (una de las 8 manifestaciones de Padmasambhava) que llevaba un vajra (rayo) en su mano. Esta imagen estuvo en el centro de su altar durante muchos años",
       "num_menciones": 1,
@@ -10140,7 +10649,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Contador",
       "ubicacion": "Berkeley/Kensington, California",
-      "caracteristicas": ["Miembro del grupo SAT", "Contador", "Se mudó con Claudio y Kathy"],
+      "caracteristicas": [
+        "Miembro del grupo SAT",
+        "Contador",
+        "Se mudó con Claudio y Kathy"
+      ],
       "epoca_relacion": "Años 1970s",
       "rol_en_vida_claudio": "Miembro del grupo de Claudio que se convirtió en el contador del grupo. Se mudó con Claudio, Kathy y Rosalyn a la nueva casa en el barrio de Kensington cuando el grupo se separó de Marilyn",
       "num_menciones": 1,
@@ -10210,7 +10723,10 @@
     },
     {
       "nombre": "Bob Oaks",
-      "nombre_alternativo": ["Robert Ochs", "Bob Ochs"],
+      "nombre_alternativo": [
+        "Robert Ochs",
+        "Bob Ochs"
+      ],
       "relacion": "Discípulo de Claudio que coordinaba grupos de jesuitas en Chicago",
       "tipo_relacion": "alumno",
       "fuerza_vinculo": 1,
@@ -10218,7 +10734,12 @@
       "origen_etnico": "No especificado",
       "profesion": "Sacerdote jesuita, psicólogo",
       "ubicacion": "Chicago, Illinois",
-      "caracteristicas": ["Jesuita", "Grupo SAT", "Eneagrama", "Comunidad del Eneagrama"],
+      "caracteristicas": [
+        "Jesuita",
+        "Grupo SAT",
+        "Eneagrama",
+        "Comunidad del Eneagrama"
+      ],
       "epoca_relacion": "Años 1970s-1980s",
       "rol_en_vida_claudio": "Discípulo de Claudio, sacerdote jesuita que coordinaba uno de los grupos SAT con jesuitas en Chicago. Tuvo experiencias terapéuticas y quedó impresionado con el trabajo de Claudio. Su antagonismo hacia EJ Gold llevó a la primera violación del contrato de secreto sobre el eneagrama, catalizando la 'Comunidad del Eneagrama'",
       "num_menciones": 1,
@@ -10245,7 +10766,10 @@
       "origen_etnico": "No especificado",
       "profesion": "No especificada",
       "ubicacion": "California, EE.UU.",
-      "caracteristicas": ["Grupo SAT", "Discípulo de Claudio"],
+      "caracteristicas": [
+        "Grupo SAT",
+        "Discípulo de Claudio"
+      ],
       "epoca_relacion": "Años 1970s",
       "rol_en_vida_claudio": "Miembro de la red de discípulos del programa SAT que coordinaba Kathy. Junto con Ron Kane, Hameed Ali y otros, formó parte de la nueva cristalización del trabajo que prosperaba con menor participación directa de Claudio",
       "num_menciones": 1,
@@ -10296,7 +10820,9 @@
     },
     {
       "nombre": "Hassid Rebe",
-      "nombre_alternativo": ["Rebe Jasídico"],
+      "nombre_alternativo": [
+        "Rebe Jasídico"
+      ],
       "relacion": "Término/título rabínico mencionado como juego de palabras con 'Acid Rebe' (apodo de Zalman Schachter)",
       "tipo_relacion": "referencia",
       "fuerza_vinculo": 1,
@@ -10304,7 +10830,11 @@
       "origen_etnico": "N/A",
       "profesion": "Título rabínico (no persona específica)",
       "ubicacion": "N/A",
-      "caracteristicas": ["Título rabínico", "Judaísmo jasídico", "Referencia cultural"],
+      "caracteristicas": [
+        "Título rabínico",
+        "Judaísmo jasídico",
+        "Referencia cultural"
+      ],
       "epoca_relacion": "N/A",
       "rol_en_vida_claudio": "Es un título/ concepto mencionado como juego de palabras: 'Acid Rebe' suena como 'Hassid Rebe' (rabino jasídico). No es una persona específica sino un término del judaísmo jasídico",
       "num_menciones": 1,
@@ -10322,7 +10852,10 @@
     },
     {
       "nombre": "Shlomo Carlbach",
-      "nombre_alternativo": ["Shlomo Carlebach", "Rabbi Shlomo Carlebach"],
+      "nombre_alternativo": [
+        "Shlomo Carlebach",
+        "Rabbi Shlomo Carlebach"
+      ],
       "relacion": "Rabino con quien Claudio tuvo algunos encuentros para aprender Cábala",
       "tipo_relacion": "maestro_espiritual",
       "fuerza_vinculo": 1,
@@ -10330,7 +10863,12 @@
       "origen_etnico": "Judío",
       "profesion": "Rabino, compositor, cantante",
       "ubicacion": "Nueva York, San Francisco",
-      "caracteristicas": ["Música judía", "Renovación judía", "Neo-hasidismo", "Cantor espiritual"],
+      "caracteristicas": [
+        "Música judía",
+        "Renovación judía",
+        "Neo-hasidismo",
+        "Cantor espiritual"
+      ],
       "epoca_relacion": "Años 1960s-1970s",
       "rol_en_vida_claudio": "Rabino entendido con quien Claudio tuvo algunos encuentros en su búsqueda de comprensión de la Cábala. Ichazo había hablado a Claudio sobre el ritual judío como potente medio de transmisión de baraka",
       "num_menciones": 1,
@@ -10348,7 +10886,9 @@
     },
     {
       "nombre": "Minyan Acuariano",
-      "nombre_alternativo": ["Aquarian Minyan"],
+      "nombre_alternativo": [
+        "Aquarian Minyan"
+      ],
       "relacion": "Comunidad judía que se originó por la presencia de Zalman en Berkeley",
       "tipo_relacion": "grupo",
       "fuerza_vinculo": 1,
@@ -10356,7 +10896,11 @@
       "origen_etnico": "Judío",
       "profesion": "Comunidad espiritual",
       "ubicacion": "Berkeley, California",
-      "caracteristicas": ["Renovación judía", "Comunidad de Zalman", "Seguidores del grupo SAT"],
+      "caracteristicas": [
+        "Renovación judía",
+        "Comunidad de Zalman",
+        "Seguidores del grupo SAT"
+      ],
       "epoca_relacion": "Años 1970s en adelante",
       "rol_en_vida_claudio": "NOTA: Este NO es una persona sino un grupo/comunidad. Comunidad judía renovada que se originó en Berkeley por la presencia de Zalman Schachter-Shalomi, apoyó el contacto continuado y conectó seguidores de Zalman con el grupo SAT de Claudio",
       "num_menciones": 1,
@@ -10374,7 +10918,11 @@
     },
     {
       "nombre": "Bapak Subuh",
-      "nombre_alternativo": ["Muhammad Subuh Sumohadiwidjojo", "Pak Subuh", "Bapak Muhammad Subuh"],
+      "nombre_alternativo": [
+        "Muhammad Subuh Sumohadiwidjojo",
+        "Pak Subuh",
+        "Bapak Muhammad Subuh"
+      ],
       "relacion": "Fundador de Subud, movimiento espiritual cuya práctica (latihan) influyó a Claudio",
       "tipo_relacion": "maestro_espiritual",
       "fuerza_vinculo": 1,
@@ -10382,7 +10930,12 @@
       "origen_etnico": "Javanés",
       "profesion": "Líder espiritual, fundador de Subud",
       "ubicacion": "Java, Indonesia",
-      "caracteristicas": ["Latihan kejiwaan", "Subud", "Práctica espiritual de entrega", "Recepción espiritual"],
+      "caracteristicas": [
+        "Latihan kejiwaan",
+        "Subud",
+        "Práctica espiritual de entrega",
+        "Recepción espiritual"
+      ],
       "epoca_relacion": "Influencia espiritual (a través de práctica Subud)",
       "rol_en_vida_claudio": "Fundador del movimiento Subud cuya enseñanza de latihan (práctica de abrirse a lo que sucede por sí mismo) Claudio conoció cuando representantes del grupo Subud le hablaron de ella mientras trabajaba en la Escuela de Medicina. Esta práctica de entrega influenció las enseñanzas de Claudio",
       "num_menciones": 1,
@@ -10401,7 +10954,9 @@
     },
     {
       "nombre": "Sandra Maitri",
-      "nombre_alternativo": ["Sandy Mandelbaum"],
+      "nombre_alternativo": [
+        "Sandy Mandelbaum"
+      ],
       "relacion": "Alumna de Claudio que se convirtió en una de las principales maestras del eneagrama",
       "tipo_relacion": "alumno",
       "fuerza_vinculo": 1,
@@ -10409,7 +10964,12 @@
       "origen_etnico": "No especificado",
       "profesion": "Maestra de eneagrama, escritora",
       "ubicacion": "California / Colorado, EE.UU.",
-      "caracteristicas": ["Eneagrama", "Tipos de ego", "Libros sobre eneagrama", "Alumna destacada de Claudio"],
+      "caracteristicas": [
+        "Eneagrama",
+        "Tipos de ego",
+        "Libros sobre eneagrama",
+        "Alumna destacada de Claudio"
+      ],
       "epoca_relacion": "Años 1970s en adelante",
       "rol_en_vida_claudio": "Alumna de Claudio quien, invitada por Dhiravamsa, comenzó a enseñar los tipos de ego a pesar del compromiso de la comunidad SAT de no hacerlo. Se convirtió en una de las fuentes del movimiento del eneagrama. Conocida como Sandy Mandelbaum, hoy es Sandra Maitri, autora de libros sobre el eneagrama",
       "num_menciones": 1,
@@ -10435,7 +10995,12 @@
       "origen_etnico": "No especificado",
       "profesion": "Pedagoga, creadora de la Eutonía",
       "ubicacion": "Dinamarca, Alsacia (Francia)",
-      "caracteristicas": ["Eutonía", "Conciencia ósea", "Terapia corporal", "Pedagogía somática"],
+      "caracteristicas": [
+        "Eutonía",
+        "Conciencia ósea",
+        "Terapia corporal",
+        "Pedagogía somática"
+      ],
       "epoca_relacion": "Visita a cursos de verano en Alsacia",
       "rol_en_vida_claudio": "Creadora de la Eutonía, método de trabajo corporal que Claudio apreciaba profundamente. Invitó a Claudio a sus cursos de verano para alumnos profesionales en Alsacia. La eutonía se convirtió en continuación lógica después de los movimientos de Gurdjieff y el taichí, como puente hacia enfoques somáticos modernos",
       "num_menciones": 1,
@@ -10461,7 +11026,11 @@
       "origen_etnico": "No especificado",
       "profesion": "No especificada",
       "ubicacion": "California, EE.UU.",
-      "caracteristicas": ["Practicante de taichí", "Miembro del grupo SAT", "Visitaba al maestro Ch'u"],
+      "caracteristicas": [
+        "Practicante de taichí",
+        "Miembro del grupo SAT",
+        "Visitaba al maestro Ch'u"
+      ],
       "epoca_relacion": "Años 1970s-1980s",
       "rol_en_vida_claudio": "Miembro del grupo SAT que frecuentemente visitaba al maestro Ch'u de taichí. Contó a Claudio sobre la fuerza de su esposa y cómo a veces veía al maestro Ch'u herido por los golpes que ella le daba durante la práctica",
       "num_menciones": 1,
@@ -10479,7 +11048,9 @@
     },
     {
       "nombre": "Era Harish",
-      "nombre_alternativo": ["Harish"],
+      "nombre_alternativo": [
+        "Harish"
+      ],
       "relacion": "Figura espiritual shaivita cuyo ejemplo influyó en Claudio",
       "tipo_relacion": "conocido",
       "fuerza_vinculo": 1,
@@ -10487,7 +11058,12 @@
       "origen_etnico": "No especificado",
       "profesion": "Maestro espiritual, sadhu shaivita",
       "ubicacion": "India",
-      "caracteristicas": ["Shaiva", "Ganja", "Ejemplo espiritual", "Transformación de venenos en elixires"],
+      "caracteristicas": [
+        "Shaiva",
+        "Ganja",
+        "Ejemplo espiritual",
+        "Transformación de venenos en elixires"
+      ],
       "epoca_relacion": "Años 1970s-1980s",
       "rol_en_vida_claudio": "Maestro espiritual shaivita cuyo ejemplo de naturalidad en el uso de ganja (cannabis) influyó indirectamente en Claudio durante un período en que se complació demasiado en el uso de marihuana. Representa el ideal shaivita de transformar venenos en elixires",
       "num_menciones": 1,
@@ -10513,7 +11089,12 @@
       "origen_etnico": "No especificado",
       "profesion": "Secretaria, colaboradora en Esalen",
       "ubicacion": "Esalen, Boulder (Colorado)",
-      "caracteristicas": ["Secretaria de Fritz Perls", "Esalen Institute", "Trungpa", "Arica"],
+      "caracteristicas": [
+        "Secretaria de Fritz Perls",
+        "Esalen Institute",
+        "Trungpa",
+        "Arica"
+      ],
       "epoca_relacion": "Años 1960s-1970s",
       "rol_en_vida_claudio": "Secretaria personal de Fritz Perls durante algún tiempo en Esalen. Claudio se encontró con ella en las charlas de Chögyam Trungpa en Boulder cuando ella había contemplado unirse al grupo de Arica pero finalmente eligió acompañar a Fritz en su traslado",
       "num_menciones": 1,
@@ -10539,7 +11120,11 @@
       "origen_etnico": "No aplica",
       "profesion": "Personaje literario",
       "ubicacion": "No aplica",
-      "caracteristicas": ["Personaje de EJ Gold", "Alusión a Gurdjieff", "Heraldo de un buen tiempo"],
+      "caracteristicas": [
+        "Personaje de EJ Gold",
+        "Alusión a Gurdjieff",
+        "Heraldo de un buen tiempo"
+      ],
       "epoca_relacion": "No aplica",
       "rol_en_vida_claudio": "NOTA: Este NO es una persona real sino un personaje ficticio creado por EJ Gold/Biest. El nombre es alusión obvia al primer escrito de Gurdjieff 'Heraldo de un buen tiempo que vendrá' (Herald of the Coming Good). Aparecía en escritos estilo Gurdjieff que Claudio encontró",
       "num_menciones": 1,
@@ -10557,7 +11142,11 @@
     },
     {
       "nombre": "Míster Gold",
-      "nombre_alternativo": ["EJ Gold", "E.J. Gold", "La Bestia"],
+      "nombre_alternativo": [
+        "EJ Gold",
+        "E.J. Gold",
+        "La Bestia"
+      ],
       "relacion": "Figura enigmática relacionada con las enseñanzas de Gurdjieff",
       "tipo_relacion": "conocido",
       "fuerza_vinculo": 1,
@@ -10565,7 +11154,12 @@
       "origen_etnico": "No especificado",
       "profesion": "Maestro espiritual, escritor, artista",
       "ubicacion": "Grass Valley, California",
-      "caracteristicas": ["Trabajo de Gurdjieff", "Conversaciones secretas del señor G", "Arte, películas", "Crestline"],
+      "caracteristicas": [
+        "Trabajo de Gurdjieff",
+        "Conversaciones secretas del señor G",
+        "Arte, películas",
+        "Crestline"
+      ],
       "epoca_relacion": "Años 1970s-1980s",
       "rol_en_vida_claudio": "Figura enigmática que Claudio conoció como 'La Bestia', luego como Míster Gold y EJ. Escribió 'Conversaciones secretas del señor G' en estilo que recordaba a Gurdjieff. Su antagonismo con Bob Ochs catalizó indirectamente la 'Comunidad del Eneagrama'. Encomendado por Claudio para dar instrucciones de atención a grupos",
       "num_menciones": 1,
@@ -10585,7 +11179,9 @@
     },
     {
       "nombre": "Charles Ives",
-      "nombre_alternativo": ["Charles Edward Ives"],
+      "nombre_alternativo": [
+        "Charles Edward Ives"
+      ],
       "relacion": "Compositor estadounidense cuya música EJ Gold hizo escuchar a Claudio",
       "tipo_relacion": "referencia_cultural",
       "fuerza_vinculo": 1,
@@ -10593,7 +11189,12 @@
       "origen_etnico": "No especificado",
       "profesion": "Compositor, empresario de seguros",
       "ubicacion": "Estados Unidos (Connecticut, Nueva York)",
-      "caracteristicas": ["Música moderna", "Disonancia", "Experimentalismo", "Seguros"],
+      "caracteristicas": [
+        "Música moderna",
+        "Disonancia",
+        "Experimentalismo",
+        "Seguros"
+      ],
       "epoca_relacion": "Referencia cultural (música escuchada en los 1970s)",
       "rol_en_vida_claudio": "Compositor cuya sonata EJ Gold hizo escuchar a Claudio mientras comía, contribuyendo a su apreciación por la habilidad de EJ para proporcionar estímulos exquisitamente personalizados (ya fuese por clarividencia o sincronía)",
       "num_menciones": 1,
@@ -10619,7 +11220,13 @@
       "origen_etnico": "No especificado",
       "profesion": "Enfermera, maestra, futuróloga",
       "ubicacion": "San Francisco, Canadá",
-      "caracteristicas": ["Maestra de maestros", "Enfermera", "Futuróloga", "Societé Union Financière", "Colaboró con Hans Eysenck"],
+      "caracteristicas": [
+        "Maestra de maestros",
+        "Enfermera",
+        "Futuróloga",
+        "Societé Union Financière",
+        "Colaboró con Hans Eysenck"
+      ],
       "epoca_relacion": "Años 1970s",
       "rol_en_vida_claudio": "Figura enigmática que visitó a Claudio, se autodenominó su 'maestra y amiga'. Intentó que Claudio se separara de Kathy. Su intervención paradójica ('pesada') contribuyó a un evento de kundalini. Bob Hoffman la asoció con una 'Espada'. Claudio la consideró posteriormente una 'bruja buena'",
       "num_menciones": 1,
@@ -10665,7 +11272,10 @@
     },
     {
       "nombre": "Pamela Travers",
-      "nombre_alternativo": ["P.L. Travers", "Helen Lyndon Goff"],
+      "nombre_alternativo": [
+        "P.L. Travers",
+        "Helen Lyndon Goff"
+      ],
       "relacion": "Autora de Mary Poppins que conoció a Gurdjieff y conectó a Claudio con Kathy",
       "tipo_relacion": "conocido",
       "fuerza_vinculo": 1,
@@ -10673,7 +11283,12 @@
       "origen_etnico": "No especificado",
       "profesion": "Escritora, periodista, actriz",
       "ubicacion": "Inglaterra, Estados Unidos",
-      "caracteristicas": ["Mary Poppins", "Conoció a Gurdjieff", "Literatura infantil", "Escuela de Gurdjieff"],
+      "caracteristicas": [
+        "Mary Poppins",
+        "Conoció a Gurdjieff",
+        "Literatura infantil",
+        "Escuela de Gurdjieff"
+      ],
       "epoca_relacion": "Investigación de Claudio sobre literatura infantil",
       "rol_en_vida_claudio": "Famosa autora de Mary Poppins que conoció personalmente a Gurdjieff y fue parte de su escuela. Claudio se reunió con ella como parte de su investigación sobre autores de literatura infantil. Fue a través de Pamela Travers que Claudio conoció a Kathy, quien tendría gran influencia en su vida",
       "num_menciones": 1,
@@ -10691,7 +11306,9 @@
     },
     {
       "nombre": "Hans Eysenk",
-      "nombre_alternativo": ["Hans Jürgen Eysenck"],
+      "nombre_alternativo": [
+        "Hans Jürgen Eysenck"
+      ],
       "relacion": "Psicólogo cuyo trabajo en análisis factorial inspiró las investigaciones de Claudio",
       "tipo_relacion": "referencia_academica",
       "fuerza_vinculo": 1,
@@ -10699,7 +11316,12 @@
       "origen_etnico": "No especificado",
       "profesion": "Psicólogo, investigador",
       "ubicacion": "Londres, Inglaterra",
-      "caracteristicas": ["Análisis factorial", "Teoría de la personalidad", "Inteligencia", "Psicología diferencial"],
+      "caracteristicas": [
+        "Análisis factorial",
+        "Teoría de la personalidad",
+        "Inteligencia",
+        "Psicología diferencial"
+      ],
       "epoca_relacion": "Influencia académica",
       "rol_en_vida_claudio": "Psicólogo cuyos trabajos Claudio siguió con atención y que inspiraron sus investigaciones con análisis factorial en Chile. Annette Brett afirmó haber colaborado con él",
       "num_menciones": 1,
@@ -10725,7 +11347,10 @@
       "origen_etnico": "No especificado",
       "profesion": "Organizador de talleres",
       "ubicacion": "Bridge Mountain Center, EE.UU.",
-      "caracteristicas": ["Bridge Mountain Center", "Talleres espirituales"],
+      "caracteristicas": [
+        "Bridge Mountain Center",
+        "Talleres espirituales"
+      ],
       "epoca_relacion": "Poco después del regreso de Arica (~1970)",
       "rol_en_vida_claudio": "Invitó a Claudio a dirigir un taller en el Bridge Mountain Center donde Claudio conoció a Babbo (amigo de Armando). En ese momento Claudio todavía podía transmitir experiencias espirituales a través de la mirada (shaktipat)",
       "num_menciones": 1,
@@ -10743,7 +11368,9 @@
     },
     {
       "nombre": "Dice Katriona",
-      "nombre_alternativo": ["Katriona"],
+      "nombre_alternativo": [
+        "Katriona"
+      ],
       "relacion": "Amiga sueca de Jan que sirvió como vínculo entre Claudio y Jan",
       "tipo_relacion": "conocido",
       "fuerza_vinculo": 1,
@@ -10751,7 +11378,11 @@
       "origen_etnico": "No especificado",
       "profesion": "No especificada",
       "ubicacion": "Suecia / California",
-      "caracteristicas": ["Amiga de Jan", "Vínculo entre Claudio y Jan", "Visión espiritual"],
+      "caracteristicas": [
+        "Amiga de Jan",
+        "Vínculo entre Claudio y Jan",
+        "Visión espiritual"
+      ],
       "epoca_relacion": "Años 1980s",
       "rol_en_vida_claudio": "Amiga sueca de Jan que se convirtió en vínculo frecuente entre Claudio y Jan. Según ella, Jan es un 'ángel mensajero de una conciencia superior a la de la humanidad ordinaria', descripción con la que Claudio se inclinó a estar de acuerdo",
       "num_menciones": 1,
@@ -10777,7 +11408,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Antropólogo, escritor",
       "ubicacion": "No especificada",
-      "caracteristicas": ["Antropología", "Escritor sobre Claudio", "Voz profética"],
+      "caracteristicas": [
+        "Antropología",
+        "Escritor sobre Claudio",
+        "Voz profética"
+      ],
       "epoca_relacion": "No especificada",
       "rol_en_vida_claudio": "Antropólogo que escribió sobre Claudio Naranjo. Junto con EJ Gold, señaló que la voz de Claudio le llegaba como la de un profeta. Jan también dijo a Claudio que estaba comenzando a funcionar como un profeta",
       "num_menciones": 1,
@@ -10795,7 +11430,9 @@
     },
     {
       "nombre": "Brough Joy",
-      "nombre_alternativo": ["Brugh Joy"],
+      "nombre_alternativo": [
+        "Brugh Joy"
+      ],
       "relacion": "Maestro espiritual que ayudó a Claudio a elegir vivir durante una crisis",
       "tipo_relacion": "maestro_espiritual",
       "fuerza_vinculo": 1,
@@ -10803,7 +11440,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Maestro espiritual, médico",
       "ubicacion": "California, EE.UU.",
-      "caracteristicas": ["Desarrollo espiritual", "Sanación", "Centro Joy"],
+      "caracteristicas": [
+        "Desarrollo espiritual",
+        "Sanación",
+        "Centro Joy"
+      ],
       "epoca_relacion": "Años 1970s-1980s",
       "rol_en_vida_claudio": "Maestro espiritual que durante una crisis de Claudio (cuando había perdido entusiasmo y creatividad) le dijo que no estaba interesado en vivir, ofreciéndole la opción de dejarse morir o elegir vivir. Esto ayudó a Claudio a enfrentar su opción de vida de manera diferente",
       "num_menciones": 1,
@@ -10845,7 +11486,7 @@
       ],
       "biografia_extendida": "Richard Buckminster Fuller (1895-1983) fue un arquitecto, inventor, diseñador, autor y futurista estadounidense. Es conocido mundialmente por popularizar las cúpulas geodésicas, estructuras esféricas livianas pero extremadamente resistentes. Fuller desarrolló más de 30 patentes y escribió 28 libros, siendo su concepto más influyente el de 'efemerialización', la capacidad de hacer más con menos. Acuñó el término 'Spaceship Earth' para expresar la interconexión de todos los seres humanos en el planeta. Su filosofía de diseño sostenible y pensamiento sistémico anticipó muchas preocupaciones ecológicas contemporáneas. La molécula de carbono 'buckminsterfullereno' (buckyballs) fue nombrada en su honor. Fuller fue profesor en diversas universidades y conferencista prolífico hasta su muerte a los 87 años.",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Buckminster_Fuller",
-      "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/BuckminsterFuller1.jpg/422px-BuckminsterFuller1.jpg",
+      "foto_url": "/images/personas/Buckminster_Fuller.jpg",
       "fecha_nacimiento": "1895-07-12",
       "fecha_muerte": "1983-07-01",
       "lugar_nacimiento": "Milton, Massachusetts, EE.UU.",
@@ -10862,7 +11503,12 @@
       "origen_etnico": "No especificado",
       "profesion": "Escritor, filósofo espiritual",
       "ubicacion": "Francia",
-      "caracteristicas": ["La Doctrina Suprema", "Espiritualidad", "Metamorfosis interior", "Zen"],
+      "caracteristicas": [
+        "La Doctrina Suprema",
+        "Espiritualidad",
+        "Metamorfosis interior",
+        "Zen"
+      ],
       "epoca_relacion": "Referencia literaria",
       "rol_en_vida_claudio": "Claudio menciona su libro 'La Doctrina Suprema' y la parábola del zorro que se sumerge en un estanque para librarse de las pulgas, como metáfora de la transformación espiritual",
       "num_menciones": 1,
@@ -10880,7 +11526,9 @@
     },
     {
       "nombre": "Robert Oppenheimer",
-      "nombre_alternativo": ["J. Robert Oppenheimer"],
+      "nombre_alternativo": [
+        "J. Robert Oppenheimer"
+      ],
       "relacion": "Físico teórico, director del Proyecto Manhattan, mencionado en el libro",
       "tipo_relacion": "referencia_historica",
       "fuerza_vinculo": 1,
@@ -10888,7 +11536,12 @@
       "origen_etnico": "Judío-estadounidense",
       "profesion": "Físico teórico, profesor universitario",
       "ubicacion": "Estados Unidos",
-      "caracteristicas": ["Proyecto Manhattan", "Bomba atómica", "Física teórica", "Instituto de Estudios Avanzados"],
+      "caracteristicas": [
+        "Proyecto Manhattan",
+        "Bomba atómica",
+        "Física teórica",
+        "Instituto de Estudios Avanzados"
+      ],
       "epoca_relacion": "Referencia histórica (1904-1967)",
       "rol_en_vida_claudio": "Físico famoso mencionado como creador de la bomba atómica y procesado por revelar secretos militares. Su hermano (Frank Oppenheimer) fundó el Exploratorium donde Claudio conoció a Sergio Miranda",
       "num_menciones": 1,
@@ -10914,7 +11567,10 @@
       "origen_etnico": "No especificado",
       "profesion": "No especificada (posiblemente académico/científico)",
       "ubicacion": "San Francisco, California",
-      "caracteristicas": ["Exploratorium", "Reunión científica"],
+      "caracteristicas": [
+        "Exploratorium",
+        "Reunión científica"
+      ],
       "epoca_relacion": "No especificada",
       "rol_en_vida_claudio": "Probablemente invitó a Claudio a la reunión científica en el Exploratorium de San Francisco donde conoció a Sergio Miranda y donde también estaban el hermano de Robert Oppenheimer y un profesor de diseño de Stanford",
       "num_menciones": 1,
@@ -10932,7 +11588,9 @@
     },
     {
       "nombre": "Jasha Horenstein",
-      "nombre_alternativo": ["Jascha Horenstein"],
+      "nombre_alternativo": [
+        "Jascha Horenstein"
+      ],
       "relacion": "Amigo de la madre de Claudio que creía en él y le dio un papel que Claudio guardó",
       "tipo_relacion": "conocido_familiar",
       "fuerza_vinculo": 1,
@@ -10940,7 +11598,11 @@
       "origen_etnico": "Judío",
       "profesion": "Director de orquesta",
       "ubicacion": "Estados Unidos, Europa",
-      "caracteristicas": ["Director de orquesta", "Amigo de la madre de Claudio", "Música clásica"],
+      "caracteristicas": [
+        "Director de orquesta",
+        "Amigo de la madre de Claudio",
+        "Música clásica"
+      ],
       "epoca_relacion": "Infancia/juventud de Claudio",
       "rol_en_vida_claudio": "Amigo de la madre de Claudio que se interesó por él y creyó en él. Le dio un papel que Claudio llevó en su billetera durante muchos años como recuerdo. Había muerto hacía muchos años cuando Claudio usó ese papel para guardar otro recuerdo",
       "num_menciones": 1,
@@ -10966,7 +11628,12 @@
       "origen_etnico": "No especificado",
       "profesion": "Escritora, periodista",
       "ubicacion": "Alemania, Francia",
-      "caracteristicas": ["Escritora", "Periodista", "Amiga de la madre de Claudio", "Biógrafa de Mozart"],
+      "caracteristicas": [
+        "Escritora",
+        "Periodista",
+        "Amiga de la madre de Claudio",
+        "Biógrafa de Mozart"
+      ],
       "epoca_relacion": "Infancia de Claudio",
       "rol_en_vida_claudio": "A través de su amistad con la madre de Claudio, le regaló libros importantes como su biografía de Mozart, contribuyendo a la formación intelectual del joven Claudio",
       "num_menciones": 1,
@@ -10992,7 +11659,12 @@
       "origen_etnico": "No especificado",
       "profesion": "Director de centro de desarrollo personal",
       "ubicacion": "Alemania",
-      "caracteristicas": ["Director de centro", "Koloman Zentrum", "Neochamanismo", "Interesado en desarrollo personal"],
+      "caracteristicas": [
+        "Director de centro",
+        "Koloman Zentrum",
+        "Neochamanismo",
+        "Interesado en desarrollo personal"
+      ],
       "epoca_relacion": "Madurez de Claudio",
       "rol_en_vida_claudio": "Participó en un taller sobre neochamanismo de Claudio y Ze, luego los invitó al Koloman Zentrum, una especie de Esalen alemán bajo su dirección",
       "num_menciones": 1,
@@ -11197,7 +11869,12 @@
       "origen_etnico": "N/A",
       "profesion": "Centro budista (no persona)",
       "ubicacion": "Berkeley, California",
-      "caracteristicas": ["Centro budista", "Tarthang Tulku", "Nyingma", "Berkeley"],
+      "caracteristicas": [
+        "Centro budista",
+        "Tarthang Tulku",
+        "Nyingma",
+        "Berkeley"
+      ],
       "epoca_relacion": "N/A",
       "rol_en_vida_claudio": "[NO ES UNA PERSONA] Padma Ling es un centro de enseñanza budista de la tradición Nyingma fundado por Tarthang Tulku en Berkeley. Claudio conoció a Gyatrul Rinpoche allí",
       "num_menciones": 1,
@@ -11255,7 +11932,12 @@
       "origen_etnico": "No especificado",
       "profesion": "Lama budista, maestro de meditación",
       "ubicacion": "Toronto, Canadá",
-      "caracteristicas": ["Lama occidental", "Vipassana", "Reconocido por el Karmapa", "Comunidad en Toronto"],
+      "caracteristicas": [
+        "Lama occidental",
+        "Vipassana",
+        "Reconocido por el Karmapa",
+        "Comunidad en Toronto"
+      ],
       "epoca_relacion": "Madurez de Claudio",
       "rol_en_vida_claudio": "Claudio y Ze visitaron su comunidad en Toronto durante sus viajes de enseñanza. Era un canadiense que había alcanzado el despertar a través de Vipassana y fue habilitado como lama por decisión del Karmapa",
       "num_menciones": 1,
@@ -11281,7 +11963,10 @@
       "origen_etnico": "No especificado",
       "profesion": "No especificada",
       "ubicacion": "No especificada",
-      "caracteristicas": ["Ceremonia del Karmapa", "Budismo tibetano"],
+      "caracteristicas": [
+        "Ceremonia del Karmapa",
+        "Budismo tibetano"
+      ],
       "epoca_relacion": "Madurez de Claudio",
       "rol_en_vida_claudio": "Fue presentado por Su Santidad el Karmapa con especial solemnidad, como continuación de una ceremonia de ordenación. Claudio había pedido 'Gurú Rinpoche' como guía espiritual tras consultar con Tarthang Rinpoche",
       "num_menciones": 1,
@@ -11357,7 +12042,10 @@
     },
     {
       "nombre": "Swami Maktananda",
-      "nombre_alternativo": ["Swami Muktananda", "Baba Muktananda"],
+      "nombre_alternativo": [
+        "Swami Muktananda",
+        "Baba Muktananda"
+      ],
       "relacion": "Maestro espiritual indio, gurú del Siddha Yoga que tuvo gran influencia en Claudio",
       "tipo_relacion": "maestro_espiritual",
       "fuerza_vinculo": 1,
@@ -11365,7 +12053,13 @@
       "origen_etnico": "Indio",
       "profesion": "Gurú espiritual, fundador del Siddha Yoga",
       "ubicacion": "India, Estados Unidos (Oakland, Emeryville)",
-      "caracteristicas": ["Siddha Yoga", "Maestro espiritual", "Shaktipat", "Kirtans", "Milagros"],
+      "caracteristicas": [
+        "Siddha Yoga",
+        "Maestro espiritual",
+        "Shaktipat",
+        "Kirtans",
+        "Milagros"
+      ],
       "epoca_relacion": "Años 1970s-1980s",
       "rol_en_vida_claudio": "Claudio fue atraído por su foto antes de conocerlo. Muktananda le dio iniciación (shaktipat), lo invitaba frecuentemente a su áshram, y le predijo que tendría estudiantes que lo venerarían. Claudio aprendió sobre la devoción al maestro y el papel de dispensador de bendiciones",
       "num_menciones": 1,
@@ -11383,7 +12077,9 @@
     },
     {
       "nombre": "Don Genaro",
-      "nombre_alternativo": ["Genaro Flores"],
+      "nombre_alternativo": [
+        "Genaro Flores"
+      ],
       "relacion": "Personaje de los libros de Carlos Castaneda, brujo yaqui compañero de Don Juan Matus",
       "tipo_relacion": "referencia",
       "fuerza_vinculo": 1,
@@ -11391,7 +12087,12 @@
       "origen_etnico": "Yaqui (según los libros)",
       "profesion": "Brujo, nahual (en la narrativa de Castaneda)",
       "ubicacion": "México (en la narrativa)",
-      "caracteristicas": ["Personaje de Castaneda", "Brujo yaqui", "Compañero de Don Juan", "Posiblemente ficticio"],
+      "caracteristicas": [
+        "Personaje de Castaneda",
+        "Brujo yaqui",
+        "Compañero de Don Juan",
+        "Posiblemente ficticio"
+      ],
       "epoca_relacion": "Referencia literaria",
       "rol_en_vida_claudio": "Personaje de los libros de Carlos Castaneda. Claudio menciona la escena donde Don Juan y Don Genaro lanzan a Carlos a un abismo, su desmaterialización y reaparición. Carlos no aprobó el comentario de Claudio de que era una metáfora",
       "num_menciones": 1,
@@ -11447,7 +12148,12 @@
       "origen_etnico": "Occidental",
       "profesion": "Monja budista, maestra de meditación",
       "ubicacion": "Canadá, India",
-      "caracteristicas": ["Monja budista", "Mahamudra", "Karmapa", "Viajera con Su Santidad"],
+      "caracteristicas": [
+        "Monja budista",
+        "Mahamudra",
+        "Karmapa",
+        "Viajera con Su Santidad"
+      ],
       "epoca_relacion": "Madurez de Claudio",
       "rol_en_vida_claudio": "Claudio la conoció mientras ambos viajaban con Su Santidad el Karmapa en Canadá. Ella le dio instrucciones escritas sobre el Mahamudra, explicando que llega un momento en que el estudiante debe separarse del maestro como parte del proceso de enseñanza",
       "num_menciones": 1,
@@ -11473,7 +12179,10 @@
       "origen_etnico": "No especificado",
       "profesion": "Asistente de Rinpoche",
       "ubicacion": "California, EE.UU.",
-      "caracteristicas": ["Asistente", "Conductora"],
+      "caracteristicas": [
+        "Asistente",
+        "Conductora"
+      ],
       "epoca_relacion": "Madurez de Claudio",
       "rol_en_vida_claudio": "Conducía el coche de Rinpoche (probablemente Chögyam Trungpa) cuando se cruzó con el coche de Claudio. Claudio intentó responder al gesto de Rinpoche de enviarle un beso pero tuvo un accidente menor con la manga de su chaqueta",
       "num_menciones": 1,
@@ -11499,7 +12208,12 @@
       "origen_etnico": "Birmano",
       "profesion": "Maestra de meditación vipassana",
       "ubicacion": "Birmania (Myanmar)",
-      "caracteristicas": ["Vipassana", "Maestra de meditación", "Birmania", "Amiga de pareja de Claudio"],
+      "caracteristicas": [
+        "Vipassana",
+        "Maestra de meditación",
+        "Birmania",
+        "Amiga de pareja de Claudio"
+      ],
       "epoca_relacion": "Madurez de Claudio",
       "rol_en_vida_claudio": "Dirigió un retiro vipassana en el que Claudio participó junto con una mujer con quien estaba interesado romanticamente. Era amiga de esta mujer",
       "num_menciones": 1,
@@ -11554,7 +12268,11 @@
       "origen_etnico": "Indio",
       "profesion": "No especificada",
       "ubicacion": "India",
-      "caracteristicas": ["Conferencia transpersonal", "Bombay", "Conexión espiritual"],
+      "caracteristicas": [
+        "Conferencia transpersonal",
+        "Bombay",
+        "Conexión espiritual"
+      ],
       "epoca_relacion": "Años 1980s",
       "rol_en_vida_claudio": "Claudio lo conoció en la Conferencia Internacional Transpersonal en Bombay. A través de esta conexión, Claudio recibió una bendición de un maestro extraordinario que continuó en su horizonte mental",
       "num_menciones": 1,
@@ -11572,7 +12290,9 @@
     },
     {
       "nombre": "Gordon Wasson",
-      "nombre_alternativo": ["R. Gordon Wasson"],
+      "nombre_alternativo": [
+        "R. Gordon Wasson"
+      ],
       "relacion": "Etnomicólogo pionero con quien Claudio dialogó sobre plantas psicoactivas en conferencias académicas",
       "tipo_relacion": "conocido",
       "fuerza_vinculo": 1,
@@ -11580,7 +12300,12 @@
       "origen_etnico": "Estadounidense",
       "profesion": "Etnomicólogo, banquero, investigador",
       "ubicacion": "Estados Unidos",
-      "caracteristicas": ["Etnomicología", "Hongos psicoactivos", "Soma", "María Sabina"],
+      "caracteristicas": [
+        "Etnomicología",
+        "Hongos psicoactivos",
+        "Soma",
+        "María Sabina"
+      ],
       "epoca_relacion": "Años 1960s-1970s",
       "rol_en_vida_claudio": "Claudio dialogó con Wasson en la conferencia sobre 'Búsqueda etnobotánica de drogas psicoactivas', donde formuló su hipótesis sobre el peganum harmala",
       "num_menciones": 1,
@@ -11589,7 +12314,7 @@
       ],
       "biografia_extendida": "Robert Gordon Wasson (1898-1986) fue un banquero estadounidense y etnomicólogo pionero. Junto con su esposa Valentina, fundó el campo de la etnomicología. Es famoso por sus estudios sobre el uso ritual de hongos psicoactivos en México, particularmente su trabajo con la curandera mazateca María Sabina. Su libro 'Soma: Divine Mushroom of Immortality' propuso que el soma védico era el hongo Amanita muscaria. Wasson también investigó el haoma iraní. Claudio Naranjo dialogó con él en conferencias académicas sobre plantas psicoactivas, donde presentó su hipótesis sobre el peganum harmala como candidato para el soma/haoma.",
       "wikipedia_url": "https://en.wikipedia.org/wiki/R._Gordon_Wasson",
-      "foto_url": null,
+      "foto_url": "/images/personas/Richard_Evans_Schultes.jpg",
       "fecha_nacimiento": "1898-09-22",
       "fecha_muerte": "1986-12-23",
       "lugar_nacimiento": "Great Falls, Montana, EE.UU.",
@@ -11598,7 +12323,9 @@
     },
     {
       "nombre": "Martin Shwartz",
-      "nombre_alternativo": ["Martin Schwartz"],
+      "nombre_alternativo": [
+        "Martin Schwartz"
+      ],
       "relacion": "Decano del Departamento de Estudios del Cercano Oriente que acompañó a Gordon Wasson",
       "tipo_relacion": "conocido",
       "fuerza_vinculo": 1,
@@ -11606,7 +12333,11 @@
       "origen_etnico": "No especificado",
       "profesion": "Académico, decano universitario",
       "ubicacion": "Estados Unidos",
-      "caracteristicas": ["Académico", "Estudios del Cercano Oriente", "Universidad de California"],
+      "caracteristicas": [
+        "Académico",
+        "Estudios del Cercano Oriente",
+        "Universidad de California"
+      ],
       "epoca_relacion": "Años 1970s",
       "rol_en_vida_claudio": "Acompañó a Gordon Wasson a escuchar la hipótesis de Claudio sobre el peganum harmala en relación con el haoma iraní",
       "num_menciones": 1,
@@ -11632,7 +12363,12 @@
       "origen_etnico": "No especificado",
       "profesion": "Terapeuta gestáltico",
       "ubicacion": "Holanda (Países Bajos)",
-      "caracteristicas": ["Gestalt", "Holanda", "Terapeuta", "Organizador"],
+      "caracteristicas": [
+        "Gestalt",
+        "Holanda",
+        "Terapeuta",
+        "Organizador"
+      ],
       "epoca_relacion": "Madurez de Claudio",
       "rol_en_vida_claudio": "Invitó a Claudio a Holanda durante su segundo viaje a Europa. Esta invitación permitió a Claudio experimentar la atmósfera de Holanda, que le pareció como 'el Berkeley europeo'",
       "num_menciones": 1,
@@ -11658,7 +12394,12 @@
       "origen_etnico": "No especificado",
       "profesion": "Terapeuta, fundador de instituto",
       "ubicacion": "México",
-      "caracteristicas": ["Instituto Wilhelm Reich", "Terapia reichiana", "México", "Pionero"],
+      "caracteristicas": [
+        "Instituto Wilhelm Reich",
+        "Terapia reichiana",
+        "México",
+        "Pionero"
+      ],
       "epoca_relacion": "Referencia profesional",
       "rol_en_vida_claudio": "Fundó el Instituto Wilhelm Reich en México. Algunos colaboradores de Claudio en México se habían independizado de este instituto para crear su propio centro terapéutico",
       "num_menciones": 1,
@@ -11684,7 +12425,12 @@
       "origen_etnico": "No especificado",
       "profesion": "Terapeuta gestáltico",
       "ubicacion": "Madrid, Almería, España",
-      "caracteristicas": ["Gestalt", "Pionero en Madrid", "Finca en Almería", "Colaborador SAT"],
+      "caracteristicas": [
+        "Gestalt",
+        "Pionero en Madrid",
+        "Finca en Almería",
+        "Colaborador SAT"
+      ],
       "epoca_relacion": "Madurez de Claudio",
       "rol_en_vida_claudio": "Fue el primero en traer la Gestalt a Madrid desde París. Ofreció su finca en Almería para el programa SAT (llamado SAT-enBabia). Claudio aceptó sin verla por la conexión con un poema de David Rosenmann sobre Almería",
       "num_menciones": 1,
@@ -11710,7 +12456,12 @@
       "origen_etnico": "No especificado",
       "profesion": "Terapeuta, especialista en rebirthing",
       "ubicacion": "México",
-      "caracteristicas": ["Rebirthing", "Grupo mexicano", "Terapia respiratoria", "Colaboradora SAT"],
+      "caracteristicas": [
+        "Rebirthing",
+        "Grupo mexicano",
+        "Terapia respiratoria",
+        "Colaboradora SAT"
+      ],
       "epoca_relacion": "Madurez de Claudio",
       "rol_en_vida_claudio": "Formaba parte del grupo mexicano de Claudio. Junto con Cheriff Chalakani, se había especializado en una forma original de 'rebirthing' comparable a la respiración holotrópica de Grof. Se unió como colaboradora desde el segundo módulo del programa SAT",
       "num_menciones": 1,
@@ -11736,7 +12487,12 @@
       "origen_etnico": "No especificado",
       "profesion": "Director de teatro, terapeuta",
       "ubicacion": "España",
-      "caracteristicas": ["Teatro", "Gestalt", "Eneatipos", "Director teatral"],
+      "caracteristicas": [
+        "Teatro",
+        "Gestalt",
+        "Eneatipos",
+        "Director teatral"
+      ],
       "epoca_relacion": "Madurez de Claudio",
       "rol_en_vida_claudio": "Claudio le propuso dirigir un taller combinando su experiencia como director de teatro con la Gestalt y su comprensión de los eneatipos. Participó desde el tercer módulo del programa SAT",
       "num_menciones": 1,
